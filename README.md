@@ -62,16 +62,16 @@ This pursuit stems from a deep philosophical commitment to energy systems as the
 
 ## 🌐 Linguistic Proficiency
 
-<p align="center">
+<p align="right">
   <img src="https://img.shields.io/badge/🇬🇧_English-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English">
 </p>
-<p align="center">
+<p align="right">
   <img src="https://img.shields.io/badge/🇩🇪_German-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="German">
 </p>
-<p align="center">
+<p align="right">
   <img src="https://img.shields.io/badge/🇪🇸_Spanish-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Spanish">
 </p>
-<p align="center">
+<p align="right">
   <img src="https://img.shields.io/badge/🇨🇳_Mandarin-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Chinese Mandarin">
 </p>
 

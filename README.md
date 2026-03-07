@@ -78,11 +78,15 @@ This pursuit stems from a deep philosophical commitment to energy systems as the
 ## 📈 GitHub Activity & Contributions
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iceccarelli&theme=tokyonight&hide_border=true&border_radius=16" alt="GitHub Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iceccarelli&theme=tokyonight&hide_border=true&border_radius=16&card_width=820" 
+       alt="GitHub Streak Stats" 
+       width="820" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iceccarelli&theme=tokyo-night&hide_border=true&radius=16" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iceccarelli&theme=tokyo-night&hide_border=true&radius=16" 
+       alt="Contribution Graph" 
+       width="820" />
 </p>
 
 ---

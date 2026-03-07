@@ -16,7 +16,7 @@
 
 ## About Me
 
-I am a Business Administration & Engineering graduate from TU Berlin, specializing in Electrical Power Engineering. My work centers on the intersection of energy systems, quantitative methods, and knowledge engineering for smart grids. I am dedicated to architecting the next generation of intelligent infrastructure, leveraging AI and robust software to solve complex challenges in the energy sector and beyond.
+My work centers on the intersection of energy systems, quantitative methods, and knowledge engineering for smart grids. I am dedicated to architecting the next generation of intelligent infrastructure, leveraging AI and robust software to solve complex challenges in the energy sector and beyond. Alma Matter: RWTH Aachen Business Administration and Engineering: Electrical Power Engineering.
 
 My passion lies in transforming theoretical models into real-world, high-impact solutions. From developing enterprise-grade middleware like **NeuralBridge** that enables AI agents to securely interact with any system, to designing digital twins for smart grids with **GridOS**, my focus is on building scalable, secure, and production-ready platforms. I thrive on bridging the gap between intricate engineering problems and strategic business outcomes, with a strong emphasis on Python and React Native for cross-platform deployments.
 

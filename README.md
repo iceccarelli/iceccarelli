@@ -1,17 +1,17 @@
 <p align="center">
   <a href="https://github.com/iceccarelli">
-    <img src="https://raw.githubusercontent.com/iceccarelli/iceccarelli/main/profile_banner_v3.png" alt="Vincenzo Ceccarelli Grimaldi — Architect of Intelligent Energy Systems | AI-Driven Critical Infrastructure">
+    <img src="https://raw.githubusercontent.com/iceccarelli/iceccarelli/main/profile_banner_v3.png" alt="Vincenzo Ceccarelli Grimaldi — Architect of Intelligent Energy Systems | AI-Driven Digital Twins & Agentic AI">
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vincenzo-ceccarelli-grimaldi-0815a0188/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://www.instagram.com/grimaldi.vincenzo/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-  <a href="https://twitter.com/vincegrimaldi"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
+  <a href="https://twitter.com/vincegrimaldi"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
 </p>
 
 <p align="center">
-  <strong>Architect of Intelligent Energy Systems • AI-Driven Digital Twins • Agentic Middleware • Smart Grid Resilience</strong>
+  <strong>Architecting the Cognitive Future of Energy • Autonomous Digital Twins • Agentic AI for Critical Infrastructure</strong>
 </p>
 
 ---
@@ -79,20 +79,4 @@ This pursuit stems from a deep philosophical commitment to energy systems as the
 
 ## 📈 GitHub Activity & Contributions
 
-<p align="center">
-  <a href="https://github.com/iceccarelli">
-    <img src="https://raw.githubusercontent.com/iceccarelli/iceccarelli/main/profile_banner_v2.png" alt="Vincenzo Ceccarelli Grimaldi — Architect of Intelligent Energy Systems | AI-Driven Digital Twins & Agentic AI">
-  </a>
-</p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/vincenzo-ceccarelli-grimaldi-0815a0188/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://www.instagram.com/grimaldi.vincenzo/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-  <a href="https://twitter.com/vincegrimaldi"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
-</p>
-
-<p align="center">
-  <strong>Architecting the Cognitive Future of Energy • Autonomous Digital Twins • Agentic AI for Critical Infrastructure • RWTH Aachen University</strong>
-</p>
-
----

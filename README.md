@@ -1,96 +1,119 @@
-<p align="center">
-  <a href="https://github.com/iceccarelli">
-    <img src="https://raw.githubusercontent.com/iceccarelli/iceccarelli/main/profile_banner_v3.png" alt="Vincenzo Ceccarelli Grimaldi — Architect of Intelligent Energy Systems | AI-Driven Critical Infrastructure">
-  </a>
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vincenzo Ceccarelli Grimaldi | Architect of Intelligent Energy Systems</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    .hero-glow { text-shadow: 0 0 50px rgb(147 197 253); }
+    .card-hover:hover { transform: translateY(-12px); box-shadow: 0 30px 60px -15px rgb(0 0 0); }
+    .section-title { position: relative; }
+    .section-title:after { content: ''; position: absolute; bottom: -6px; left: 0; width: 60px; height: 3px; background: linear-gradient(to right, #3b82f6, #60a5fa); }
+  </style>
+</head>
+<body class="bg-zinc-950 text-zinc-200 font-sans">
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/vincenzo-ceccarelli-grimaldi-0815a0188/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://www.instagram.com/grimaldi.vincenzo/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-  <a href="https://twitter.com/vincegrimaldi"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
-</p>
+  <!-- Banner -->
+  <img src="https://raw.githubusercontent.com/iceccarelli/iceccarelli/main/profile_banner_v3.png" alt="Vincenzo Ceccarelli Grimaldi" class="w-full">
 
-<p align="center">
-  <strong>Cognitive Future of Energy • Autonomous Digital Twins • Agentic AI for Critical Infrastructure</strong>
-</p>
+  <div class="max-w-6xl mx-auto px-8 py-16">
 
----
+    <!-- Hero -->
+    <div class="text-center mb-20">
+      <p class="text-5xl font-bold mb-6 hero-glow">Building Intelligent Energy Systems</p>
+      <p class="text-xl text-zinc-400 max-w-3xl mx-auto">AI-Driven Digital Twins • Agentic Middleware • Smart Grid Resilience • RWTH Aachen University</p>
+    </div>
 
-## About Me
+    <!-- About Me -->
+    <div class="max-w-4xl mx-auto mb-20 text-lg leading-relaxed">
+      <h2 class="section-title text-4xl font-semibold mb-8">About Me</h2>
+      <p>At the profound nexus of electrical power engineering, quantitative intelligence, and knowledge engineering, I architect resilient, adaptive, and self-optimizing cyber-physical systems for the energy transition.</p>
+      <p class="mt-6">From RWTH Aachen University (Business Administration and Engineering — Electrical Power Engineering), I transform advanced theory into production-grade platforms that deliver real strategic advantage: <strong>NeuralBridge</strong>, <strong>GridOS</strong>, and <strong>DERIM</strong>.</p>
+    </div>
 
-At the profound nexus of **electrical power engineering**, **quantitative intelligence**, and **knowledge engineering**, my life’s work is dedicated to the cognitive augmentation of critical energy infrastructure. With a rigorous academic foundation from **RWTH Aachen University** in Business Administration and Engineering (specialization in Electrical Power Engineering), I architect resilient, adaptive, and self-optimizing cyber-physical systems that navigate the trilemma of decarbonization, decentralization, and digitalization.
+    <!-- Core Strengths -->
+    <div class="mb-20">
+      <h2 class="section-title text-4xl font-semibold mb-10">Core Strengths</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-zinc-900 p-8 rounded-3xl card-hover">
+          <h3 class="font-bold text-xl mb-4 flex items-center gap-3"><i class="fas fa-code text-blue-400"></i> Programming &amp; Tools</h3>
+          <p class="text-zinc-400">Python (Pandas, NumPy, Scikit-learn, PyTorch), JavaScript (React.js, React Native), SQL/NoSQL, CI/CD, Git, Linux, Docker</p>
+        </div>
+        <div class="bg-zinc-900 p-8 rounded-3xl card-hover">
+          <h3 class="font-bold text-xl mb-4 flex items-center gap-3"><i class="fas fa-brain text-blue-400"></i> Analytical Methods</h3>
+          <p class="text-zinc-400">Optimization Algorithms, Time-Series Forecasting, Reinforcement Learning, Knowledge Graphs &amp; Ontologies, Machine Learning Models</p>
+        </div>
+        <div class="bg-zinc-900 p-8 rounded-3xl card-hover">
+          <h3 class="font-bold text-xl mb-4 flex items-center gap-3"><i class="fas fa-bolt text-blue-400"></i> Domain Expertise</h3>
+          <p class="text-zinc-400">Energy Systems Modeling, Power Grid Stability &amp; Cybersecurity, Battery Storage Integration, Smart-Grid Support</p>
+        </div>
+        <div class="bg-zinc-900 p-8 rounded-3xl card-hover">
+          <h3 class="font-bold text-xl mb-4 flex items-center gap-3"><i class="fas fa-leaf text-blue-400"></i> Complementary Skills</h3>
+          <p class="text-zinc-400">Sustainability &amp; Life Cycle Assessment (LCA), Market Analysis &amp; Regulatory Policy, Blockchain &amp; DeFi, Project Management</p>
+        </div>
+      </div>
+    </div>
 
-My expertise lies in transforming esoteric theoretical frameworks—rooted in complex adaptive systems theory, stochastic control, and ontological reasoning—into robust, production-grade platforms that operate at the frontier of cyber-physical intelligence. Central to this mission is the development of **NeuralBridge**, a sophisticated enterprise middleware layer that empowers autonomous AI agents with secure, semantically-aware orchestration across heterogeneous IT/OT ecosystems. Complementing this is **GridOS**, an advanced digital twin platform for holistic smart grid governance—fusing high-fidelity physics-based modeling with reinforcement learning and ontological reasoning.
+    <!-- Flagship Projects -->
+    <div class="mb-20">
+      <h2 class="section-title text-4xl font-semibold mb-10">Flagship Initiatives</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-zinc-900 p-8 rounded-3xl card-hover">
+          <h3 class="text-2xl font-bold mb-4 text-blue-400">NeuralBridge</h3>
+          <p class="text-zinc-400">Universal enterprise middleware for secure, semantically-aware agentic AI orchestration across any API, database or protocol.</p>
+        </div>
+        <div class="bg-zinc-900 p-8 rounded-3xl card-hover">
+          <h3 class="text-2xl font-bold mb-4 text-blue-400">GridOS</h3>
+          <p class="text-zinc-400">Advanced digital twin platform fusing physics-based modeling with reinforcement learning for autonomous smart grid governance.</p>
+        </div>
+        <div class="bg-zinc-900 p-8 rounded-3xl card-hover">
+          <h3 class="text-2xl font-bold mb-4 text-blue-400">DERIM</h3>
+          <p class="text-zinc-400">Blockchain-powered decentralized energy resource management and peer-to-peer trading platform.</p>
+        </div>
+      </div>
+    </div>
 
-This pursuit stems from a deep philosophical commitment to energy systems as the foundational substrate of modern civilization: not merely technical constructs, but living, evolving socio-technical organisms requiring precision engineering, ethical governance, ethical foresight, and long-term resilience thinking. Through mastery of Python ecosystems and React Native architectures, I deliver solutions that seamlessly bridge strategic business outcomes with the intricate realities of power system dynamics, market design, and regulatory imperatives.
+    <!-- Professional Trajectory & Accreditation -->
+    <div class="mb-20">
+      <h2 class="section-title text-4xl font-semibold mb-10">Professional Trajectory</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-zinc-900 p-8 rounded-3xl">
+          <h3 class="font-bold text-xl">ITk Fachspezialist</h3>
+          <p class="text-blue-400">DB InfraGO AG — Berlin</p>
+          <p class="text-sm text-zinc-500">01 Jan 2026 – Present</p>
+          <p class="mt-4 text-zinc-400">Quality governance, cybersecurity hardening, risk assessments and resilience engineering for Europe’s most complex railway IT/OT infrastructure.</p>
+        </div>
+        <div class="bg-zinc-900 p-8 rounded-3xl">
+          <h3 class="font-bold text-xl">Industrial Engineering Intern</h3>
+          <p class="text-blue-400">DB Fahrzeuginstandhaltung GmbH &amp; DB Netz AG</p>
+          <p class="text-sm text-zinc-500">Jun 2022 – Sep 2024</p>
+          <p class="mt-4 text-zinc-400">Hands-on asset lifecycle management, predictive maintenance and high-availability cyber-physical operations.</p>
+        </div>
+      </div>
+    </div>
 
----
+    <!-- Languages -->
+    <div class="mb-20">
+      <h2 class="section-title text-4xl font-semibold mb-10">Languages</h2>
+      <div class="flex flex-wrap gap-6 justify-center">
+        <div class="bg-zinc-900 px-8 py-4 rounded-3xl text-center w-52">🇬🇧 English — Professional</div>
+        <div class="bg-zinc-900 px-8 py-4 rounded-3xl text-center w-52">🇩🇪 German — Professional</div>
+        <div class="bg-zinc-900 px-8 py-4 rounded-3xl text-center w-52">🇪🇸 Spanish — Professional</div>
+        <div class="bg-zinc-900 px-8 py-4 rounded-3xl text-center w-52">🇨🇳 Chinese (Mandarin) — Professional</div>
+      </div>
+    </div>
 
-## 🔬 Domains of Mastery & Technical Arsenal
+    <!-- Strategic CTA -->
+    <div class="bg-gradient-to-r from-blue-900 to-zinc-900 rounded-3xl p-16 text-center">
+      <h2 class="text-4xl font-bold mb-6">Building AI Infrastructure</h2>
+      <p class="text-xl mb-10">High-ticket consulting • Digital Twin Strategy • Agentic AI Integration for Utilities &amp; Operators</p>
+      <a href="mailto:your-email@domain.com" class="inline-flex items-center gap-4 bg-white text-black px-12 py-6 rounded-2xl font-bold text-xl hover:bg-zinc-100">
+        CONTACT ME <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,react,js,docker,git,linux,pytorch,tensorflow,postgres,mongodb,aws,kubernetes,fastapi&theme=dark" alt="Technologies">
-</p>
-
-| Domain | Core Expertise & Methodologies |
-|--------|-------------------------------|
-| **Programming & Engineering Practices** | Advanced Python ecosystem (Pandas, NumPy, Polars, SciPy, PyTorch, JAX); TypeScript/React.js & React Native; FastAPI, GraphQL, event-driven microservices; CI/CD (GitHub Actions, ArgoCD); Infrastructure-as-Code |
-| **Artificial Intelligence & Quantitative Methods** | Physics-Informed Neural Networks (PINNs), Multi-Agent Reinforcement Learning (MARL), Causal Inference, Transformer-based time-series models, Knowledge Graphs & Semantic Ontologies (RDF/OWL, Neo4j), Stochastic Optimization |
-| **Energy Systems & Smart Grids** | Power flow & stability analysis, DER integration & V2G, Transactive Energy Markets, IEC 61850 / CIM, Grid cybersecurity (NERC CIP, IEC 62351), BESS modeling, Real-time co-simulation (HELICS, RTDS) |
-| **Strategic & Emerging Domains** | Life Cycle Assessment (ISO 14040/44), Regulatory Intelligence (EU RED II), Blockchain & Energy DAOs, Zero-Trust OT Security |
-
----
-
-## 🚀 Flagship Initiatives
-
-| Initiative | Vision & Architecture | Key Innovations & Impact |
-|------------|-----------------------|--------------------------|
-| **NeuralBridge** | Universal orchestration middleware for agentic AI systems at industrial scale. | Zero-trust sandboxing with behavioral attestation; dynamic ontology-based adapters (OPC UA, IEC 60870-5-104, MQTT, gRPC); compliance-by-design. |
-| **GridOS** | Next-generation cyber-physical digital twin for autonomous smart grid orchestration. | Hybrid multi-physics + deep learning core; MARL agents for OPF, voltage control and contingency management; real-time state estimation. |
-| **DERIM** | Decentralized Energy Resource Integration & Management platform using distributed ledger technology. | Smart contract frameworks for transactive energy clearing; tokenized RECs and VPP orchestration; trustless DER coordination. |
-
----
-
-## 🏛️ Professional Trajectory & Infrastructure Expertise
-
-| Role | Organization | Period | Strategic Contributions |
-|------|--------------|--------|------------------------|
-| **ITk Fachspezialist** | **DB InfraGO AG** | Aug 2024 – Present | Quality governance, threat modeling, resilience engineering and cybersecurity hardening for Europe’s most complex railway IT/OT infrastructure (KRITIS, NIS2 alignment). |
-| **Industrial Engineering Intern** | **DB Fahrzeuginstandhaltung GmbH & DB Netz AG** | Jun 2022 – Sep 2024 | Hands-on expertise in asset lifecycle management, predictive maintenance and high-availability cyber-physical operations. |
-
----
-
-## 🌐 Linguistic Proficiency
-
-<p align="left">
-  <img src="https://img.shields.io/badge/🇬🇧_English-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English">
-</p>
-<p align="left">
-  <img src="https://img.shields.io/badge/🇩🇪_German-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="German">
-</p>
-<p align="left">
-  <img src="https://img.shields.io/badge/🇪🇸_Spanish-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Spanish">
-</p>
-<p align="left">
-  <img src="https://img.shields.io/badge/🇨🇳_Mandarin-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Chinese Mandarin">
-</p>
-
-## 📈 GitHub Activity & Contributions
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iceccarelli&theme=tokyonight&hide_border=true&border_radius=16&card_width=820" 
-       alt="GitHub Streak Stats" 
-       width="820" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iceccarelli&theme=tokyo-night&hide_border=true&radius=16" 
-       alt="Contribution Graph" 
-       width="820" />
-</p>
-
----
-
-<p align="center">
-  <em>Dedicated to the intelligent evolution of energy systems—where rigorous engineering meets visionary stewardship for a sustainable, resilient, and equitable future.</em>
-</p>
+  </div>
+</body>
+</html>

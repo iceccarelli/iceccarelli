@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <strong>Architect of Intelligent Energy Systems • AI-Driven Digital Twins • Agentic Middleware • Smart Grid Resilience</strong>
+  <strong>Architecting the Cognitive Future of Energy • Autonomous Digital Twins • Agentic AI for Critical Infrastructure • RWTH Aachen University</strong>
 </p>
 
 ---

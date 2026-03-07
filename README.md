@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/iceccarelli">
-    <img src="https://raw.githubusercontent.com/iceccarelli/iceccarelli/main/profile_banner_v2.png" alt="Vincenzo Ceccarelli Grimaldi — Architect of Intelligent Energy Systems | AI-Driven Critical Infrastructure">
+    <img src="https://raw.githubusercontent.com/iceccarelli/iceccarelli/main/vincenzo_grimaldi_banner_github.png" alt="Vincenzo Ceccarelli Grimaldi — Architect of Intelligent Energy Systems | AI-Driven Critical Infrastructure">
   </a>
 </p>
 

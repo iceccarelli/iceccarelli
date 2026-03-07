@@ -16,7 +16,7 @@
 
 ## About Me
 
-At the profound nexus of **electrical power engineering**, **quantitative intelligence**, and **knowledge engineering**, my life’s work is dedicated to the cognitive augmentation of critical energy infrastructure. With a rigorous academic foundation from **RWTH Aachen University** in Business Administration and Engineering (specialization in Electrical Power Engineering), I architect resilient, adaptive, and self-optimizing cyber-physical systems that navigate the trilemma of decarbonization, decentralization, and digitalization.
+At the profound nexus of **electrical power engineering**, **quantitative intelligence**, and **knowledge engineering**, my life’s work is dedicated to the cognitive augmentation of critical energy infrastructure. Degree from **RWTH Aachen University** in Business Administration and Engineering (specialization in Electrical Power Engineering), I architect resilient, adaptive, and self-optimizing cyber-physical systems that navigate the trilemma of decarbonization, decentralization, and digitalization.
 
 My expertise lies in transforming esoteric theoretical frameworks—rooted in complex adaptive systems theory, stochastic control, and ontological reasoning—into robust, production-grade platforms that operate at the frontier of cyber-physical intelligence. Central to this mission is the development of **NeuralBridge**, a sophisticated enterprise middleware layer that empowers autonomous AI agents with secure, semantically-aware orchestration across heterogeneous IT/OT ecosystems. Complementing this is **GridOS**, an advanced digital twin platform for holistic smart grid governance—fusing high-fidelity physics-based modeling with reinforcement learning and ontological reasoning. 
 

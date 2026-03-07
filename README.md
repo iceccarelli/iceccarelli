@@ -1,5 +1,3 @@
-# Vincenzo Ceccarelli Grimaldi - Electrical Business Engineer
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/iceccarelli/iceccarelli/main/profile_banner.png" alt="Vincenzo Ceccarelli Grimaldi - Electrical Business Engineer | AI & Energy Systems">
 </p>
@@ -12,28 +10,35 @@
 
 ---
 
-## About Me
+### Professional Summary
 
-I am a results-driven **Electrical Business Engineer** with a passion for leveraging cutting-edge technology to solve complex challenges at the intersection of **energy systems, artificial intelligence, and enterprise infrastructure**. As the founder of **Grimaldi Engineering**, I am dedicated to architecting and building the next generation of intelligent, resilient, and efficient energy solutions.
-
-My work focuses on developing open-source platforms that bridge the gap between traditional power engineering and modern data-driven methodologies. I believe that the future of the energy sector lies in the seamless integration of distributed energy resources (DERs), advanced analytics, and autonomous agentic systems. Through projects like **NeuralBridge**, **GridOS**, and **DERIM**, I am actively building the foundational middleware to make this vision a reality.
-
-I am always eager to connect with fellow innovators, researchers, and industry leaders who share my passion for building a more sustainable and intelligent energy future. Let's connect and build together.
+A forward-thinking **Business & Engineering Professional** specializing in **Electrical Power Engineering**, with a proven track record in applying quantitative methods and knowledge engineering to architect the future of smart grids. My career is dedicated to bridging the gap between high-level business strategy and deep-level technical implementation, ensuring that the energy systems of tomorrow are not only technologically advanced but also economically viable and sustainable. As the founder of **Grimaldi Engineering**, I lead initiatives that are at the forefront of the energy transition, transforming complex data into actionable intelligence and robust infrastructure.
 
 ---
 
-## 🔧 My Core Expertise
+### ประสบการณ์การทำงาน (Work Experience)
 
-| Category | Technologies & Concepts |
+| Role | Company | Duration | Location |
+|---|---|---|---|
+| **ITk Fachspezialist** | DB InfraGO AG | Aug 2024 - Mar 2026 | Frankfurt am Main |
+| **Industrial Intern** | DB Fahrzeuginstandhaltung / DB Netz | Jun 2022 - Sep 2024 | Frankfurt am Main |
+
+As an **ITk Fachspezialist** at **DB InfraGO AG**, I am responsible for the quality control of critical IT infrastructure, strategic planning, and comprehensive risk assessments for Germany's core railway projects. My work encompasses ensuring regulatory compliance, enhancing operational safety through robust cybersecurity measures, and driving environmental sustainability initiatives for passenger stations and electrical/mechanical substations.
+
+---
+
+###  Core Strengths & Technical Stack
+
+| Category | Skills & Technologies |
 |---|---|
-| **Programming & Tools** | Python (Pandas, NumPy, Scikit-learn, PyTorch), JavaScript (React.js, react-native), SQL/NoSQL, CI/CD, Git, Linux, Docker |
-| **Analytical Methods** | Optimization Algorithms, Time-Series Forecasting, Reinforcement Learning (RL), Knowledge Graphs, Machine Learning |
-| **Domain Expertise** | Energy Systems Modeling, Power Grid Stability & Cyber Security, Battery Storage Integration, Smart-Grid Support |
-| **Complementary Skills** | Sustainability & LCA, Market Analysis & Regulatory Policy, Blockchain & DeFi, Project Management |
+| **Programming & Tools** | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) <br> *Pandas, NumPy, Scikit-learn, PyTorch, SQL/NoSQL, CI/CD Pipelines* |
+| **Analytical Methods** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) <br> *Optimization Algorithms, Time-Series Forecasting, Reinforcement Learning (RL), Knowledge Graphs & Ontologies, Machine Learning Models* |
+| **Domain Expertise** | ![Cyber-Security](https://img.shields.io/badge/Cyber--Security-000000?style=for-the-badge&logo=linux-foundation&logoColor=white) <br> *Energy Systems Modeling & Analysis, Power Grid Stability, Battery Storage Integration, Smart-Grid Support* |
+| **Complementary Skills** | ![Blockchain](https://img.shields.io/badge/Blockchain-000000?style=for-the-badge&logo=ethereum&logoColor=white) <br> *Sustainability & Life Cycle Assessment (LCA), Market Analysis & Regulatory Policy, DeFi, Project Management* |
 
 ---
 
-## 🚀 My Featured Projects
+### 🚀 My Featured Open-Source Projects
 
 | Project | Description |
 |---|---|
@@ -43,9 +48,22 @@ I am always eager to connect with fellow innovators, researchers, and industry l
 
 ---
 
-## 📈 My GitHub Stats
+### Accreditation & Languages
+
+- **Accreditation:** ITk Fachspezialist (DB InfraGO AG, Berlin)
+- **Languages:**
+  - ![English](https://img.shields.io/badge/English-Professional-blue)
+  - ![Spanish](https://img.shields.io/badge/Spanish-Professional-blue)
+  - ![Chinese](https://img.shields.io/badge/Chinese-Professional-blue)
+  - ![German](https://img.shields.io/badge/German-Professional-blue)
+
+---
+
+### 📈 My GitHub Stats
+
+*Note: These stats are rendered by a third-party service and may occasionally be unavailable.*
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=iceccarelli&show_icons=true&theme=tokyonight&rank_icon=github" alt="iceccarelli's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iceccarelli&layout=compact&theme=tokyonight" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=iceccarelli&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" alt="iceccarelli's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iceccarelli&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
 </p>

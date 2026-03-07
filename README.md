@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <strong>Architecting the Cognitive Future of Energy • Autonomous Digital Twins • Agentic AI for Critical Infrastructure</strong>
+  <strong>Building Intelligent Energy Systems</strong>
 </p>
 
 ---

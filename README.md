@@ -1,7 +1,7 @@
-# Vincenzo Ceccarelli Grimaldi
+# Vincenzo Ceccarelli Grimaldi - Electrical Business Engineer
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/iceccarelli/iceccarelli/main/vincenzo_grimaldi_banner.png" alt="Vincenzo Ceccarelli Grimaldi - Electrical Business Engineer | AI & Energy Systems">
+  <img src="https://raw.githubusercontent.com/iceccarelli/iceccarelli/main/profile_banner.png" alt="Vincenzo Ceccarelli Grimaldi - Electrical Business Engineer | AI & Energy Systems">
 </p>
 
 <p align="center">
@@ -26,10 +26,10 @@ I am always eager to connect with fellow innovators, researchers, and industry l
 
 | Category | Technologies & Concepts |
 |---|---|
-| **Energy Systems** | Smart Grids, Distributed Energy Resources (DERs), Microgrids, Power Systems Analysis, SCADA, Modbus, DNP3, MQTT |
-| **AI & Machine Learning** | Agentic AI, LLMs, LSTM Forecasting, MILP Optimization, Digital Twins, Predictive Maintenance |
-| **Software & Cloud** | Python, FastAPI, React, Docker, Kubernetes, AWS, Azure, Google Cloud, CI/CD, Microservices |
-| **Business & Strategy** | Technology Commercialization, Project Management, Market Analysis, Stakeholder Engagement |
+| **Programming & Tools** | Python (Pandas, NumPy, Scikit-learn, PyTorch), JavaScript (React.js, react-native), SQL/NoSQL, CI/CD, Git, Linux, Docker |
+| **Analytical Methods** | Optimization Algorithms, Time-Series Forecasting, Reinforcement Learning (RL), Knowledge Graphs, Machine Learning |
+| **Domain Expertise** | Energy Systems Modeling, Power Grid Stability & Cyber Security, Battery Storage Integration, Smart-Grid Support |
+| **Complementary Skills** | Sustainability & LCA, Market Analysis & Regulatory Policy, Blockchain & DeFi, Project Management |
 
 ---
 
@@ -46,6 +46,6 @@ I am always eager to connect with fellow innovators, researchers, and industry l
 ## 📈 My GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=iceccarelli&show_icons=true&theme=tokyonight" alt="iceccarelli's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=iceccarelli&show_icons=true&theme=tokyonight&rank_icon=github" alt="iceccarelli's GitHub stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iceccarelli&layout=compact&theme=tokyonight" alt="Top Langs" />
 </p>

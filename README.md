@@ -1,7 +1,7 @@
-# Vincenzo Ceccarelli Grimaldi - Electrical Business Engineer
+# Vincenzo Ceccarelli Grimaldi
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/iceccarelli/iceccarelli/main/profile_banner.png" alt="Vincenzo Ceccarelli Grimaldi - Electrical Business Engineer | AI & Energy Systems">
+  <img src="https://raw.githubusercontent.com/iceccarelli/iceccarelli/main/vincenzo_grimaldi_banner.png" alt="Vincenzo Ceccarelli Grimaldi - Electrical Business Engineer | AI & Energy Systems">
 </p>
 
 <p align="center">

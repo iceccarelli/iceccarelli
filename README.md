@@ -60,24 +60,27 @@ This pursuit stems from a deep philosophical commitment to energy systems as the
 
 ---
 
-## 🌍 Linguistic Proficiency
+## 🌐 Linguistic Proficiency
 
 <p align="center">
-  <img src="https://img.shields.io/badge/English-Professional_Fluency-blue?style=for-the-badge" alt="English">
-  <img src="https://img.shields.io/badge/German-Professional_Fluency-blue?style=for-the-badge" alt="German">
-  <img src="https://img.shields.io/badge/Spanish-Professional_Fluency-blue?style=for-the-badge" alt="Spanish">
-  <img src="https://img.shields.io/badge/Chinese%20(Mandarin)-Professional_Fluency-blue?style=for-the-badge" alt="Chinese Mandarin">
+  <img src="https://img.shields.io/badge/🇬🇧_English-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English">
+  <img src="https://img.shields.io/badge/🇩🇪_German-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="German">
+  <img src="https://img.shields.io/badge/🇪🇸_Spanish-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Spanish">
+  <img src="https://img.shields.io/badge/🇨🇳_Mandarin-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Chinese Mandarin">
 </p>
-
----
 
 ## 📈 GitHub Activity & Contributions
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iceccarelli&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iceccarelli&theme=tokyo-night&hide_border=true" alt="Contribution Graph" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iceccarelli&theme=tokyonight&hide_border=true&border_radius=16" alt="GitHub Streak Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iceccarelli&theme=tokyo-night&hide_border=true&radius=16" alt="Contribution Graph" />
 </p>
 
 ---
 
-*Dedicated to the intelligent evolution of energy systems—where rigorous engineering meets visionary stewardship for a sustainable, resilient, and equitable future.*
+<p align="center">
+  <em>Dedicated to the intelligent evolution of energy systems—where rigorous engineering meets visionary stewardship for a sustainable, resilient, and equitable future.</em>
+</p>

@@ -16,13 +16,20 @@
 
 ---
 
+Here’s a rewritten version that keeps the professional tone and depth, but feels warmer, more approachable, and genuinely human—without losing your expertise or credibility:
+
 ## About Me
 
-At the profound nexus of **electrical power engineering**, **quantitative intelligence**, and **knowledge engineering**, my life’s work is dedicated to the cognitive augmentation of critical energy infrastructure. With a rigorous academic foundation from **RWTH Aachen University** in Business Administration and Engineering (specialization in Electrical Power Engineering), I architect resilient, adaptive, and self-optimizing cyber-physical systems that navigate the trilemma of decarbonization, decentralization, and digitalization.
+I’ve always been drawn to the heart of how energy works — the mix of electrical power engineering, data-driven analysis, and intelligent systems. My background is from RWTH Aachen University, where I studied Business Administration and Engineering with a focus on Electrical Power Engineering. That foundation guides everything I do: designing systems that are resilient, adaptable, and capable of learning and improving over time.
 
-My expertise lies in transforming esoteric theoretical frameworks—rooted in complex adaptive systems theory, stochastic control, and ontological reasoning—into robust, production-grade platforms that operate at the frontier of cyber-physical intelligence. Central to this mission is the development of **NeuralBridge**, a sophisticated enterprise middleware layer that empowers autonomous AI agents with secure, semantically-aware orchestration across heterogeneous IT/OT ecosystems. Complementing this is **GridOS**, an advanced digital twin platform for holistic smart grid governance—fusing high-fidelity physics-based modeling with reinforcement learning and ontological reasoning.
+My work centers on turning advanced ideas—things like complex systems theory, probabilistic modeling, and structured knowledge representation—into real, reliable software and platforms that actually get used in the field. Two significant projects are:
 
-This pursuit stems from a deep philosophical commitment to energy systems as the foundational substrate of modern civilization: not merely technical constructs, but living, evolving socio-technical organisms requiring precision engineering, ethical governance, ethical foresight, and long-term resilience thinking. Through mastery of Python ecosystems and React Native architectures, I deliver solutions that seamlessly bridge strategic business outcomes with the intricate realities of power system dynamics, market design, and regulatory imperatives.
+- **NeuralBridge**: a secure middleware layer that lets autonomous AI agents safely and meaningfully connect to almost any system, whether it’s modern APIs or older industrial protocols.
+- **GridOS**: a digital twin platform for smart grids that combines detailed physical modeling with reinforcement learning and semantic reasoning to help grids run more efficiently and reliably.
+
+For me, energy infrastructure isn’t just pipes, wires, and substations — it’s the invisible backbone that keeps modern life running. I see it as a living, evolving system that needs both technical precision and thoughtful, long-term care. That’s why I focus on building tools that balance business goals with real-world grid physics, market rules, and regulatory needs.
+
+I work mostly with Python (especially scientific and ML libraries) and React Native for cross-platform deployment, always aiming to create solutions that are practical, secure, and genuinely useful.
 
 ---
 

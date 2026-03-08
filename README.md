@@ -14,10 +14,6 @@
   <strong>Building Intelligent Energy Systems</strong>
 </p>
 
----
-
-Here’s a rewritten version that keeps the professional tone and depth, but feels warmer, more approachable, and genuinely human—without losing your expertise or credibility:
-
 ## About Me
 
 I’ve always been drawn to the heart of how energy works — the mix of electrical power engineering, data-driven analysis, and intelligent systems. My background is from RWTH Aachen University, where I studied Business Administration and Engineering with a focus on Electrical Power Engineering. That foundation guides everything I do: designing systems that are resilient, adaptable, and capable of learning and improving over time.

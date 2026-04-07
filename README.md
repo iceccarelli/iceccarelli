@@ -16,7 +16,7 @@
 
 ## About Me
 
-I’ve always been drawn to the heart of how energy works — the mix of electrical power engineering, data-driven analysis, and intelligent systems. My background is from RWTH Aachen University, where I studied Business Administration and Engineering with a focus on Electrical Power Engineering. That foundation guides everything I do: designing systems that are resilient, adaptable, and capable of learning and improving over time.
+I’ve always been drawn to the heart of how energy works — the mix of electrical power engineering, data-driven analysis, and intelligent systems. My background is from RWTH Aachen University, where I studied Business Administration and Engineering with a focus on Electrical Power Engineering. I am truly interested in the following: designing systems that are resilient, adaptable, and capable of learning and improving over time.
 
 My work centers on turning advanced ideas—things like complex systems theory, probabilistic modeling, and structured knowledge representation—into real, reliable software and platforms that actually get used in the field. Two significant projects are:
 

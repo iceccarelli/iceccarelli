@@ -23,6 +23,8 @@ My work centers on turning advanced ideas—things like complex systems theory, 
 - **NeuralBridge**: a secure middleware layer that lets autonomous AI agents safely and meaningfully connect to almost any system, whether it’s modern APIs or older industrial protocols.
 - **GridOS**: a digital twin platform for smart grids that combines detailed physical modeling with reinforcement learning and semantic reasoning to help grids run more efficiently and reliably.
 
+- **DERIM**: an open-source middleware platform which aims for integrating solar, battery, and EV charging assets through standards-informed telemetry models, API-first data services, and lightweight digital-twin forecasting workflows.
+
 For me, energy infrastructure isn’t just pipes, wires, and substations — it’s the invisible backbone that keeps modern life running. I see it as a living, evolving system that needs both technical precision and thoughtful, long-term care. That’s why I focus on building tools that balance business goals with real-world grid physics, market rules, and regulatory needs.
 
 I work mostly with Python (especially scientific and ML libraries) and React Native for cross-platform deployment, always aiming to create solutions that are practical, secure, and genuinely useful.

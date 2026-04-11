@@ -15,11 +15,11 @@
 ## About Me
 I’ve always been drawn to the heart of how energy works — the mix of electrical power engineering, data-driven analysis, and intelligent systems. My background is from RWTH Aachen University, where I studied Business Administration and Engineering with a focus on Electrical Power Engineering. I am truly interested in the following: designing systems that are resilient, adaptable, and capable of learning and improving over time.
 
-My work centers on turning advanced ideas—things like complex systems theory, probabilistic modeling, and structured knowledge representation—into real, reliable software and platforms that actually get used in the field. My key projects include:
-- **NeuralBridge**: aims to be a secure middleware layer that lets autonomous AI agents safely and meaningfully connect to almost any system, whether it’s modern APIs or older industrial protocols.
-- **GridOS**: is a solid steping stone as a digital twin platform for smart grids that combines detailed physical modeling with reinforcement learning and semantic reasoning to help grids run more efficiently and reliably.
-- **DERIM**: a foundation that works as an open-source middleware platform which aims for integrating solar, battery, and EV charging assets through standards-informed telemetry models, API-first data services, and lightweight digital-twin forecasting workflows.
-- **robot-lidar-fusion**: works as a rough but robust blueprint for an open-source robotics stack for building autonomous systems with LiDAR and camera fusion. It provides a practical foundation for perception, navigation, obstacle avoidance, motion coordination, and safety-oriented control in real-time robotic environments.
+My work centers on turning advanced ideas—things like complex systems theory, probabilistic modeling, and structured knowledge representation—into real, reliable software and platforms that actually get used in the field. Significant projects include:
+- **[NeuralBridge](https://github.com/iceccarelli/neuralbridge)**: aims to be a secure middleware layer that lets autonomous AI agents safely and meaningfully connect to almost any system, whether it’s modern APIs or older industrial protocols.
+- **[GridOS](https://github.com/iceccarelli/GridOS)**: is a solid stepping stone as a digital twin platform for smart grids that combines detailed physical modeling with reinforcement learning and semantic reasoning to help grids run more efficiently and reliably.
+- **[DERIM](https://github.com/iceccarelli/derim-middleware)**: a foundation that works as an open-source middleware platform which aims for integrating solar, battery, and EV charging assets through standards-informed telemetry models, API-first data services, and lightweight digital-twin forecasting workflows.
+- **[robot-lidar-fusion](https://github.com/iceccarelli/robot-lidar-fusion)**: works as a rough but robust blueprint for an open-source robotics stack for building autonomous systems with LiDAR and camera fusion. It provides a practical foundation for perception, navigation, obstacle avoidance, motion coordination, and safety-oriented control in real-time robotic environments.
 
 ---
 

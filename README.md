@@ -11,6 +11,7 @@
 <p align="center">
   <strong>Building Intelligent Energy Systems</strong>
 </p>
+
 ## About Me
 I’ve always been drawn to the heart of how energy works — the mix of electrical power engineering, data-driven analysis, and intelligent systems. My background is from RWTH Aachen University, where I studied Business Administration and Engineering with a focus on Electrical Power Engineering. I am truly interested in the following: designing systems that are resilient, adaptable, and capable of learning and improving over time.
 My work centers on turning advanced ideas—things like complex systems theory, probabilistic modeling, and structured knowledge representation—into real, reliable software and platforms that actually get used in the field. My key projects include:
@@ -20,18 +21,23 @@ My work centers on turning advanced ideas—things like complex systems theory, 
 - **robot-lidar-fusion**: an open-source robotics stack for building autonomous systems with LiDAR and camera fusion. It provides a practical foundation for perception, navigation, obstacle avoidance, motion coordination, and safety-oriented control in real-time robotic environments.
 For me, energy infrastructure isn’t just pipes, wires, and substations — it’s the invisible backbone that keeps modern life running. I see it as a living, evolving system that needs both technical precision and thoughtful, long-term care. That’s why I focus on building tools that balance business goals with real-world grid physics, market rules, and regulatory needs.
 I work mostly with Python (especially scientific and ML libraries) and React Native for cross-platform deployment, always aiming to create solutions that are practical, secure, and genuinely useful.
+
 ---
+
 ## 🔬 Domains of Mastery & Technical Arsenal
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,react,js,docker,git,linux,pytorch,tensorflow,postgres,mongodb,aws,kubernetes,fastapi,opencv,ros&theme=dark" alt="Technologies">
 </p>
+
 | Domain | Core Expertise & Methodologies |
 |--------|-------------------------------|
 | **Programming & Engineering Practices** | Advanced Python ecosystem (Pandas, NumPy, Polars, SciPy, PyTorch, JAX); TypeScript/React.js & React Native; FastAPI, GraphQL, event-driven microservices; CI/CD (GitHub Actions, ArgoCD); Infrastructure-as-Code |
 | **Artificial Intelligence & Quantitative Methods** | Physics-Informed Neural Networks (PINNs), Multi-Agent Reinforcement Learning (MARL), Causal Inference, Transformer-based time-series models, Knowledge Graphs & Semantic Ontologies (RDF/OWL, Neo4j), Stochastic Optimization |
 | **Energy Systems & Smart Grids** | Power flow & stability analysis, DER integration & V2G, Transactive Energy Markets, IEC 61850 / CIM, Grid cybersecurity (NERC CIP, IEC 62351), BESS modeling, Real-time co-simulation (HELICS, RTDS) |
 | **Strategic & Emerging Domains** | Life Cycle Assessment (ISO 14040/44), Regulatory Intelligence (EU RED II), Blockchain & Energy DAOs, Zero-Trust OT Security |
+
 ---
+
 ## 🚀 Flagship Initiatives
 | Initiative | Vision & Architecture | Key Innovations & Impact |
 |------------|-----------------------|--------------------------|
@@ -39,13 +45,17 @@ I work mostly with Python (especially scientific and ML libraries) and React Nat
 | **GridOS** | Next-generation cyber-physical digital twin for autonomous smart grid orchestration. | Hybrid multi-physics + deep learning core; MARL agents for OPF, voltage control and contingency management; real-time state estimation. |
 | **DERIM** | Decentralized Energy Resource Integration & Management platform using distributed ledger technology. | Smart contract frameworks for transactive energy clearing; tokenized RECs and VPP orchestration; trustless DER coordination. |
 | **robot-lidar-fusion** | Open-source robotics stack for building reliable autonomous systems with LiDAR-camera sensor fusion. | Modular perception-to-control pipelines with timestamp synchronization, calibration handling, safety-first reaction chains, ROS 2-native integration, and reproducible Docker-based deployment for real-time navigation and obstacle avoidance. |
+
 ---
+
 ## 🏛️ Professional Trajectory & Infrastructure Expertise
 | Role | Organization | Period | Strategic Contributions |
 |------|--------------|--------|------------------------|
 | **ITk Fachspezialist** | **DB InfraGO AG** | Aug 2024 – Present | Quality governance, threat modeling, resilience engineering and cybersecurity hardening for Europe’s most complex railway IT/OT infrastructure (KRITIS, NIS2 alignment). |
 | **Industrial Engineering Intern** | **DB Fahrzeuginstandhaltung GmbH & DB Netz AG** | Jun 2022 – Sep 2024 | Hands-on expertise in asset lifecycle management, predictive maintenance and high-availability cyber-physical operations. |
+
 ---
+
 ## 🌐 Linguistic Proficiency
 <p align="left">
   <img src="https://img.shields.io/badge/🇬🇧_English-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English">

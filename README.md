@@ -46,10 +46,10 @@ I work mostly with Python (especially scientific and ML libraries) and React Nat
 ## 🚀 Flagship Initiatives
 | Initiative | Vision & Architecture | Key Innovations & Impact |
 |------------|-----------------------|--------------------------|
-| **NeuralBridge** | Universal orchestration middleware for agentic AI systems at industrial scale. | Zero-trust sandboxing with behavioral attestation; dynamic ontology-based adapters (OPC UA, IEC 60870-5-104, MQTT, gRPC); compliance-by-design. |
-| **GridOS** | Next-generation cyber-physical digital twin for autonomous smart grid orchestration. | Hybrid multi-physics + deep learning core; MARL agents for OPF, voltage control and contingency management; real-time state estimation. |
-| **DERIM** | Decentralized Energy Resource Integration & Management platform using distributed ledger technology. | Smart contract frameworks for transactive energy clearing; tokenized RECs and VPP orchestration; trustless DER coordination. |
-| **robot-lidar-fusion** | Open-source robotics stack for building reliable autonomous systems with LiDAR-camera sensor fusion. | Modular perception-to-control pipelines with timestamp synchronization, calibration handling, safety-first reaction chains, ROS 2-native integration, and reproducible Docker-based deployment for real-time navigation and obstacle avoidance. |
+| **[NeuralBridge](https://github.com/iceccarelli/neuralbridge)** | Universal orchestration middleware for agentic AI systems at industrial scale. | Zero-trust sandboxing with behavioral attestation; dynamic ontology-based adapters (OPC UA, IEC 60870-5-104, MQTT, gRPC); compliance-by-design. |
+| **[GridOS](https://github.com/iceccarelli/GridOS)** | Next-generation cyber-physical digital twin for autonomous smart grid orchestration. | Hybrid multi-physics + deep learning core; MARL agents for OPF, voltage control and contingency management; real-time state estimation. |
+| **[DERIM](https://github.com/iceccarelli/derim-middleware)** | Decentralized Energy Resource Integration & Management platform using distributed ledger technology. | Smart contract frameworks for transactive energy clearing; tokenized RECs and VPP orchestration; trustless DER coordination. |
+| **[robot-lidar-fusion](https://github.com/iceccarelli/robot-lidar-fusion)** | Open-source robotics stack for building reliable autonomous systems with LiDAR-camera sensor fusion. | Modular perception-to-control pipelines with timestamp synchronization, calibration handling, safety-first reaction chains, ROS 2-native integration, and reproducible Docker-based deployment for real-time navigation and obstacle avoidance. |
 
 ---
 

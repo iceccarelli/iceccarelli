@@ -13,7 +13,7 @@
 </p>
 
 ## About Me
-I’ve always been drawn to the heart of how energy works — the mix of electrical power engineering, data-driven analysis, and intelligent systems. My background is from RWTH Aachen University, where I studied Business Administration and Engineering with a focus on Electrical Power Engineering. I am truly interested in the following: designing systems that are resilient, adaptable, and capable of learning and improving over time.
+I’ve always been drawn to the heart of how energy works — the mix of electrical power engineering, data-driven analysis, and intelligent systems. My background is from RWTH Aachen University, where I studied Business Administration and Engineering with a focus on Electrical Power Engineering. I am truly interested in the following: designing Cyber-Physical Energy that are resilient, adaptable, and capable of learning and improving over time.
 
 My work centers on turning advanced ideas—things like complex systems theory, probabilistic modeling, and structured knowledge representation—into real, reliable software and platforms that actually get used in the field. Significant projects include:
 - **[NeuralBridge](https://github.com/iceccarelli/neuralbridge)**: aims to be a secure middleware layer that lets autonomous AI agents safely and meaningfully connect to almost any system, whether it’s modern APIs or older industrial protocols.

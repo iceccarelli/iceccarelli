@@ -27,7 +27,7 @@ The projects below reflect the kind of systems I care about building. They are a
 | Project | Current Focus |
 |---|---|
 | **[NeuralBridge](https://github.com/iceccarelli/neuralbridge)** | A lightweight integration layer for connecting AI-driven workflows to external systems through a small, growing set of adapters, API services, and management interfaces. |
-| **[GridOS](https://github.com/iceccarelli/GridOS)** | A local-first smart-grid and DER simulation platform focused on telemetry flows, digital-twin experimentation, and operational prototyping. |
+| **[GridOS](https://github.com/iceccarelli/GridOS)** | (Under Construction)A local-first smart-grid and DER simulation platform focused on telemetry flows, digital-twin experimentation, and operational prototyping. |
 | **[DERIM](https://github.com/iceccarelli/derim-middleware)** | An open-source middleware foundation for integrating solar, battery, and EV charging assets through practical telemetry models and API-first services. |
 | **[robot-lidar-fusion](https://github.com/iceccarelli/robot-lidar-fusion)** | A robotics foundation for experimenting with LiDAR-camera fusion, perception pipelines, and real-time navigation workflows. |
 
@@ -35,9 +35,9 @@ The projects below reflect the kind of systems I care about building. They are a
 
 I recently revised how I describe **GridOS** and **NeuralBridge** because I want their public descriptions to match their actual maturity more closely.
 
-### GridOS
+### GridOS (Under Construction)
 
-**GridOS** is best described, at the moment, as a **lightweight DER simulation and telemetry platform for smart-grid prototyping**. Its strongest areas are local experimentation, digital-twin modeling, and software structure for telemetry and control workflows. It is not yet something I would honestly describe as a complete autonomous grid operating system, and I think it is better to present it as a practical technical foundation that can grow into something stronger over time.
+**GridOS**  (under Construction)is best described, at the moment, as a **lightweight DER simulation and telemetry platform for smart-grid prototyping**. Its strongest areas are local experimentation, digital-twin modeling, and software structure for telemetry and control workflows. It is not yet something I would honestly describe as a complete autonomous grid operating system, and I think it is better to present it as a practical technical foundation that can grow into something stronger over time.
 
 ### NeuralBridge
 

@@ -31,9 +31,9 @@ The projects below reflect the kind of systems I care about building. They are a
 | **[DERIM](https://github.com/iceccarelli/derim-middleware)** | An open-source middleware foundation for integrating solar, battery, and EV charging assets through practical telemetry models and API-first services. |
 | **[robot-lidar-fusion](https://github.com/iceccarelli/robot-lidar-fusion)** | A robotics foundation for experimenting with LiDAR-camera fusion, perception pipelines, and real-time navigation workflows. |
 
-## Current Framing of GridOS and NeuralBridge
+## Current Framing of GridOS (Under Construction) and NeuralBridge
 
-I recently revised how I describe **GridOS** and **NeuralBridge** because I want their public descriptions to match their actual maturity more closely.
+I recently revised how I describe **GridOS (Under Construction)** and **NeuralBridge** because I want their public descriptions to match their actual maturity more closely.
 
 ### GridOS (Under Construction)
 

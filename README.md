@@ -14,6 +14,16 @@
   <strong>Building practical software for energy systems, data, and intelligent infrastructure.</strong>
 </p>
 
+<!-- === PROFESSIONAL ANIMATED DEMO === -->
+<p align="center">
+  <img src="gridos-professional-demo.gif" 
+       alt="GridOS — Local-first DER Telemetry &amp; Digital Twin Platform" 
+       width="780" />
+  <br>
+  <sub><em>GridOS • Local-first smart-grid telemetry and digital-twin prototyping</em></sub>
+</p>
+<!-- ================================== -->
+
 ## About Me
 
 I am interested in the intersection of **electrical power engineering**, **software systems**, and **applied AI**. My academic background is in Business Administration and Engineering at **RWTH Aachen University**, with a focus on **Electrical Power Engineering**. Most of the work I share here is driven by one idea: advanced systems are only valuable if they are also understandable, testable, and useful in real operating environments.
@@ -37,11 +47,11 @@ I recently revised how I describe **GridOS (Under Construction)** and **NeuralBr
 
 ### GridOS (Under Construction)
 
-**GridOS**  **(under Construction)** is best described, at the moment, as a **lightweight DER simulation and telemetry platform for smart-grid prototyping**. Its strongest areas are local experimentation, digital-twin modeling, and software structure for telemetry and control workflows. It is not yet something I would honestly describe as a complete autonomous grid operating system, and I think it is better to present it as a practical technical foundation that can grow into something stronger over time.
+**GridOS** is best described, at the moment, as a **lightweight DER simulation and telemetry platform for smart-grid prototyping**. Its strongest areas are local experimentation, digital-twin modeling, and software structure for telemetry and control workflows. It is not yet something I would honestly describe as a complete autonomous grid operating system. I prefer to present it as a practical technical foundation that can grow into something stronger over time.
 
 ### NeuralBridge
 
-**NeuralBridge** is best described, at the moment, as a **lightweight integration hub for AI workflows and external systems**. The goal is to make it easier to connect tools, APIs, business systems, and operational services through a clean backend and manageable interfaces. It is still early, and I do not want to present it as a finished enterprise-grade universal middleware platform. Right now, the honest positioning is that it is a serious foundation being narrowed toward a smaller set of reliable, supported capabilities.
+**NeuralBridge** is best described, at the moment, as a **lightweight integration hub for AI workflows and external systems**. The goal is to make it easier to connect tools, APIs, business systems, and operational services through a clean backend and manageable interfaces. It is still early, and I do not want to present it as a finished enterprise-grade universal middleware platform. The honest positioning right now is that it is a serious foundation being narrowed toward a smaller set of reliable, supported capabilities.
 
 ## How I Like to Work
 

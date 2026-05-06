@@ -1,4 +1,23 @@
 <p align="center">
+  <img src="assets/banner_animated.gif" 
+       alt="Vincenzo Ceccarelli Grimaldi — AI-Driven Digital Systems, Agentic Middleware, Networks &amp; Electrical Grids" 
+       width="900" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/vincenzo-ceccarelli-grimaldi-2912b42a0"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.instagram.com/grimaldiengineering/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://x.com/Vince87Grimaldi"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+</p>
+
+<p align="center">
+  <strong>Building practical software for energy systems, data, and intelligent infrastructure.</strong>
+</p>
+
+
+
+
+<p align="center">
   <a href="https://github.com/iceccarelli">
     <img src="https://raw.githubusercontent.com/iceccarelli/iceccarelli/main/profile_banner_v3.png" alt="Vincenzo Ceccarelli Grimaldi — Energy Systems, Software, and AI for practical infrastructure problems">
   </a>

@@ -32,6 +32,8 @@ I believe advanced technical systems only create real value when they are unders
 
 ## Core Focus
 
+<img src="https://skillicons.dev/icons?i=python,react,js,docker,git,linux,pytorch,tensorflow,postgres,mongodb,aws,fastapi,opencv,ros&#x26;theme=dark" alt="Technologies">
+
 I build foundations and prototypes that connect three domains:
 
 ```mermaid

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner_animated.gif" 
+  <img src="banner_animated.gif" 
        alt="Vincenzo Ceccarelli Grimaldi — AI-Driven Digital Systems, Agentic Middleware, Networks &amp; Electrical Grids" 
        width="900" />
 </p>

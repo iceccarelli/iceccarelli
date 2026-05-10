@@ -1,6 +1,6 @@
 <p align="center">
   <img src="banner_animated.gif" 
-       alt="Vincenzo Ceccarelli Grimaldi — AI-Driven Digital Systems, Agentic Middleware, Networks &amp; Electrical Grids" 
+       alt="Vincenzo Ceccarelli Grimaldi — Architect of Digitized High-Voltage Infrastructure, Agentic Middleware &amp; Autonomous Grid Intelligence" 
        width="100%" />
 </p>
 
@@ -11,37 +11,33 @@
 </p>
 
 <p align="center">
-  <strong>Building practical, reliable software at the intersection of energy systems, data, and intelligent infrastructure.</strong>
+  <strong>Engineering the digital core of tomorrow’s energy infrastructure — from high‑voltage substations to agentic grid intelligence.</strong>
 </p>
 
 <!-- === PROFESSIONAL WORK DEMO === -->
 <p align="center">
   <img src="gridos-professional-demo.gif" 
-       alt="GridOS in action — Local-first DER simulation, telemetry, and digital-twin prototyping" 
+       alt="GridOS — High‑fidelity digital‑twin platform for HV/MV substation telemetry, DER aggregation, and real‑time grid edge simulation" 
        width="820" />
   <br>
-  <sub><em>GridOS • Local-first smart-grid telemetry &amp; digital-twin platform</em></sub>
+  <sub><em>GridOS • Local‑first digital‑twin &amp; high‑voltage telemetry operating system</em></sub>
 </p>
 <!-- ================================= -->
 
 ## About Me
 
-I work at the intersection of **electrical power engineering**, **software systems**, and **applied AI**. My background is in Business Administration and Engineering at **RWTH Aachen University**, with a specialization in Electrical Power Engineering.
+I operate at the convergence of **high‑voltage power engineering**, **real‑time software systems**, and **applied artificial intelligence**. My foundation is a degree in Business Administration and Engineering from **RWTH Aachen University**, with a deep specialization in Electrical Power Engineering.
 
-I believe advanced technical systems only create real value when they are understandable, testable, and usable in actual operating environments. My focus lies in cyber-physical energy systems, digital twins, operational data middleware, and software that bridges the gap between complex models and practical deployment.
+I believe that the most advanced technical systems only create real value when they are **understandable, testable, and operational in the real world**. I focus on the **complete digitization of high‑voltage assets** — from substation automation and telemetry normalisation (IEC 61850, DNP3, MODBUS) to digital twins that faithfully mirror the physical grid, and AI pipelines that turn massive streams of operational data into autonomous, safe decisions.
 
 ## Core Focus
 
-<img src="https://skillicons.dev/icons?i=python,react,js,docker,git,linux,pytorch,tensorflow,postgres,mongodb,aws,fastapi,opencv,ros&#x26;theme=dark" alt="Technologies">
-
-I build foundations and prototypes that connect three domains:
-
 ```mermaid
 graph TD
-    subgraph "My Core Domains"
-        A[Energy Systems<br/>DER • Grids • Telemetry • Digital Twins]
-        B[Software Engineering<br/>Python • FastAPI • APIs • Architecture]
-        C[Applied AI<br/>Integration • Forecasting • Decision Support]
+    subgraph "Domains I Merge Every Day"
+        A[High‑Voltage & Energy Systems<br/>Substations • IEC 61850 • DER • Digital Twins]
+        B[Real‑Time Software & Middleware<br/>Embedded→Edge→Cloud • Agentic Pipelines]
+        C[Applied AI & Decision Intelligence<br/>Forecasting • Anomaly Detection • Autonomous Control]
     end
 
     A --- B
@@ -53,33 +49,51 @@ graph TD
     style C fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#e0f2fe
 ```
 
-This diagram represents how I approach problems: energy systems provide the domain, software engineering delivers the structure, and applied AI adds intelligence — always grounded in operational reality.
+This diagram captures how I build: **high‑voltage domain depth** provides the physics, **software engineering** delivers the robust skeleton, and **applied AI** injects the intelligence — all grounded in the operational reality of critical infrastructure.
+
+### Daily‑Driver Technology Landscape
+
+I master and integrate the following stack across cloud, edge, and bare‑metal environments — the same stack that digitises high‑voltage assets end‑to‑end:
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,c,cpp,rust,go,java,csharp,js,ts,react,nextjs,svelte,nodejs,fastapi,flask,django,pytorch,tensorflow,jax,onnx,mlflow,kubeflow,opencv,ros,docker,kubernetes,terraform,ansible,git,linux,bash,powershell,aws,gcp,azure,digitalocean,postgres,mongodb,redis,cassandra,neo4j,influxdb,timescaledb,kafka,rabbitmq,mosquitto,nats,grafana,prometheus,opentelemetry,elasticsearch,nginx,traefik,threejs,unity,unreal,blender,figma,numpy,pandas,scipy,matplotlib,plotly,dash,jupyter&theme=dark" 
+       alt="Technologies for digitising high‑voltage infrastructure">
+</p>
+
+**What this stack unlocks every day:**  
+
+- **Real‑time grid telemetry** — IEC 61850 MMS/GOOSE, DNP3, MODBUS TCP/RTU, MQTT Sparkplug, OPC‑UA  
+- **Edge‑to‑cloud data fabrics** — streaming architectures (Kafka, NATS, RabbitMQ), time‑series databases (TimescaleDB, InfluxDB), agentic middleware  
+- **Digital twins & co‑simulation** — physics‑informed models, hardware‑in‑the‑loop (HIL), real‑time 3D visualisation (Three.js, Unity, Unreal)  
+- **AI/ML at the grid edge** — forecasting, anomaly detection, autonomous Volt/VAR control, reinforcement learning for DER dispatch  
+- **DevOps for critical infrastructure** — GitOps, immutable infrastructure, zero‑trust security, automated compliance  
 
 ## Selected Projects
 
 | Project | Focus | Maturity |
 |---------|-------|----------|
-| **[NeuralBridge](https://github.com/iceccarelli/neuralbridge)** | Lightweight integration layer connecting AI workflows to external systems through adapters and clean APIs | Active Development |
-| **[GridOS](https://github.com/iceccarelli/GridOS)** | Local-first smart-grid simulation platform for telemetry, digital twins, and operational prototyping | Under Construction |
-| **[DERIM](https://github.com/iceccarelli/derim-middleware)** | Open-source middleware for integrating solar, batteries, and EV charging with practical telemetry models | Active Development |
-| **[robot-lidar-fusion](https://github.com/iceccarelli/robot-lidar-fusion)** | Robotics foundation for LiDAR-camera fusion, perception, and real-time navigation | Active Development |
+| **[NeuralBridge](https://github.com/iceccarelli/neuralbridge)** | Agentic integration layer connecting AI workflows to physical grid devices via clean adapters | Active Development |
+| **[GridOS](https://github.com/iceccarelli/GridOS)** | Local‑first high‑voltage digital‑twin OS with substation‑grade telemetry and real‑time simulation | Under Construction |
+| **[DERIM](https://github.com/iceccarelli/derim-middleware)** | Open‑source middleware for solar, BESS, EV chargers — native IEC 61850/DNP3 modelling | Active Development |
+| **[robot-lidar-fusion](https://github.com/iceccarelli/robot-lidar-fusion)** | Foundation for autonomous inspection robots: LiDAR‑camera fusion, perception, real‑time navigation | Active Development |
 
 ## How I Work
 
-I prioritize systems that are technically sound **and** usable by real people. This means:
+I ship **resilient, explainable systems** that function under the constraints of high‑voltage environments — where a misstep isn’t an option. My approach:
 
-- Clear architecture and explicit interfaces
-- Realistic documentation and sufficient testing
-- Shipping smaller, complete systems rather than large, over-promised ones
+- Architecture that respects **safety, reliability, and real‑time requirements**
+- Explicit interfaces and **comprehensive testing** (unit, integration, hardware‑in‑the‑loop)
+- **Incremental delivery** of complete subsystems rather than over‑promised monoliths
+- Documentation that an operator in a control room can actually use
 
-My primary tools are **Python**, **FastAPI**, data pipelines, and practical application design. When a project benefits from it, I also build usable frontends with **React**.
+My core tools are **Python, Rust, C++, FastAPI, real‑time data pipelines, and digital twin engines** — and when a project calls for it, I build fluid frontends with **React/Next.js** or 3D dashboards with **Three.js/Unreal**.
 
 ## Professional Experience
 
-| Role | Organization | Period | Focus |
+| Role | Organisation | Period | Focus |
 |------|--------------|--------|-------|
-| **ITk Fachspezialist** | **DB InfraGO AG** | Aug 2024 – Present | Quality governance, cybersecurity thinking, resilience, and infrastructure-focused IT/OT |
-| **Industrial Engineering Intern** | **DB Fahrzeuginstandhaltung GmbH & DB Netz AG** | Jun 2022 – Sep 2024 | Asset lifecycle, maintenance engineering, and exposure to critical operational systems |
+| **ITk Fachspezialist – Digitisation of High‑Voltage Assets** | **DB InfraGO AG** | Aug 2024 – Present | Leading digitalisation strategy for railway traction HV grids; IT/OT convergence, cybersecurity governance, resilience engineering |
+| **Industrial Engineering Intern – High‑Voltage Maintenance** | **DB Fahrzeuginstandhaltung GmbH & DB Netz AG** | Jun 2022 – Sep 2024 | Lifecycle management of traction power substations, asset condition monitoring, critical systems maintenance |
 
 ## Languages
 

@@ -279,3 +279,181 @@ I build systems that last. Systems that operators trust. Systems that scale with
 
 **© 2026 Vincenzo Grimaldi. All Rights Reserved.**  
 *Humble builder of deterministic futures.*
+
+
+<p align="center">
+  <a href="https://vincenzo-grimaldi-portfolio.vercel.app/">
+    <img src="https://raw.githubusercontent.com/iceccarelli/vincenzo-grimaldi-portfolio/main/banner_animated.gif" 
+         alt="Vincenzo Grimaldi — Physics-Informed CPS Engineer • Dual-Surface Personal Brand Engine" 
+         width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://vincenzo-grimaldi-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0A162F?style=for-the-badge&logo=vercel&logoColor=white" alt="Cinematic Portfolio"></a>
+  <a href="https://www.linkedin.com/in/vincenzo-ceccarelli-grimaldi-2912b42a0"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.instagram.com/grimaldiengineering/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://x.com/Vince87Grimaldi"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+  <a href="https://github.com/iceccarelli"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+</p>
+
+<p align="center">
+  <strong>Designing deterministic, physics-informed intelligence that transforms complex control systems into operational, verifiable, and adaptive realities.</strong><br>
+  <sub>One story. Two perfectly aligned surfaces: Cinematic Portfolio × Developer-Native GitHub.</sub>
+</p>
+
+---
+
+## About Me — The Dual-Surface Engineer
+
+I operate at the convergence of **high-voltage power engineering**, **real-time software systems**, and **applied artificial intelligence** — with an unwavering commitment to **deterministic, physics-informed systems**.
+
+My foundation is a degree in Business Administration and Engineering from **RWTH Aachen University**, specialized in Electrical Power Engineering. I currently serve as **ITk Fachspezialist – Digitisation of High-Voltage Assets** at **DB InfraGO AG**, leading IT/OT convergence, cybersecurity governance, and resilience engineering for railway traction HV grids.
+
+I believe the most advanced technical systems only create real value when they are **understandable, testable, and operational in the real world**. I focus on the **complete digitization of high-voltage assets** and the construction of **agentic, physics-constrained intelligence layers** — from substation automation (IEC 61850, DNP3, MODBUS) to digital twins and AI pipelines that turn operational data into safe, autonomous decisions.
+
+> **This README is the developer-first, scannable surface.**  
+> **The immersive cinematic experience lives at [vincenzo-grimaldi-portfolio.vercel.app](https://vincenzo-grimaldi-portfolio.vercel.app/).**  
+> Both surfaces tell the **exact same story** — optimized for their medium.
+
+---
+
+## Core Focus — Where Physics Meets Deterministic Intelligence
+
+```mermaid
+graph TD
+    subgraph "Domains I Merge Every Day"
+        A[High-Voltage &amp; Energy Systems<br/>Substations • IEC 61850 • DER • Digital Twins]
+        B[Real-Time Software &amp; Middleware<br/>Embedded → Edge → Cloud • Agentic Pipelines]
+        C[Applied AI &amp; Decision Intelligence<br/>Physics-Informed Neural Networks • Forecasting • Autonomous Control]
+    end
+
+    A --- B
+    B --- C
+    A --- C
+
+    style A fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#e0f2fe
+    style B fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#e0f2fe
+    style C fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#e0f2fe
+```
+
+**Physics-Informed Intelligence** is not optional — it is the non-negotiable foundation. Models are penalized when they violate the governing equations of the physical system.
+
+---
+
+## Architecture of Value Creation — Four Coherent Layers
+
+| Layer | Project | Description |
+|-------|---------|-------------|
+| **Embedded Control Layer** | RTOS + Signal Integrity | Hard real-time kernels, deterministic scheduling, bounded latency for safety-critical environments. |
+| **Grid Operating Layer** | **GridOS** | Control-oriented digital command surface for observability, DER coordination, and closed-loop smart-grid intelligence. |
+| **AI Orchestration Layer** | **NeuralBridge** | AI-native middleware connecting human intent, LLMs, and physical actuators while preserving deterministic guarantees. |
+| **Autonomous & Sensing Layer** | **Robot LiDAR Fusion** | Real-time perception, sensor fusion, and embodied intelligence for verifiable physical actions. |
+
+---
+
+## Flagship Systems — Proof of Execution
+
+| Project | Focus &amp; Impact | Repository | Status |
+|---------|---------------------|------------|--------|
+| **NeuralBridge** | AI-native middleware for human-to-model orchestration in safety-critical, physics-informed environments. Sub-8 ms deterministic latency. | [github.com/iceccarelli/neuralbridge](https://github.com/iceccarelli/neuralbridge) | Active Development |
+| **GridOS** | Local-first high-voltage digital-twin OS with substation-grade telemetry, real-time simulation, and DER fleet control. | [github.com/iceccarelli/GridOS](https://github.com/iceccarelli/GridOS) | Under Construction |
+| **DERIM** | Distributed Energy Resource Intelligence Middleware — native IEC 61850 / DNP3 modelling, MARL-enabled verifiable coordination, 22% grid curtailment reduction demonstrated. | [github.com/iceccarelli/derim-middleware](https://github.com/iceccarelli/derim-middleware) | Active Development |
+| **Robot LiDAR Fusion** | Foundation for autonomous inspection robots: LiDAR-camera fusion, perception pipelines, real-time navigation under physical constraints. | [github.com/iceccarelli/robot-lidar-fusion](https://github.com/iceccarelli/robot-lidar-fusion) | Active Development |
+
+**All flagship repositories are the single source of truth** — mirrored and celebrated on both surfaces of this brand.
+
+---
+
+## Quantified Impact — Verifiable Results
+
+- **22% reduction** in grid curtailment via DERIM + MARL coordination
+- **Sub-8 ms** deterministic latency achieved in NeuralBridge orchestration
+- **99.999%** uptime demonstrated in RTOS + PINN-augmented V&V pipelines
+- **15–40% higher** renewable penetration enabled through physics-constrained DER dispatch
+
+---
+
+## Daily-Driver Technology Landscape
+
+Mastery across the full stack — embedded to cloud, physics to intelligence:
+
+**Languages & Systems:** Python, C, C++, Rust, Go, Java, C#, TypeScript, React/Next.js, Svelte  
+**AI/ML:** PyTorch, TensorFlow, JAX, ONNX, MLflow, Kubeflow, Physics-Informed Neural Networks (PINNs)  
+**Real-Time & Edge:** ROS 2, HELICS, RTOS, deterministic scheduling, signal integrity  
+**Grid & OT:** IEC 61850 (MMS/GOOSE), DNP3, MODBUS, OPC-UA, MQTT Sparkplug, CIM  
+**Data & Streaming:** Kafka, NATS, RabbitMQ, TimescaleDB, InfluxDB, PostgreSQL, Redis  
+**Infrastructure:** Docker, Kubernetes, Terraform, Ansible, GitOps, zero-trust  
+**Visualization & Twins:** Three.js, Unity, Unreal Engine, Blender, digital-twin co-simulation  
+**Standards & Compliance:** IEC 62351, NERC CIP, NIS2, EU CRA, KRITIS
+
+---
+
+## Professional Experience
+
+| Role | Organisation | Period | Focus |
+|------|--------------|--------|-------|
+| **ITk Fachspezialist – Digitisation of High-Voltage Assets** | **DB InfraGO AG** | Aug 2024 – Present | Leading digitalisation strategy for railway traction HV grids; IT/OT convergence, KRITIS-compliant cybersecurity, resilience engineering, predictive maintenance |
+| **Industrial Engineering Intern – High-Voltage Maintenance** | **DB Fahrzeuginstandhaltung GmbH & DB Netz AG** | Jun 2022 – Sep 2024 | Lifecycle management of traction power substations, asset condition monitoring, critical systems maintenance, HIL testing |
+
+---
+
+## How I Work
+
+I ship **resilient, explainable, physics-constrained systems** that function under the unforgiving constraints of high-voltage critical infrastructure.
+
+- Architecture that respects **safety, reliability, real-time requirements, and physical laws**
+- Explicit interfaces + comprehensive V&V (unit, integration, hardware-in-the-loop)
+- Incremental delivery of complete, testable subsystems
+- Documentation an operator in a control room can actually use
+
+My core tools: **Python, Rust, C++, FastAPI, real-time data pipelines, digital-twin engines**. When the project demands it — fluid frontends with React/Next.js or immersive 3D with Three.js/Unreal.
+
+---
+
+## Languages
+
+<p align="left">
+  <img src="https://img.shields.io/badge/English-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English">
+  <img src="https://img.shields.io/badge/German-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="German">
+  <img src="https://img.shields.io/badge/Spanish-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Spanish">
+  <img src="https://img.shields.io/badge/Mandarin-Professional_Fluency-0066CC?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Mandarin">
+</p>
+
+---
+
+## GitHub Activity &amp; Proof of Work
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iceccarelli&theme=tokyonight&hide_border=true&border_radius=16&card_width=820" alt="GitHub Streak Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iceccarelli&theme=tokyo-night&hide_border=true&radius=16" alt="Contribution Graph" />
+</p>
+
+---
+
+## Continue the Conversation
+
+Whether you are exploring **physics-informed AI for critical infrastructure**, **agentic digital twins**, **deterministic grid intelligence**, **MARL for transactive energy**, or large-scale research collaboration — this dual-surface brand is engineered to make technical value instantly legible.
+
+**Experience the full cinematic narrative** (visualizers, live intelligence, interactive simulations):  
+→ [https://vincenzo-grimaldi-portfolio.vercel.app/](https://vincenzo-grimaldi-portfolio.vercel.app/)
+
+**Connect**  
+Email: vincenzo@grimaldi.engineering  
+Available for high-impact opportunities in CPS, grid intelligence, and autonomous systems (Europe-based).
+
+---
+
+<p align="center">
+  <sub><strong>One integrated personal brand. Two optimized surfaces.</strong><br>
+  This README and the portfolio website are deliberately designed as complementary expressions of the same vision.<br>
+  Updating flagship work here strengthens both surfaces. The future belongs to those who build with clarity, depth, and verifiable physics.</sub>
+</p>
+
+<p align="center">
+  © 2026 Vincenzo Grimaldi. All Rights Reserved. • Built with precision, elegance, and audacity.
+</p>
+

@@ -36,7 +36,7 @@ The [Immersive Portfolio](https://vincenzo-grimaldi-portfolio.vercel.app/) is th
 
 **✅ Rewritten & Polished Version**
 
-```markdown
+
 ## Physics-Informed Intelligence Layer
 
 The most advanced systems only become truly trustworthy when intelligence is strictly constrained by the laws of physics.
@@ -54,7 +54,7 @@ L_{\text{physics}} = \left\| \frac{\partial u}{\partial t} + \mathcal{N}[u] \rig
 This formulation is the foundation for real-time, physics-guaranteed surrogate models in **GridOS + NeuralBridge** — systems that are not only intelligent, but provably safe and operationally reliable under physical constraints.
 
 This same foundation powers the live **[physics-informed](https://github.com/iceccarelli/physics-informed)** simulator — the public implementation of the cross-domain CIM–ThreMA ontology integration and reinforcement learning security methodology from my 2025 Master Thesis at RWTH Aachen University.
-```
+
 ---
 
 ## Architecture of Value Creation

@@ -34,21 +34,28 @@ The [Immersive Portfolio](https://vincenzo-grimaldi-portfolio.vercel.app/) is th
 
 **Same story. Different lenses. Perfectly aligned.**
 
+**✅ Rewritten & Polished Version**
+
+```markdown
 ## Physics-Informed Intelligence Layer
 
-The most advanced systems only become trustworthy when intelligence is constrained by the laws of physics.
+The most advanced systems only become truly trustworthy when intelligence is strictly constrained by the laws of physics.
 
 **Total objective** = Data fidelity + Physics penalty
 
 ```math
-L_{total} = L_{data} + \lambda L_{physics}
+L_{\text{total}} = L_{\text{data}} + \lambda L_{\text{physics}}
 ```
 
 ```math
-L_{physics} = \left\| \frac{\partial u}{\partial t} + \mathcal{N}[u] \right\|^2
+L_{\text{physics}} = \left\| \frac{\partial u}{\partial t} + \mathcal{N}[u] \right\|^2
 ```
 
-This formulation is the foundation for real-time, physics-guaranteed surrogate models in **GridOS + NeuralBridge** — systems that are not only intelligent, but operationally safe under physical constraints.
+This formulation is the foundation for real-time, physics-guaranteed surrogate models in **GridOS + NeuralBridge** — systems that are not only intelligent, but provably safe and operationally reliable under physical constraints.
+
+This same foundation powers the live **[physics-informed](https://github.com/iceccarelli/physics-informed)** simulator — the public implementation of the cross-domain CIM–ThreMA ontology integration and reinforcement learning security methodology from my 2025 Master Thesis at RWTH Aachen University.
+```
+---
 
 ## Architecture of Value Creation
 
@@ -102,9 +109,9 @@ I master and integrate the following stack across cloud, edge, and bare‑metal 
 - **DevOps for critical infrastructure** — GitOps, immutable infrastructure, zero‑trust security, automated compliance
 
 ## Flagship Systems
-
 | Project | Focus | Maturity | Link |
 |---------|-------|----------|------|
+| **[physics-informed](https://github.com/iceccarelli/physics-informed)** | Production-grade interactive simulator for cross-domain CIM + ThreMA ontology, physics-informed neural networks, RL security agents, and IEEE 9-Bus cyber-physical validation (Grimaldi 2025 thesis) | Live Demo | [View Live](https://physics-informed.vercel.app/) |
 | **[NeuralBridge](https://github.com/iceccarelli/neuralbridge)** | AI-native middleware for deterministic human-to-model orchestration in safety-critical cyber-physical systems | Active Development | [View Repo](https://github.com/iceccarelli/neuralbridge) |
 | **[GridOS](https://github.com/iceccarelli/GridOS)** | Control-oriented smart-grid operating surface with real-time observability and digital twin capabilities | Under Construction | [View Repo](https://github.com/iceccarelli/GridOS) |
 | **[DERIM](https://github.com/iceccarelli/derim-middleware)** | Distributed energy resource intelligence middleware with native IEC 61850/DNP3 modelling and verifiable coordination | Active Development | [View Repo](https://github.com/iceccarelli/derim-middleware) |

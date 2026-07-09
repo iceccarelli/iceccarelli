@@ -24,25 +24,42 @@
 </p>
 <!-- ================================= -->
 
-## Brand Architecture
+## Strategic Mandate
 
-**Developer Surface** — This GitHub profile is the precision technical interface: engineered for systems architects, control engineers, platform teams, researchers, and due-diligence stakeholders who require complete visibility into code, formal methods, architectural invariants, and implementation rigor.
+The global energy system stands at a decisive inflection point. Grids must absorb unprecedented renewable and inverter-based resource penetration, electrified loads, hyperscale data-center demand, and extreme weather events — while defending against sophisticated hybrid threats and meeting binding regulatory mandates (NIS2, Cyber Resilience Act, NERC CIP, RED III).
 
-**Executive Surface** — The [Immersive Portfolio](https://vincenzo-grimaldi-portfolio.vercel.app/) is the strategic narrative layer where physics-informed agentic systems, interactive digital twins, live multi-agent intelligence, and cinematic visualization communicate the same foundational thesis to executives, regulators, investors, and ecosystem partners.
+Legacy siloed OT systems and purely reactive models have reached their limits. The organizations that will lead the next decade are those that deploy **unified, physics-constrained, agentic intelligence layers** capable of autonomous yet fully verifiable decision-making from substation IEDs to flexibility markets and system-wide resilience.
 
-**Unified thesis. Complementary interfaces. Mission-aligned.**
+This GitHub profile is the precision technical surface.  
+The [Immersive Portfolio](https://vincenzo-grimaldi-portfolio.vercel.app/) is the strategic executive surface.  
+**Same thesis. Complementary lenses. Perfectly aligned.**
 
-## Strategic Context: The 2026 Inflection Point
+## Flagship Platforms
 
-The global energy system has reached a decisive inflection. Grids must simultaneously integrate record renewable and inverter-based resource penetration, electrified transport and heating loads, hyperscale data-center demand, and intensifying extreme-weather events — while withstanding sophisticated hybrid cyber-physical threats and satisfying non-negotiable regulatory mandates (NIS2, Cyber Resilience Act, NERC CIP, RED III).
+All repositories are open source and engineered for inspection, extension, pilot deployment, and production mission-critical use.
 
-Legacy siloed OT systems, statistical black-box models, and purely reactive digital twins are reaching fundamental physical, operational, and certification limits. The organizations that will define the next decade are those deploying **unified, physics-constrained, agentic intelligence layers** capable of autonomous yet fully verifiable decision-making across the entire stack — from substation IEDs and edge controllers to cloud orchestration, flexibility markets, and system-wide resilience.
+| Project | Focus | Maturity | Link |
+|---------|-------|----------|------|
+| **[physics-informed](https://github.com/iceccarelli/physics-informed)** | Reference-grade cyber-physical simulator: CIM–ThreMA ontology integration, Physics-Informed Neural Networks, Fourier Neural Operator surrogates, adversarial-robust RL security agents, full IEEE 9/39-Bus validation under N-1 and cyber-attack scenarios (2025 RWTH Aachen Master Thesis) | Live Demo | [Launch Simulator](https://physics-informed.vercel.app/) |
+| **[NeuralBridge](https://github.com/iceccarelli/neuralbridge)** | Production-intent deterministic agentic middleware for cryptographically verifiable orchestration of human operators, LLM planners, multi-agent RL systems, and physical actuators with hard real-time guarantees and runtime assurance | Active Development | [View Repo](https://github.com/iceccarelli/neuralbridge) |
+| **[GridOS](https://github.com/iceccarelli/GridOS)** | Next-generation substation operating system and agentic digital-twin platform delivering unified observability, closed-loop autonomous corrective control, DER aggregation, and real-time physics-constrained intelligence for inverter-dominated HV/MV grids | Under Active Construction | [View Repo](https://github.com/iceccarelli/GridOS) |
+| **[DERIM](https://github.com/iceccarelli/derim-middleware)** | Distributed Energy Resource Intelligence Middleware with native IEC 61850/DNP3 modeling, verifiable multi-agent coordination, and physics-informed optimization for ancillary services, congestion management, and local flexibility markets at scale | Active Development | [View Repo](https://github.com/iceccarelli/derim-middleware) |
+| **[robot-lidar-fusion](https://github.com/iceccarelli/robot-lidar-fusion)** | Real-time multi-modal LiDAR perception, sensor fusion, uncertainty quantification, and safe action planning for autonomous inspection robots in live 110–400 kV environments under strict EMC and functional-safety constraints | Active Development | [View Repo](https://github.com/iceccarelli/robot-lidar-fusion) |
 
-I architect these foundational layers.
+**Star • Fork • Pilot • Deploy.** These platforms are the open foundation for the next generation of critical infrastructure.
 
-## Technical Thesis: Physics-Constrained Agentic Intelligence — The Non-Negotiable Foundation
+## Validated Impact
 
-The most advanced agentic and autonomous systems achieve genuine operational trust and regulatory acceptance only when machine intelligence is rigorously constrained by the immutable laws of physics. In high-voltage environments, unconstrained or purely data-driven models introduce unacceptable safety, financial, and systemic risk — especially as multi-agent systems and LLM-orchestrated operations move from pilots into production.
+Outcomes from thesis validation, pilot systems, and production-adjacent deployments — aligned with 2026 operational and regulatory priorities:
+
+- **22% reduction** in renewable curtailment via physics-guided multi-agent RL dispatch optimization under realistic volatility and N-1 conditions — directly accelerating decarbonization economics.
+- **Sub-8 ms** deterministic end-to-end orchestration latency in NeuralBridge under multi-agent, multi-protocol, and LLM-augmented workloads — enabling reliable participation in sub-second frequency containment and synthetic inertia services.
+- **99.999% uptime** architectural pathway through layered defense: RTOS predictability + physics-informed runtime monitors + proactive containment + zero-trust OT patterns (IEC 62443 SL-4 / NERC CIP / NIS2 aligned).
+- **15–40% higher** feasible renewable hosting capacity demonstrated via real-time physics-constrained autonomous Volt/VAR/Watt optimization and closed-loop DER coordination (RED III and grid-code critical).
+
+## Technical Thesis: Physics-Constrained Agentic Intelligence
+
+The most advanced agentic systems achieve genuine operational trust and regulatory acceptance only when machine intelligence is rigorously constrained by the immutable laws of physics. In high-voltage environments, unconstrained models introduce unacceptable safety, financial, and systemic risk.
 
 **Core principle**: Data fidelity must be explicitly balanced against physical consistency at every inference and planning step.
 
@@ -56,111 +73,82 @@ L_{\text{total}} = L_{\text{data}} + \lambda L_{\text{physics}}
 L_{\text{physics}} = \left\| \frac{\partial u}{\partial t} + \mathcal{N}[u] \right\|^2
 ```
 
-This formulation — extended with neural operators, Fourier Neural Operators, and hybrid neuro-symbolic guardrails — is the bedrock of real-time, **provably consistent surrogate models** and **physics-guided multi-agent systems** deployed across GridOS and NeuralBridge. The outcome is intelligence that is not only high-performing but **certifiable, auditable, regulator-ready, and safe** for deployment in safety-critical high-voltage infrastructure under NIS2, CRA, and emerging AI Act high-risk requirements.
+Extended with neural operators, Fourier Neural Operators, and hybrid neuro-symbolic guardrails, this formulation is the bedrock of real-time, **provably consistent surrogate models** and **physics-guided multi-agent systems** deployed in GridOS and NeuralBridge. The result is intelligence that is high-performing, certifiable, auditable, regulator-ready, and safe under NIS2, CRA, and emerging AI Act high-risk requirements for critical infrastructure.
 
-This same foundation powers the live **[physics-informed](https://github.com/iceccarelli/physics-informed)** public simulator — the reference implementation of cross-domain CIM–ThreMA ontology integration, Physics-Informed Neural Networks, adversarial-robust reinforcement learning security agents, and end-to-end IEEE 9-Bus cyber-physical validation from the 2025 RWTH Aachen Master Thesis.
+This foundation powers the live **[physics-informed](https://github.com/iceccarelli/physics-informed)** simulator — the reference implementation of cross-domain CIM–ThreMA integration, Physics-Informed Neural Networks, adversarial-robust RL agents, and end-to-end IEEE test feeder validation from the 2025 RWTH Aachen Master Thesis.
 
-## Layered Value Architecture
+## Architectural Foundation
 
 Four coherent, mutually reinforcing layers delivering a unified capability stack from silicon to strategy — purpose-built for the agentic, physics-constrained grid of 2026 and beyond.
 
 | Layer | Platform | Strategic Capability |
 |-------|----------|----------------------|
-| **Embedded Control & Real-Time Layer** | RTOS + Signal Integrity | Hard real-time deterministic kernels, WCET analysis, formally verifiable bounded latency, and safety integrity level (SIL-4 / ASIL-D) functions for electrified rail protection, substation automation, and edge control |
-| **Grid Operating System Layer** | GridOS | High-fidelity agentic digital-twin operating surface delivering live observability, DER coordination, closed-loop autonomous corrective control, real-time constraint resolution, and physics-informed what-if scenario engines for next-generation substations |
-| **Agentic Orchestration Layer** | NeuralBridge | Deterministic middleware enabling verifiable, cryptographically auditable orchestration between human operators, LLM planners, multi-agent RL systems, and physical actuators while preserving hard real-time guarantees, runtime assurance cases, and formal verifiability |
-| **Autonomous Perception & Actuation Layer** | Robot LiDAR Fusion | Real-time multi-modal sensor fusion, uncertainty-quantified perception, and safe action planning pipelines that translate raw sensor data into verifiable physical actions for autonomous inspection and maintenance robots operating in energized high-voltage environments |
+| **Embedded Control & Real-Time** | RTOS + Signal Integrity | Hard real-time deterministic kernels, WCET analysis, formally verifiable bounded latency, and SIL-4 / ASIL-D functions for substation automation and rail protection |
+| **Grid Operating System** | GridOS | High-fidelity agentic digital-twin surface delivering live observability, DER coordination, closed-loop autonomous corrective control, real-time constraint resolution, and physics-informed what-if engines |
+| **Agentic Orchestration** | NeuralBridge | Deterministic middleware for cryptographically auditable orchestration of human operators, LLM planners, multi-agent RL systems, and physical actuators with hard real-time guarantees and runtime assurance cases |
+| **Autonomous Perception & Actuation** | Robot LiDAR Fusion | Real-time multi-modal sensor fusion, uncertainty-quantified perception, and safe action planning for autonomous robots in energized high-voltage environments |
 
-## Convergence at the Frontier: Strategic Technology Domains
+### The Unified Thesis — Visualized
 
-I operate daily at the convergence of three domains that collectively define the next generation of resilient, sovereign, and autonomous critical infrastructure.
+This convergence diagram captures the single integrated capability stack I architect every day. High-voltage domain depth supplies immutable physics and regulatory reality. Real-time and agentic software engineering delivers the verifiable execution fabric. Physics-guided scientific AI injects adaptive, multi-agent intelligence — always grounded in first principles, formal methods, and compliance mandates.
 
 ```mermaid
 graph TD
-    subgraph "Strategic Technology Convergence — 2026"
-        A[High-Voltage Energy Systems<br/>Substations • IEC 61850 • CIM • DER Orchestration • Agentic Digital Twins • Cyber-Physical Resilience]
-        B[Real-Time & Agentic Software Systems<br/>Embedded → Edge → Cloud • Deterministic Pipelines • Multi-Agent Orchestration • Formal Methods]
-        C[Physics-Guided Scientific AI & Decision Intelligence<br/>PINNs • Neural Operators • Forecasting • MARL • XAI • Autonomous Corrective Control]
+    subgraph "The Unified Thesis: Physics-Constrained Agentic Intelligence"
+        A["<b>High-Voltage Energy Systems</b><br/>Substations • IEC 61850 • CIM • DER Orchestration<br/>Agentic Digital Twins • Cyber-Physical Resilience"]
+        B["<b>Real-Time & Agentic Software Systems</b><br/>Embedded → Edge → Cloud • Deterministic Pipelines<br/>Multi-Agent Orchestration • Formal Methods • Cryptographic Auditability"]
+        C["<b>Physics-Guided Scientific AI & Decision Intelligence</b><br/>PINNs • Fourier Neural Operators • Forecasting<br/>MARL • XAI • Autonomous Corrective Control • Safety Guardrails"]
     end
+
     A --- B
     B --- C
     A --- C
-    style A fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#e0f2fe
-    style B fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#e0f2fe
-    style C fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#e0f2fe
+
+    style A fill:#0f172a,stroke:#38bdf8,stroke-width:3px,color:#e0f2fe
+    style B fill:#0f172a,stroke:#38bdf8,stroke-width:3px,color:#e0f2fe
+    style C fill:#0f172a,stroke:#38bdf8,stroke-width:3px,color:#e0f2fe
 ```
 
-High-voltage domain depth supplies the immutable physics constraints, regulatory reality, and operational context.  
-Real-time and agentic software engineering delivers the high-assurance, verifiable execution fabric with cryptographic auditability.  
-Physics-guided scientific AI injects adaptive, multi-agent intelligence — always grounded in first-principles physics, formal methods, and compliance mandates.
+## Technology Ecosystem 2026
 
-## Technology Ecosystem 2026: Full-Spectrum Mastery
-
-Complete command of the convergent technology stack required to digitize, secure, autonomize, and future-proof high-voltage assets at production scale in the current regulatory and geopolitical environment.
+Complete command of the convergent technology stack required to digitize, secure, autonomize, and future-proof high-voltage assets at production scale.
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,c,cpp,rust,go,java,csharp,js,ts,react,nextjs,svelte,nodejs,fastapi,flask,django,pytorch,tensorflow,jax,onnx,mlflow,kubeflow,opencv,ros,docker,kubernetes,terraform,ansible,git,linux,bash,powershell,aws,gcp,azure,digitalocean,postgres,mongodb,redis,cassandra,neo4j,influxdb,timescaledb,kafka,rabbitmq,mosquitto,nats,grafana,prometheus,opentelemetry,elasticsearch,nginx,traefik,threejs,unity,unreal,blender,figma,numpy,pandas,scipy,matplotlib,plotly,dash,jupyter&theme=dark"
        alt="Technologies for digitising high‑voltage infrastructure">
 </p>
 
-**Production capabilities this integrated stack delivers today:**
+**Production capabilities delivered today:**
 
-- **Deterministic Industrial Telemetry & Semantic Digital Thread** — Native, high-performance implementation of IEC 61850 Ed. 2.1 (MMS/GOOSE/Sampled Values/90-5/90-7), DNP3 Secure Authentication, MODBUS, MQTT Sparkplug B 3.0, OPC UA FX/PubSub, and full CIM (IEC 61968/61970) semantic modeling for unbroken digital thread continuity across OT/IT domains and cross-vendor interoperability.
+- **Deterministic Industrial Telemetry & Semantic Digital Thread** — Full-stack IEC 61850 Ed. 2.1 (MMS/GOOSE/SV/90-5/90-7), DNP3 Secure Authentication, MQTT Sparkplug B 3.0, OPC UA FX, and CIM semantic modeling for unbroken digital thread continuity across OT/IT and cross-vendor ecosystems.
+- **Agentic Edge-to-Cloud Data Fabrics & Multi-Agent Orchestration** — Ultra-low-latency streaming (Kafka, NATS JetStream), time-series + graph databases, and production agentic runtimes supporting tool-augmented LLM agents and verifiable multi-agent RL for VPPs, flexibility markets, and real-time grid services.
+- **Physics-Informed Agentic Digital Twins & Real-Time Co-Simulation** — Scalable surrogates with PINNs and Fourier Neural Operators, HELICS/OMNeT++ cyber-physical co-simulation, HIL (RTDS/Opal-RT), and immersive real-time 3D visualization (Three.js WebGPU, Unreal Engine 5) for operator-grade what-if analysis and closed-loop autonomy.
+- **Edge-Deployed Physics-Guided AI for Autonomous Grid Operations** — Real-time probabilistic forecasting with conformal prediction, safety-shielded MARL for DER dispatch and Volt/VAR optimization, automated corrective control, and explainable predictive maintenance — optimized for ruggedized edge inference (<10 ms) with formal guardrails.
+- **DevSecOps, Zero-Trust OT & Sovereign Compliance Automation** — GitOps with signed artifacts, policy-as-code, automated SBOM + compliance evidence, continuous threat modeling (MITRE ATT&CK for ICS), and architectures aligned to NERC CIP, NIS2, CRA, IEC 62351/62443 SL-4, and AI Act high-risk obligations — regulator-ready and sovereign by design.
 
-- **Agentic Edge-to-Cloud Data Fabrics & Multi-Agent Orchestration** — Ultra-low-latency, high-throughput streaming architectures (Kafka, NATS JetStream, RabbitMQ), industrial time-series + graph databases (TimescaleDB, InfluxDB, Neo4j), and production-grade agentic runtimes supporting tool-augmented LLM agents, multi-agent RL coordination, and verifiable action planning for DER virtual power plants, flexibility market participation, and real-time grid services.
+## Engineering Doctrine
 
-- **Physics-Informed Agentic Digital Twins & Real-Time Co-Simulation** — Scalable surrogate modeling with Physics-Informed Neural Networks, Fourier Neural Operators, and hybrid neuro-symbolic architectures; HELICS/OMNeT++ cyber-physical co-simulation; hardware-in-the-loop (HIL) with RTDS/Opal-RT; and immersive real-time 3D visualization (Three.js WebGPU, Unity HDRP, Unreal Engine 5 Niagara) for operator-grade what-if analysis and closed-loop autonomy.
+I deliver **resilient, explainable, formally verifiable, and regulator-auditable systems** engineered to perform without compromise under the combined physical, cyber, regulatory, and extreme-operating constraints of high-voltage networks.
 
-- **Edge-Deployed Physics-Guided AI for Autonomous Grid Operations** — Real-time probabilistic forecasting with conformal prediction and uncertainty quantification, online adaptive learning under distribution shift, safety-shielded multi-agent reinforcement learning (MARL) for optimal DER dispatch and Volt/VAR/Watt optimization, automated corrective control, and explainable predictive maintenance — all optimized for ruggedized edge inference (sub-10 ms) with formal guardrails.
+- Architecture designed from first principles around **determinism, verifiability, resilience, cryptographic auditability, and regulatory traceability**
+- Exhaustive V&V discipline: model-based systems engineering, software-in-the-loop, hardware-in-the-loop (HIL), formal methods (TLA+), and runtime assurance for all safety-relevant and agentic components
+- Disciplined incremental delivery of production-ready increments with operator-grade documentation and control-room-ready runbooks
+- Commitment to open standards and portable architectures that remain viable across vendor ecosystems and technology generations
 
-- **DevSecOps, Zero-Trust OT Architecture & Sovereign Compliance Automation** — GitOps with signed artifacts and policy-as-code (OPA/Kyverno), immutable infrastructure, automated SBOM + compliance evidence generation, continuous threat modeling (MITRE ATT&CK for ICS), and architectures aligned to NERC CIP, NIS2, EU Cyber Resilience Act (CRA), IEC 62351/62443 SL-4, and emerging AI Act high-risk obligations for critical infrastructure — enabling regulator-ready, audit-ready, and sovereign deployments.
-
-## Flagship Open-Source Platforms
-
-All flagship repositories are open source and engineered for immediate technical inspection, collaborative extension, pilot integration, and scaling into production mission-critical environments.
-
-| Project | Focus Area | Maturity | Access |
-|---------|------------|----------|--------|
-| **[physics-informed](https://github.com/iceccarelli/physics-informed)** | Reference-grade interactive cyber-physical simulator implementing cross-domain CIM + ThreMA ontology integration, Physics-Informed Neural Networks, Fourier Neural Operator surrogates, adversarial-robust RL security agents, and complete IEEE 9-Bus / 39-Bus validation under N-1 contingencies and cyber-attack scenarios (core deliverable of the 2025 RWTH Aachen Master Thesis) | Live Demo | [Launch Live Simulator](https://physics-informed.vercel.app/) |
-| **[NeuralBridge](https://github.com/iceccarelli/neuralbridge)** | Production-intent deterministic agentic middleware for cryptographically verifiable, runtime-assured orchestration of human operators, LLM planners, multi-agent systems, and physical actuators in safety-critical cyber-physical environments | Active Development | [View Repository](https://github.com/iceccarelli/neuralbridge) |
-| **[GridOS](https://github.com/iceccarelli/GridOS)** | Next-generation substation operating system and agentic digital-twin platform delivering unified high-fidelity observability, closed-loop autonomous corrective control, DER aggregation, and real-time physics-constrained intelligence for HV/MV grids dominated by inverter-based resources | Under Active Construction | [View Repository](https://github.com/iceccarelli/GridOS) |
-| **[DERIM](https://github.com/iceccarelli/derim-middleware)** | Distributed Energy Resource Intelligence Middleware with native multi-protocol modeling (IEC 61850 / DNP3), verifiable multi-agent coordination, and physics-informed optimization enabling secure participation in ancillary services, congestion management, and local flexibility markets at scale | Active Development | [View Repository](https://github.com/iceccarelli/derim-middleware) |
-| **[robot-lidar-fusion](https://github.com/iceccarelli/robot-lidar-fusion)** | Real-time multi-modal LiDAR perception, sensor fusion, uncertainty quantification, and safe action planning stack purpose-built for autonomous mobile inspection and maintenance robots operating under strict EMC, safety-distance, and functional-safety constraints in live 110–400 kV environments | Active Development | [View Repository](https://github.com/iceccarelli/robot-lidar-fusion) |
-
-**Star the repositories. Fork them. Integrate them into pilots. Deploy them in production. Shape the future of critical infrastructure with them.**
-
-## Engineering Doctrine & Delivery Model
-
-I deliver **resilient, explainable, formally verifiable, and regulator-auditable systems** engineered to perform without compromise under the combined physical, cyber, regulatory, and extreme-operating constraints of high-voltage transmission, distribution, and traction power networks.
-
-- Architecture and interfaces designed from first principles around **determinism, verifiability, resilience, cryptographic auditability, and regulatory traceability**
-- Exhaustive verification & validation discipline spanning model-based systems engineering, software-in-the-loop, hardware-in-the-loop (HIL), formal methods (TLA+), and runtime assurance for all safety-relevant and agentic components
-- Disciplined, risk-managed incremental delivery of complete, independently testable production increments accompanied by operator-grade documentation, training packages, and control-room-ready runbooks
-- Strong commitment to open standards, portable implementations, and architectures that remain viable across vendor ecosystems, technology generations, and evolving regulatory regimes
-
-Primary implementation stack: **Python** for orchestration, data science, agent development, and rapid prototyping; **Rust** and **C++** for performance-critical deterministic real-time cores and safety functions; **FastAPI** for high-performance, type-safe, auditable services; combined with production real-time data pipelines and advanced physics-informed digital twin engines. When executive communication or operator experience requires it, fluid interfaces are delivered in **React/Next.js** or photorealistic real-time 3D via **Three.js** and **Unreal Engine 5**.
-
-## Validated Impact & Strategic Outcomes
-
-Selected, validated outcomes from research prototypes, pilot systems, and production-adjacent deployments — directly aligned with 2026 operational and regulatory priorities:
-
-- **22% reduction** in renewable curtailment achieved through DERIM middleware coupled with physics-guided multi-agent reinforcement learning dispatch optimization under realistic volatility and N-1 conditions — accelerating decarbonization economics and lowering system balancing costs.
-- **Sub-8 ms** deterministic end-to-end orchestration latency demonstrated in NeuralBridge agentic layers under realistic multi-agent, multi-protocol, and LLM-augmented workloads — enabling reliable participation in sub-second frequency containment, synthetic inertia, and flexibility services.
-- **99.999% uptime** architectural pathway enabled by layered defense-in-depth: RTOS predictability + physics-informed runtime monitors + proactive anomaly containment + zero-trust OT patterns — aligned with IEC 62443 SL-4, NERC CIP-002/014, and NIS2 resilience expectations.
-- **15–40% higher** feasible renewable hosting capacity demonstrated in validated simulation and pilot environments through real-time physics-constrained autonomous Volt/VAR/Watt optimization and closed-loop DER coordination — critical for DSO/TSO compliance with RED III targets and grid-code evolution.
+Primary stack: **Python** (orchestration & agents), **Rust/C++** (deterministic real-time cores), **FastAPI** (high-assurance services), advanced real-time pipelines, and physics-informed digital twin engines. Executive interfaces via **React/Next.js** or photorealistic 3D via **Three.js/Unreal Engine 5**.
 
 ## Professional Trajectory
 
-| Role | Organization | Period | Key Focus Areas |
-|------|--------------|--------|-----------------|
-| **ITk Fachspezialist – Strategic Digitisation of High-Voltage Assets** | **DB InfraGO AG** | Aug 2024 – Present | Leading digitalization strategy and execution for railway traction high-voltage grids; driving IT/OT convergence and zero-trust OT architecture programs; deploying agentic digital twin platforms for predictive asset health and automated compliance evidence generation; preparing NIS2 and CRA conformity frameworks for critical infrastructure |
-| **Industrial Engineering Intern – High-Voltage Maintenance** | **DB Fahrzeuginstandhaltung GmbH & DB Netz AG** | Jun 2022 – Sep 2024 | Full lifecycle management and condition-based/predictive maintenance of 16.7 Hz traction power substations; multi-modal asset condition monitoring and health analytics (PD, vibration, thermography, oil diagnostics) fused with early ML pipelines; reliability-centered maintenance strategy development under strict RAMS and EN 50126/50128/50129 frameworks |
+| Role | Organization | Period | Key Focus |
+|------|--------------|--------|-----------|
+| **ITk Fachspezialist – Strategic Digitisation of High-Voltage Assets** | **DB InfraGO AG** | Aug 2024 – Present | Leading digitalization strategy for railway traction HV grids; IT/OT convergence and zero-trust OT architecture; agentic digital twin deployment for predictive asset health; NIS2 and CRA conformity frameworks for critical infrastructure |
+| **Industrial Engineering Intern – High-Voltage Maintenance** | **DB Fahrzeuginstandhaltung GmbH & DB Netz AG** | Jun 2022 – Sep 2024 | Lifecycle management and predictive maintenance of 16.7 Hz traction substations; multi-modal condition monitoring fused with ML pipelines; reliability-centered maintenance under strict RAMS and EN 50126/50128/50129 frameworks |
 
 ## Standards, Regulatory Frameworks & Compliance Command
 
-Production-grade, operational expertise in the complete standards and regulatory regimes that govern safe, secure, interoperable, and sovereign critical energy and transport infrastructure worldwide:
+Production-grade expertise in the complete standards and regulatory regimes governing safe, secure, and sovereign critical infrastructure:
 
-**IEC 61850 Ed. 2.1 (MMS/GOOSE/SV/90-x)** • **CIM (IEC 61968/61970)** • **OCPP 2.0.1** • **SunSpec** • **ROS 2** • **HELICS** • **TLA+ & Formal Methods** • **IEC 62351** • **IEC 62443 (SL-4)** • **NERC CIP** • **NIS2 Directive** • **EU Cyber Resilience Act (CRA)** • **RED III / Grid Codes**
+**IEC 61850 Ed. 2.1** • **CIM (IEC 61968/61970)** • **OCPP 2.0.1** • **SunSpec** • **ROS 2** • **HELICS** • **TLA+ & Formal Methods** • **IEC 62351** • **IEC 62443 (SL-4)** • **NERC CIP** • **NIS2 Directive** • **EU Cyber Resilience Act (CRA)** • **RED III / Grid Codes**
 
 ## Linguistic Fluency
 
@@ -186,16 +174,15 @@ Production-grade, operational expertise in the complete standards and regulatory
 
 **One Mission. Two Surfaces.**
 
-This GitHub presence is the transparent, code-first, architecturally rigorous surface for technical due diligence, code review, and collaborative development.
+This GitHub presence is the transparent, code-first, architecturally rigorous surface for technical due diligence and collaborative development.
 
-For the complete executive briefing experience — interactive physics-informed agentic digital twin demonstrations, live multi-agent orchestration visualizers, and strategic narrative — visit:
+For the complete executive experience — interactive physics-informed agentic digital twin demonstrations and live multi-agent orchestration visualizers — visit:
 
-**[https://grimaldi.engineering/](https://grimaldi.engineering)**
+**[https://grimaldi.engineering/](https://grimaldi.engineering/)**
 
-**Vincenzo Grimaldi**
-
+**Vincenzo Grimaldi**  
 Strategic Architect of Deterministic, Physics-Constrained Agentic Intelligence for Critical Infrastructure
 
 📍 Europe-based • Selectively open to transformative architectural, advisory, and leadership engagements in Grid Modernization, Cyber-Physical Systems Resilience, Sovereign Agentic AI, and Autonomous Infrastructure
 
-✉️ [vincenzo@igrimaldi.engineering](mailto:vincenzo@igrimaldi.engineering)
+✉️ [vincenzo@grimaldi.engineering](mailto:vincenzo@grimaldi.engineering)

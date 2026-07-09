@@ -188,7 +188,7 @@ This README is the developer and technical deep-dive surface.
 
 For the complete executive briefing experience — interactive physics-informed visualizers, live agentic digital twin demonstrations, and strategic narrative — visit:
 
-**[https://vincenzo-grimaldi-portfolio.vercel.app/](https://vincenzo-grimaldi-portfolio.vercel.app/)**
+**[https://igrimaldi.engineering/](https://igrimaldi.engineering/)**
 
 **Vincenzo Grimaldi**
 

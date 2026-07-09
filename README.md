@@ -190,7 +190,7 @@ This GitHub presence is the transparent, code-first, architecturally rigorous su
 
 For the complete executive briefing experience — interactive physics-informed agentic digital twin demonstrations, live multi-agent orchestration visualizers, and strategic narrative — visit:
 
-**[https://vincenzo-grimaldi-portfolio.vercel.app/](https://vincenzo-grimaldi-portfolio.vercel.app/)**
+**[https://grimaldi.engineering/](https://grimaldi.engineering)**
 
 **Vincenzo Grimaldi**
 
@@ -198,4 +198,4 @@ Strategic Architect of Deterministic, Physics-Constrained Agentic Intelligence f
 
 📍 Europe-based • Selectively open to transformative architectural, advisory, and leadership engagements in Grid Modernization, Cyber-Physical Systems Resilience, Sovereign Agentic AI, and Autonomous Infrastructure
 
-✉️ [vincenzo@grimaldi.engineering](mailto:vincenzo@grimaldi.engineering)
+✉️ [vincenzo@igrimaldi.engineering](mailto:vincenzo@igrimaldi.engineering)

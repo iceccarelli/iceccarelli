@@ -201,14 +201,6 @@ Production-grade, operational expertise in the complete standards and regulatory
 
 ---
 
-**One Mission. Two Surfaces.**
-
-This GitHub presence is the transparent, code-first, architecturally rigorous surface for technical due diligence, code review, and collaborative development.
-
-For the complete executive briefing experience — interactive physics-informed agentic digital twin demonstrations, live multi-agent orchestration visualizers, and strategic narrative — visit:
-
-**[https://vincenzo-grimaldi-portfolio.vercel.app/](https://vincenzo-grimaldi-portfolio.vercel.app/)**
-
 **Vincenzo Grimaldi**
 
 Strategic Architect of Deterministic, Physics-Constrained Agentic Intelligence for Critical Infrastructure

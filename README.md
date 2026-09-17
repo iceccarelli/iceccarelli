@@ -29,9 +29,7 @@
 </p>
 
 <p align="center">
-  <strong>
-    PHYSICAL INFRASTRUCTURE → DATA → MODELS → INTELLIGENCE → ASSURANCE → ACTION
-  </strong>
+  <strong>PHYSICAL INFRASTRUCTURE → DATA → MODELS → INTELLIGENCE → ASSURANCE → ACTION</strong>
 </p>
 
 <p align="center">
@@ -42,7 +40,7 @@
 
 <p align="center">
   <sub>
-    Building software-defined engineering systems for the physical world.
+    Software-defined engineering for systems that exist in the physical world.
   </sub>
 </p>
 
@@ -58,35 +56,58 @@ The physical layer is the starting point.
 
 Electrical infrastructure, power systems, traction systems, industrial assets, machines and networks become the foundation on which software, telemetry, semantic models, simulation, artificial intelligence, cybersecurity and autonomous systems are built.
 
-The objective is not to create another disconnected software application.
+The central problem is not another isolated application.
 
-It is to connect the layers.
+It is **integration**.
 
-```text
-PHYSICAL INFRASTRUCTURE
-        ↓
-ELECTRICAL / INDUSTRIAL SYSTEMS
-        ↓
-SENSING + TELEMETRY
-        ↓
-PROTOCOLS + DATA
-        ↓
-SEMANTIC MODELS
-        ↓
-DIGITAL TWINS
-        ↓
-SIMULATION
-        ↓
-AI / ML / OPTIMIZATION
-        ↓
-POLICY + ASSURANCE
-        ↓
-AUTOMATION / ROBOTICS
-        ↓
-PHYSICAL ACTION
+```mermaid
+flowchart LR
+    P[Physical Infrastructure]
+    E[Electrical / Industrial Systems]
+    T[Sensing + Telemetry]
+    D[Protocols + Data]
+    S[Semantic Models]
+    DT[Digital Twin]
+    SIM[Simulation]
+    AI[AI / ML / Optimization]
+    A[Policy + Assurance]
+    R[Automation / Robotics]
+    X[Physical Action]
+
+    P --> E --> T --> D --> S --> DT --> SIM --> AI --> A --> R --> X --> P
 ```
 
-This repository is the engineering surface for that direction.
+---
+
+# THE ONE-SCREEN MAP
+
+```mermaid
+flowchart LR
+    A[PHYSICS] --> B[ELECTRICAL ENGINEERING] --> C[DATA + TELEMETRY] --> D[DIGITAL TWINS] --> E[SIMULATION] --> F[AI / ML] --> G[AGENTS] --> H[ASSURANCE] --> I[AUTOMATION] --> J[PHYSICAL SYSTEMS]
+```
+
+### The architecture in one sentence
+
+**Electrical and physical reality provide the constraints; software provides the representation; data provides observability; AI provides intelligence; assurance governs action.**
+
+---
+
+# 2026 FRONTIER
+
+The portfolio is positioned around several of the most active technical directions now emerging across power-system engineering and critical infrastructure.
+
+| Frontier                                     | Current direction                                                                                          | Engineering implication                                                                      |
+| -------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| **Grid Foundation Models**                   | Large-scale AI models for power-system planning, scenario generation and decision support                  | Grid models are moving beyond isolated predictors toward reusable computational intelligence |
+| **Graph + Time-Series Grid AI**              | Models combining network topology, time-series behaviour and generative methods                            | Infrastructure AI increasingly needs both structure and dynamics                             |
+| **Agentic Grid Operations**                  | AI agents are being tested for operator assistance, recommendations and workflow integration               | Agents need simulation, policy boundaries, explainability and human oversight                |
+| **Digital Substations**                      | IEC 61850 continues evolving, including newer 2026 material and power-system modelling work                | Interoperability and semantic infrastructure remain foundational                             |
+| **DER Intelligence**                         | Storage, controllable loads, aggregations and distributed resources require richer machine-readable models | Grid software increasingly operates on fleets rather than individual assets                  |
+| **AI Assurance for Critical Infrastructure** | Formal work is emerging around trustworthy AI, determinism, resilience and graceful degradation            | "AI capability" is becoming inseparable from assurance architecture                          |
+| **Open Energy Infrastructure**               | Open-source projects are advancing from experimentation toward production and ecosystem integration        | Interoperability becomes an engineering strategy rather than a documentation exercise        |
+
+Examples include DOE's 2026 GridFM 2.0 project targeting vastly higher grid-scenario throughput; DOE/LLNL's Stormbreaker testbed for LLM and agentic-AI evaluation in power/OT environments; GE Vernova's active Dynamic Grid Foundation Model project; LF Energy's AINETUS, Grid2Op and OpenGridFM activities; NIST's ongoing trustworthy-AI profile for critical infrastructure; and the 2026 IEC 61850 series release.
+[DOE GridFM 2.0](https://www.energy.gov/oe/articles/does-office-electricity-announces-115m-genesis-mission-project-meet-growing-electricity) · [DOE Stormbreaker](https://www.energy.gov/ceser/articles/ceser-releases-new-testbed-advance-llm-and-agentic-ai-evaluation-critical) · [GE Vernova DynaGridFM](https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/dynamic-grid-foundation-model-based-rapid-decision-support-fully-dynamic-grid) · [LF Energy AINETUS](https://lfenergy.org/projects/ainetus/) · [NIST Critical Infrastructure AI](https://www.nist.gov/programs-projects/concept-note-ai-rmf-profile-trustworthy-ai-critical-infrastructure) · [IEC 61850:2026](https://webstore.iec.ch/en/publication/6028)
 
 ---
 
@@ -96,45 +117,31 @@ Modern infrastructure is no longer divided cleanly into hardware and software.
 
 An electrical asset can simultaneously be:
 
-* a physical machine
-* a power-system component
-* a real-time control system
-* an industrial network endpoint
-* a cybersecurity boundary
-* a telemetry source
-* a digital-twin object
-* a machine-learning dataset
-* an autonomous-agent environment
-* an operational decision surface
+**physical machine · power-system component · real-time system · OT endpoint · cybersecurity boundary · telemetry source · digital-twin object · ML dataset · agent environment · operational decision surface**
 
-The engineering problem is therefore not any single technology.
-
-It is the integration between them.
-
----
-
-# THE ENGINEERING THESIS
+The engineering objective is therefore:
 
 ```mermaid
-flowchart TD
-    A[PHYSICAL WORLD] --> B[ELECTRICAL & INDUSTRIAL SYSTEMS]
-    B --> C[SENSING & TELEMETRY]
-    C --> D[PROTOCOLS & DATA]
-    D --> E[SEMANTIC INFRASTRUCTURE]
-    E --> F[DIGITAL TWIN]
-    F --> G[SIMULATION]
-    G --> H[AI / ML / OPTIMIZATION]
-    H --> I[POLICY & ASSURANCE]
-    I --> J[AUTOMATION & ROBOTICS]
-    J --> K[CONTROLLED PHYSICAL ACTION]
-    K --> A
+flowchart LR
+    ASSET[Asset]
+    STATE[State]
+    MODEL[Model]
+    TWIN[Digital Twin]
+    INTEL[Intelligence]
+    ASSURE[Assurance]
+    ACTION[Action]
+    FEEDBACK[Measured Feedback]
+
+    ASSET --> STATE --> MODEL --> TWIN --> INTEL --> ASSURE --> ACTION --> FEEDBACK --> STATE
 ```
 
 The loop is intentionally closed.
 
-A useful engineering platform should not stop at visualization.
+A useful platform should not stop at visualization.
 
-It should be capable of understanding state, modelling behaviour, testing scenarios, reasoning under constraints, producing decisions and connecting validated decisions back to operational systems.
+It should be capable of:
+
+**observe → model → simulate → predict → optimize → assure → act → measure → learn**
 
 ---
 
@@ -142,95 +149,115 @@ It should be capable of understanding state, modelling behaviour, testing scenar
 
 ```mermaid
 flowchart LR
-    P[Physical Assets]
 
-    P --> E[Electrical Engineering]
-    P --> S[Sensing / Telemetry]
-    P --> R[Industrial Networks]
+    subgraph P["PHYSICAL"]
+        PA[Physical Assets]
+        EE[Electrical Engineering]
+        OT[Industrial Networks]
+    end
 
-    E --> M[Semantic Model]
-    S --> M
-    R --> M
+    subgraph D["DIGITAL"]
+        TEL[Telemetry]
+        DATA[Data]
+        SEM[Semantic Model]
+        DT[Digital Twin]
+    end
 
-    M --> T[Digital Twin]
+    subgraph I["INTELLIGENCE"]
+        SIM[Simulation]
+        ML[Physics-Informed AI]
+        OPT[Optimization]
+        AG[Agents]
+    end
 
-    T --> SIM[Simulation]
-    T --> AI[Physics-Informed AI]
-    T --> OPT[Optimization]
-    T --> AG[Agents]
+    subgraph A["ASSURANCE"]
+        SEC[Cybersecurity]
+        POL[Policy]
+        VER[Verification]
+        RUN[Runtime Assurance]
+    end
 
-    SIM --> A[Assurance]
-    AI --> A
-    OPT --> A
-    AG --> A
+    subgraph O["OPERATION"]
+        EDGE[Edge]
+        CTRL[Control]
+        ROB[Robotics]
+        HUM[Human / Operator]
+    end
 
-    A --> C[Control / Action]
-
-    C --> P
+    PA --> EE --> TEL --> DATA --> SEM --> DT
+    OT --> TEL
+    DT --> SIM
+    DT --> ML
+    DT --> OPT
+    DT --> AG
+    SIM --> SEC
+    ML --> POL
+    OPT --> VER
+    AG --> RUN
+    SEC --> EDGE
+    POL --> CTRL
+    VER --> ROB
+    RUN --> HUM
+    EDGE --> PA
+    CTRL --> PA
+    ROB --> PA
+    HUM --> PA
 ```
-
-### The architecture in one sentence
-
-**Electrical and physical reality provide the constraints; software provides the representation; data provides observability; AI provides intelligence; assurance governs action.**
 
 ---
 
 # 🌐 THE DIGITAL HOME
 
 <p align="center">
-
-<a href="https://grimaldi.ca">
-  <img src="https://img.shields.io/badge/GRIMALDI.CA-ENGINEERING%20%7C%20SYSTEMS%20%7C%20INTELLIGENCE-0A1629?style=for-the-badge" alt="Grimaldi.ca">
-</a>
-
+  <a href="https://grimaldi.ca">
+    <img src="https://img.shields.io/badge/GRIMALDI.CA-ENGINEERING%20%7C%20SYSTEMS%20%7C%20INTELLIGENCE-0A1629?style=for-the-badge" alt="Grimaldi.ca">
+  </a>
 </p>
 
 **Grimaldi.ca** is the strategic and visual surface.
 
 **GitHub** is the engineering surface.
 
-Together they represent one engineering architecture:
+Together:
 
-```text
-                         GRIMALDI.CA
-                    Strategic / Visual Layer
-                              │
-                              ▼
-                           GITHUB
-                    Engineering Surface
-                              │
-          ┌───────────────────┼───────────────────┐
-          ▼                   ▼                   ▼
-       RESEARCH           SOFTWARE             SYSTEMS
-          │                   │                   │
-          └───────────────────┼───────────────────┘
-                              ▼
-                    CYBER-PHYSICAL SYSTEMS
-                              │
-             ┌────────────────┼────────────────┐
-             ▼                ▼                ▼
-          ENERGY             AI             ROBOTICS
-             │                │                │
-             └────────────────┼────────────────┘
-                              ▼
-                  INTELLIGENT INFRASTRUCTURE
+```mermaid
+flowchart LR
+    WEB[GRIMALDI.CA<br/>Strategic / Visual]
+    GH[GITHUB<br/>Engineering]
+    R[Research]
+    S[Software]
+    SYS[Systems]
+    EN[Energy]
+    AI[Intelligence]
+    ROB[Robotics]
+    CI[Intelligent Infrastructure]
+
+    WEB --> GH
+    GH --> R
+    GH --> S
+    GH --> SYS
+    R --> EN
+    S --> AI
+    SYS --> ROB
+    EN --> CI
+    AI --> CI
+    ROB --> CI
 ```
 
 ---
 
-# 🧭 THE ENGINEERING MAP
-
-The portfolio is deliberately organized around a single stack rather than isolated specialties.
+# 🧭 ENGINEERING MAP
 
 ```mermaid
-flowchart TB
+flowchart LR
+
     subgraph PHYSICAL["PHYSICAL DOMAIN"]
         HV[High Voltage]
         MV[Medium Voltage]
         TP[Traction Power]
         GRID[Power Networks]
-        ROB[Robotics]
         IND[Industrial Assets]
+        ROB[Robotics]
     end
 
     subgraph DIGITAL["DIGITAL DOMAIN"]
@@ -242,7 +269,7 @@ flowchart TB
         SIM[Simulation]
     end
 
-    subgraph INTEL["INTELLIGENCE DOMAIN"]
+    subgraph INTEL["INTELLIGENCE"]
         ML[Machine Learning]
         PINN[Physics-Informed AI]
         OPT[Optimization]
@@ -250,93 +277,98 @@ flowchart TB
         AG[AI Agents]
     end
 
-    subgraph ASSURE["ASSURANCE DOMAIN"]
+    subgraph ASSURE["ASSURANCE"]
         SEC[Cybersecurity]
         VER[Verification]
         OBS[Observability]
         POL[Policy]
-        RUNTIME[Runtime Assurance]
+        RT[Runtime Assurance]
     end
 
-    subgraph ACTION["ACTION DOMAIN"]
-        EDGE[Edge Computing]
+    subgraph ACTION["ACTION"]
+        EDGE[Edge]
         AUTO[Automation]
         CTRL[Control]
         OP[Operator Systems]
     end
 
-    PHYSICAL --> DIGITAL
-    DIGITAL --> INTEL
-    INTEL --> ASSURE
-    ASSURE --> ACTION
-    ACTION --> PHYSICAL
+    HV --> TEL
+    MV --> TEL
+    TP --> TEL
+    GRID --> TEL
+    IND --> PROT
+    ROB --> TEL
+
+    TEL --> DATA
+    PROT --> DATA
+    DATA --> SEM
+    SEM --> TWIN
+    TWIN --> SIM
+
+    SIM --> ML
+    TWIN --> ML
+    ML --> OPT
+    OPT --> RL
+    RL --> AG
+
+    AG --> SEC
+    OPT --> VER
+    ML --> POL
+    SEC --> RT
+    VER --> RT
+    POL --> RT
+
+    RT --> EDGE
+    RT --> AUTO
+    RT --> CTRL
+    RT --> OP
 ```
 
 ---
 
-# 🌐 THE AUTHORITY MESH
+# 🌐 AUTHORITY MESH
 
-The engineering surface is designed to connect into the broader open engineering ecosystem rather than existing as an isolated island.
+The engineering surface is designed to connect with the broader open engineering ecosystem rather than exist as an isolated island.
 
-### Energy Systems
+### ENERGY / GRID
 
-* [LF Energy](https://lfenergy.org/) — open-source software, standards and data for energy infrastructure
-* [GridAPPS-D](https://gridapps-d.org/) — open architecture for distribution-grid application development
-* [OpenEMS](https://openems.io/) — modular open-source energy management
-* [PyPSA](https://pypsa.org/) — power-system simulation and optimization
-* [pandapower](https://pandapower.readthedocs.io/) — automated power-system analysis and optimization
-* [OpenDSS](https://sourceforge.net/projects/electricdss/) — distribution-system simulation
-* [HELICS](https://helics.org/) — co-simulation for interconnected energy systems
+**LF Energy · GridAPPS-D · OpenEMS · PyPSA · pandapower · OpenDSS · HELICS**
 
-### Grid Intelligence
+### GRID INTELLIGENCE
 
-Selected adjacent ecosystems include:
+**Grid2Op · OpenGridFM · AINETUS · SOGNO · Power Grid Model · PowSyBl · Dynawo · OperatorFabric**
 
-* Grid2Op
-* OpenGridFM
-* SOGNO
-* Power Grid Model
-* PowSyBl
-* Dynawo
-* OperatorFabric
-* DER interoperability tooling
-* CIM-based data models
-* IEC 61850 ecosystems
+### STANDARDS
 
-### Why the integration matters
+**IEC 61850 · CIM · IEC 61968 · IEC 61970 · IEC 62351 · IEC 62443**
 
-The goal is not to recreate established infrastructure ecosystems.
+### PHYSICS / SIMULATION
 
-The goal is to build engineering layers that can understand, connect, extend and operationalize them.
+**HELICS · RTDS · OPAL-RT · MATLAB/Simulink · OMNeT++ · scientific Python**
 
-```text
-OPEN STANDARDS
-       │
-       ▼
-OPEN MODELS
-       │
-       ▼
-OPEN SIMULATION
-       │
-       ▼
-OPEN DATA
-       │
-       ▼
-OPEN SOFTWARE
-       │
-       ▼
-INTELLIGENT ENGINEERING SYSTEMS
+### CYBER-PHYSICAL
+
+**Digital Twins · Runtime Assurance · OT Security · Functional Safety · HIL · SIL · Edge Computing**
+
+The goal is not to duplicate established ecosystems.
+
+It is to build the engineering layers that connect them.
+
+```mermaid
+flowchart LR
+    STD[Open Standards] --> MODEL[Open Models] --> SIM[Open Simulation] --> DATA[Open Data] --> SW[Open Software] --> INTEL[Intelligent Engineering]
 ```
 
-The portfolio therefore remains compatible with the broader direction of open, modular and standards-based energy engineering.
+LF Energy's 2026 ecosystem activity is particularly relevant here: AINETUS is explicitly designed to integrate with Grid2Op, OperatorFabric and SOGNO; Grid2Op and OpenGridFM moved toward Incubation; SEAPATH reached Graduation; and additional projects are expanding AI, DER interoperability and operational tooling.
 
 ---
 
-# ⚡ CORE DOMAIN I — ELECTRICAL ENGINEERING
+# ⚡ ELECTRICAL ENGINEERING
 
-Electrical infrastructure forms the physical foundation of the system.
+Electrical infrastructure forms the physical foundation.
 
-Areas of focus include:
+<details>
+<summary><strong>Domains</strong></summary>
 
 * High-voltage substations
 * Medium-voltage systems
@@ -354,63 +386,79 @@ Areas of focus include:
 * Digital substations
 * Operational telemetry
 
-The important transition is:
+</details>
 
-```text
-Electrical Asset
-      ↓
-Electrical Model
-      ↓
-Digital Representation
-      ↓
-Observable System
-      ↓
-Intelligent System
+```mermaid
+flowchart LR
+    ASSET[Electrical Asset] --> MODEL[Electrical Model] --> DATA[Digital Representation] --> OBS[Observable System] --> INTEL[Intelligent System]
 ```
+
+### CURRENT FRONTIER
+
+Modern electrical-system software is increasingly moving toward:
+
+**digital substations → DER-aware semantic models → grid-forming / inverter-dominated systems → real-time operational data → AI-assisted planning and operations → validated decision support**
+
+IEC's 2026 IEC 61850 series includes new material such as IEC 61850-7-410:2026, while IEC 61850-7-420:2021 provides information models for DER and distribution automation.
 
 ---
 
-# 🧠 CORE DOMAIN II — PHYSICS-INFORMED AI
+# 🧠 PHYSICS-INFORMED AI
 
-Machine learning becomes considerably more useful for physical systems when the models understand the systems they are modelling.
+Machine intelligence becomes more useful for physical systems when it understands the systems it is modelling.
 
-Areas of interest include:
+<details>
+<summary><strong>Research surface</strong></summary>
 
 * Physics-Informed Neural Networks
 * Neural Operators
 * Fourier Neural Operators
-* Scientific machine learning
-* Hybrid physics / ML models
-* State estimation
-* Surrogate modelling
-* Uncertainty quantification
-* Probabilistic forecasting
-* Distribution-shift detection
-* Constrained optimization
-* Reinforcement learning
-* Multi-agent reinforcement learning
-* Neuro-symbolic systems
+* Scientific Machine Learning
+* Hybrid Physics / ML
+* State Estimation
+* Surrogate Modelling
+* Uncertainty Quantification
+* Probabilistic Forecasting
+* Distribution-Shift Detection
+* Constrained Optimization
+* Reinforcement Learning
+* Multi-Agent Reinforcement Learning
+* Neuro-Symbolic Systems
 * Explainable AI
-* Runtime monitoring
-* Safety constraints
+* Runtime Monitoring
+* Safety Constraints
 
-### The principle
+</details>
 
-> AI should not replace engineering constraints.
+```mermaid
+flowchart LR
+    PHYS[Physics] --> DATA[Observations] --> MODEL[Hybrid Model] --> PRED[Prediction] --> OPT[Optimization] --> DECISION[Decision]
+```
 
-> AI should operate inside them.
+### PRINCIPLE
+
+> **AI should not replace engineering constraints.**
+>
+> **AI should operate inside them.**
+
+### CURRENT FRONTIER
+
+A major current direction is the combination of:
+
+**foundation models + graph structure + time-series data + physical constraints + simulation + uncertainty + operator workflows**
+
+DOE's September 2026 GridFM 2.0 initiative is explicitly pursuing large-scale foundation-model approaches for grid planning and expansion, while an active GE Vernova/Georgia Tech/PNNL project is developing a Dynamic Grid Foundation Model using generative AI, time-series modelling and graph neural networks.
 
 ---
 
-# 🤖 CORE DOMAIN III — AGENTIC CYBER-PHYSICAL SYSTEMS
+# 🤖 AGENTIC CYBER-PHYSICAL SYSTEMS
 
-The next generation of infrastructure will increasingly combine conventional automation with intelligent software agents.
+The interesting problem is not simply whether an AI system can reason.
 
-The challenge is not merely making an agent capable of reasoning.
+It is whether the system can reason **inside a governed engineering environment**.
 
-The challenge is making an agent capable of operating responsibly around physical systems.
-
-That requires:
+<details>
+<summary><strong>Required boundaries</strong></summary>
 
 * Explicit capabilities
 * Tool boundaries
@@ -427,71 +475,51 @@ That requires:
 * Reproducibility
 * Cryptographic provenance
 
+</details>
+
 ```mermaid
-flowchart TD
-    H[Human / Operator] --> L[AI / LLM / Agent]
-    L --> P[Policy & Capability Boundary]
-    P --> V[Validated Tool Interface]
-    V --> C[Physics / Safety Constraints]
-    C --> R[Runtime Assurance]
-    R --> X[Industrial / Physical Action]
-    X --> O[Observability]
-    O --> H
+flowchart LR
+    HUMAN[Human / Operator] --> AGENT[AI / LLM / Agent] --> POLICY[Policy / Capability Boundary] --> TOOL[Validated Tool Interface] --> PHYS[Physics / Safety Constraints] --> ASSURE[Runtime Assurance] --> ACTION[Industrial / Physical Action] --> OBS[Observability] --> HUMAN
 ```
 
-The target architecture is **controlled intelligence**, not uncontrolled autonomy.
+### CURRENT FRONTIER
+
+Agentic AI is moving into dedicated critical-infrastructure test environments rather than remaining purely a conversational technology.
+
+DOE and Lawrence Livermore's 2026 Stormbreaker testbed is specifically designed to evaluate LLMs and agentic AI in power-system and OT environments. LF Energy's AINETUS similarly places AI decision support inside an established simulation and operator ecosystem instead of treating the agent as a standalone application.
 
 ---
 
-# 🛰️ CORE DOMAIN IV — DIGITAL TWINS
+# 🛰️ DIGITAL TWINS
 
 A digital twin should move beyond static visualization.
 
-A useful digital twin can combine:
-
-```text
-LIVE STATE
-    ↓
-TELEMETRY
-    ↓
-TOPOLOGY
-    ↓
-SEMANTIC MODELS
-    ↓
-PHYSICAL EQUATIONS
-    ↓
-SIMULATION
-    ↓
-PREDICTION
-    ↓
-OPTIMIZATION
-    ↓
-SCENARIO GENERATION
-    ↓
-OPERATOR INTERACTION
-    ↓
-CONTROLLED ACTION
+```mermaid
+flowchart LR
+    STATE[Live State] --> TEL[Telemetry] --> TOPO[Topology] --> SEM[Semantic Model] --> PHYS[Physical Equations] --> SIM[Simulation] --> PRED[Prediction] --> OPT[Optimization] --> SCEN[Scenarios] --> OPS[Operator] --> ACTION[Controlled Action]
 ```
 
-This creates a progression:
+### PROGRESSION
 
-```text
-Digital Model
-      ↓
-Digital Twin
-      ↓
-Operational Digital Twin
-      ↓
-Intelligent Digital Twin
-      ↓
-Agentic Cyber-Physical System
+```mermaid
+flowchart LR
+    MODEL[Digital Model] --> TWIN[Digital Twin] --> OP[Operational Twin] --> INTEL[Intelligent Twin] --> AGENT[Agentic Cyber-Physical System]
 ```
+
+### CURRENT FRONTIER
+
+The strongest digital-twin architectures are converging with:
+
+**live operational state + communications + controls + simulation + AI + security + decision support**
+
+Digital-twin work in critical infrastructure is therefore increasingly about dynamic operational models rather than 3D visualization alone. DOE research programs and recent utility-AI initiatives reflect this shift.
 
 ---
 
-# 🏗️ THE TECHNOLOGY STACK
+# 🏗️ TECHNOLOGY STACK
 
-## Systems & Languages
+<details>
+<summary><strong>Systems & Languages</strong></summary>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,c,cpp,rust,go,java,cs,bash,powershell&theme=dark"
@@ -500,22 +528,12 @@ Agentic Cyber-Physical System
 
 Python · C · C++ · Rust · Go · Java · C# · Bash · PowerShell
 
-Used across:
+Systems engineering · Embedded development · Scientific computing · Real-time software · Backend services · Automation · Data engineering · Simulation · AI/ML · Infrastructure tooling
 
-* Systems engineering
-* Embedded development
-* Scientific computing
-* Real-time software
-* Backend services
-* Automation
-* Data engineering
-* Simulation
-* AI / ML
-* Infrastructure tooling
+</details>
 
----
-
-# 🌐 APPLICATION & PLATFORM ENGINEERING
+<details>
+<summary><strong>Application & Platform Engineering</strong></summary>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=typescript,javascript,react,nextjs,nodejs,fastapi,flask,django,html,css,tailwind&theme=dark"
@@ -524,22 +542,12 @@ Used across:
 
 TypeScript · JavaScript · React · Next.js · Node.js · FastAPI · Flask · Django · HTML · CSS · Tailwind
 
-Architecture patterns include:
+REST APIs · Async services · Event-driven backends · WebSockets · Streaming · Distributed services · API gateways · Authentication · Authorization · Dashboards · Engineering control surfaces
 
-* REST APIs
-* Async services
-* Event-driven backends
-* WebSockets
-* Streaming interfaces
-* Distributed services
-* API gateways
-* Authentication and authorization
-* Operational dashboards
-* Engineering control surfaces
+</details>
 
----
-
-# 🧠 AI / ML / SCIENTIFIC COMPUTING
+<details>
+<summary><strong>AI / ML / Scientific Computing</strong></summary>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&theme=dark"
@@ -548,175 +556,86 @@ Architecture patterns include:
 
 PyTorch · TensorFlow · JAX · ONNX · NumPy · SciPy · Pandas · scikit-learn · OpenCV · Matplotlib · Plotly · Jupyter
 
-Research and engineering interests:
+Deep learning · Scientific ML · PINNs · Neural operators · Computer vision · Representation learning · Time-series · Forecasting · Anomaly detection · Reinforcement learning · Multi-agent systems · Optimization · Uncertainty quantification · Digital-twin surrogate models
 
-* Deep learning
-* Scientific ML
-* PINNs
-* Neural operators
-* Computer vision
-* Representation learning
-* Time-series modelling
-* Forecasting
-* Anomaly detection
-* Reinforcement learning
-* Multi-agent systems
-* Optimization
-* Uncertainty quantification
-* Digital-twin surrogate models
+</details>
 
----
+<details>
+<summary><strong>Real-Time & Embedded</strong></summary>
 
-# ⚙️ REAL-TIME & EMBEDDED SYSTEMS
+RTOS · Embedded Linux · C/C++ · Rust · Real-time scheduling · Deterministic execution · WCET analysis · Interrupt-driven systems · Memory safety · IPC · Device communication · Hardware interfaces · Signal processing · Edge inference · HIL · SIL · Functional safety · Runtime monitoring
 
-Real-world infrastructure imposes requirements that ordinary web software does not.
-
-Relevant engineering areas include:
-
-* RTOS
-* Embedded Linux
-* C / C++
-* Rust
-* Real-time scheduling
-* Deterministic execution
-* WCET analysis
-* Interrupt-driven systems
-* Memory safety
-* IPC
-* Device communication
-* Hardware interfaces
-* Signal processing
-* Edge inference
-* Hardware-in-the-loop testing
-* Software-in-the-loop testing
-* Functional safety concepts
-* Runtime monitoring
-
-The distinction matters:
-
-```text
-Fast            ≠ Deterministic
-Low Latency     ≠ Guaranteed Latency
-AI Accuracy     ≠ Operational Safety
+```mermaid
+flowchart LR
+    SPEED[Fast] --> LATENCY[Low Latency] --> DETERMINISM[Determinism] --> ASSURANCE[Operational Assurance]
 ```
 
-Engineering systems have to consider all three dimensions together.
+**Fast ≠ Deterministic · Low Latency ≠ Guaranteed Latency · AI Accuracy ≠ Operational Safety**
+
+</details>
 
 ---
 
 # ⚡ INDUSTRIAL PROTOCOLS & OT
 
-Industrial interoperability is a foundational part of modern infrastructure.
+| Technology                  | Engineering domain                |
+| --------------------------- | --------------------------------- |
+| IEC 61850                   | Digital substations & protection  |
+| MMS                         | IEC 61850 client/server           |
+| GOOSE                       | Fast substation events            |
+| Sampled Values              | Digital measurement streams       |
+| IEC 61850-90-x              | Extended grid communication       |
+| DNP3                        | Utility telemetry and control     |
+| Modbus                      | Industrial equipment              |
+| OPC UA                      | Industrial interoperability       |
+| MQTT                        | Telemetry                         |
+| Sparkplug B                 | Industrial MQTT information model |
+| NATS                        | High-performance messaging        |
+| Kafka                       | Distributed event streaming       |
+| AMQP / RabbitMQ             | Message-oriented systems          |
+| CIM / IEC 61968 / IEC 61970 | Utility semantic modelling        |
+| HELICS                      | Energy-system co-simulation       |
 
-| Technology                  | Domain                                |
-| --------------------------- | ------------------------------------- |
-| IEC 61850                   | Digital substations & protection      |
-| MMS                         | IEC 61850 client/server communication |
-| GOOSE                       | Fast substation event communication   |
-| Sampled Values              | Digital measurement streams           |
-| IEC 61850-90-x              | Extended grid communication models    |
-| DNP3                        | Utility telemetry and control         |
-| Modbus                      | Industrial equipment                  |
-| OPC UA                      | Industrial interoperability           |
-| MQTT                        | Lightweight telemetry                 |
-| Sparkplug B                 | Industrial MQTT information model     |
-| NATS                        | High-performance messaging            |
-| Kafka                       | Distributed event streaming           |
-| AMQP / RabbitMQ             | Message-oriented systems              |
-| CIM / IEC 61968 / IEC 61970 | Utility semantic modelling            |
-| HELICS                      | Energy-system co-simulation           |
+```mermaid
+flowchart LR
+    ASSET[Asset] --> PROTOCOL[Protocol] --> SEMANTIC[Semantic Model] --> TWIN[Digital Twin] --> SIM[Simulation] --> AI[AI / Optimization] --> DECISION[Decision]
+```
 
 The objective is not protocol collection.
 
 It is interoperability across heterogeneous infrastructure.
 
-```mermaid
-flowchart LR
-    A[Asset] --> B[Protocol]
-    B --> C[Semantic Model]
-    C --> D[Digital Twin]
-    D --> E[Simulation]
-    E --> F[AI / Optimization]
-    F --> G[Decision]
-```
-
 ---
 
 # 🔐 CYBERSECURITY & RESILIENCE
 
-Cybersecurity for physical infrastructure has consequences beyond ordinary software environments.
-
-A compromise can affect:
-
-```text
-Confidentiality
-      +
-Integrity
-      +
-Availability
-      +
-Physical Safety
-      +
-System Stability
+```mermaid
+flowchart LR
+    C[Confidentiality] --> I[Integrity] --> A[Availability] --> S[Physical Safety] --> ST[System Stability]
 ```
 
-Areas of focus include:
+<details>
+<summary><strong>Security surface</strong></summary>
 
-* OT cybersecurity
-* Zero-trust architecture
-* Network segmentation
-* Identity and access management
-* Secure remote access
-* PKI
-* Certificate management
-* Secure telemetry
-* Cryptographic signing
-* Supply-chain security
-* SBOM
-* Vulnerability management
-* Threat modelling
-* Security monitoring
-* Runtime protection
-* Incident response
-* Resilience engineering
+OT cybersecurity · Zero-trust architecture · Network segmentation · IAM · Secure remote access · PKI · Certificate management · Secure telemetry · Cryptographic signing · Supply-chain security · SBOM · Vulnerability management · Threat modelling · Security monitoring · Runtime protection · Incident response · Resilience engineering
 
-Relevant frameworks and standards include:
+</details>
+
+### Relevant frameworks
 
 **IEC 62351 · IEC 62443 · NERC CIP · NIS2 · EU Cyber Resilience Act · MITRE ATT&CK for ICS**
 
+### CURRENT FRONTIER
+
+AI assurance for critical infrastructure is becoming a first-class engineering concern. NIST's 2026 Trustworthy AI in Critical Infrastructure work explicitly addresses AI systems operating at the intersection of AI, IT, OT, ICS, cybersecurity and physical infrastructure, including deterministic behaviour, explainability, graceful degradation and fail-safe operation.
+
 ---
 
-# ☁️ EDGE → CLOUD INFRASTRUCTURE
+# ☁️ EDGE → CLOUD
 
-Modern infrastructure requires computing everywhere.
-
-```text
-┌───────────────┐
-│   PHYSICAL    │
-│    ASSETS     │
-└───────┬───────┘
-        ↓
-┌───────────────┐
-│     EDGE      │
-│   RT / AI /   │
-│      OT       │
-└───────┬───────┘
-        ↓
-┌───────────────┐
-│   REGIONAL    │
-│   SERVICES    │
-└───────┬───────┘
-        ↓
-┌───────────────┐
-│     CLOUD     │
-│   DATA / ML   │
-│      / AI     │
-└───────┬───────┘
-        ↓
-┌───────────────┐
-│   OPERATORS   │
-│ & ENGINEERING │
-└───────────────┘
+```mermaid
+flowchart LR
+    PHYSICAL[Physical Assets] --> EDGE[Edge<br/>RT / AI / OT] --> REGIONAL[Regional Services] --> CLOUD[Cloud<br/>Data / ML / AI] --> OPERATORS[Operators + Engineering] --> PHYSICAL
 ```
 
 <p align="center">
@@ -726,24 +645,11 @@ Modern infrastructure requires computing everywhere.
 
 Docker · Kubernetes · Terraform · Ansible · Linux · AWS · Azure · GCP · NGINX
 
-With emphasis on:
-
-* Containerization
-* Infrastructure as code
-* GitOps
-* Edge deployments
-* Distributed services
-* Observability
-* Secrets management
-* Automated testing
-* Secure software supply chains
-* Reproducible deployments
+Containerization · Infrastructure as Code · GitOps · Edge deployments · Distributed services · Observability · Secrets management · Automated testing · Secure supply chains · Reproducible deployments
 
 ---
 
 # 📡 DATA INFRASTRUCTURE
-
-Physical systems generate enormous amounts of structured and unstructured data.
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,kafka,rabbitmq&theme=dark"
@@ -752,46 +658,27 @@ Physical systems generate enormous amounts of structured and unstructured data.
 
 PostgreSQL · TimescaleDB · InfluxDB · Redis · MongoDB · Neo4j · Cassandra · Kafka · RabbitMQ · NATS
 
-Data patterns:
+```mermaid
+flowchart LR
+    EVENTS[Events] --> STREAMS[Streams] --> TIMESERIES[Time Series] --> GRAPH[Asset Graph] --> SEMANTICS[Semantic Layer] --> FEATURES[Real-Time Features] --> MODELS[Models] --> DECISIONS[Decisions]
+```
 
-* Time-series databases
-* Event sourcing
-* Streaming architectures
-* Graph databases
-* Telemetry pipelines
-* Digital-thread architectures
-* Historical replay
-* Event correlation
-* Asset knowledge graphs
-* Real-time feature pipelines
+Time-series databases · Event sourcing · Streaming architectures · Graph databases · Telemetry pipelines · Digital-thread architectures · Historical replay · Event correlation · Asset knowledge graphs · Real-time feature pipelines
 
 ---
 
 # 📊 OBSERVABILITY
 
-Intelligent infrastructure needs to be observable at every layer.
-
-```text
-Infrastructure
-      │
-      ├── Logs
-      ├── Metrics
-      ├── Traces
-      ├── Events
-      ├── Telemetry
-      ├── Model Predictions
-      ├── Agent Actions
-      └── Operator Decisions
-               │
-               ▼
-      UNIFIED OBSERVABILITY
+```mermaid
+flowchart LR
+    LOGS[Logs] --> METRICS[Metrics] --> TRACES[Traces] --> EVENTS[Events] --> TELEMETRY[Telemetry] --> MODELS[Model Predictions] --> AGENTS[Agent Actions] --> OPERATORS[Operator Decisions] --> OBS[Unified Observability]
 ```
-
-Technology ecosystem:
 
 Prometheus · Grafana · OpenTelemetry · Elasticsearch · Loki · distributed tracing · structured logging
 
-The objective is to make system behaviour explainable during operation and after the fact.
+The objective:
+
+**make system behaviour observable during operation and explainable after the fact.**
 
 ---
 
@@ -799,326 +686,161 @@ The objective is to make system behaviour explainable during operation and after
 
 Complex cyber-physical systems need environments where ideas can be tested before touching physical infrastructure.
 
-Areas include:
+```mermaid
+flowchart LR
+    POWER[Power Simulation] --> NETWORK[Network Simulation] --> CPS[Cyber-Physical Simulation] --> AGENT[Agent Simulation] --> RL[RL Environment] --> HIL[Hardware-in-the-Loop] --> SIL[Software-in-the-Loop] --> SCENARIO[Scenario Generation] --> ADV[Adversarial Testing]
+```
 
-* Power-system simulation
-* Cyber-physical simulation
-* Network simulation
-* Agent-based simulation
-* Reinforcement-learning environments
-* Digital-twin simulation
-* Hardware-in-the-loop
-* Software-in-the-loop
-* Scenario generation
-* Contingency analysis
-* Adversarial testing
+**HELICS · OMNeT++ · RTDS · OPAL-RT · MATLAB/Simulink · Python scientific computing**
 
-Technology interests include:
-
-**HELICS · OMNeT++ · RTDS · OPAL-RT · MATLAB / Simulink · Python scientific computing**
+Power-system simulation · Cyber-physical simulation · Network simulation · Agent-based simulation · RL environments · Digital twins · HIL · SIL · contingency analysis
 
 ---
 
 # 🦾 ROBOTICS & PERCEPTION
 
-Physical infrastructure inspection creates another convergence point between AI and engineering.
-
-Relevant areas include:
-
-* LiDAR
-* Computer vision
-* Sensor fusion
-* Point clouds
-* SLAM
-* Localization
-* Object detection
-* 3D reconstruction
-* Uncertainty estimation
-* ROS 2
-* Autonomous navigation
-* Path planning
-* Robotic inspection
-* Edge inference
+Research and engineering around LiDAR-based perception and autonomous inspection.
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=opencv&theme=dark"
        alt="Computer vision technology" />
 </p>
 
-The broader objective:
+LiDAR · Computer vision · Sensor fusion · Point clouds · SLAM · Localization · Object detection · 3D reconstruction · Uncertainty estimation · ROS 2 · Autonomous navigation · Path planning · Robotic inspection · Edge inference
 
-**Enable machines to understand complex infrastructure well enough to inspect, monitor and assist with maintaining it.**
+```mermaid
+flowchart LR
+    SENSOR[LiDAR / Cameras] --> FUSION[Sensor Fusion] --> PERCEPTION[Perception] --> LOCALIZATION[Localization] --> TWIN[3D / Digital Twin] --> PLANNING[Path / Action Planning] --> INSPECTION[Infrastructure Inspection]
+```
 
 ---
 
 # 🌍 3D / VISUALIZATION / HUMAN INTERFACES
 
-Engineering systems are ultimately operated by humans.
-
-A technically powerful system becomes considerably more useful when its state can be understood immediately.
-
 Technology interests:
 
-Three.js · WebGL · WebGPU · Unity · Unreal Engine · Blender · Plotly · Dash · React
+**Three.js · WebGL · WebGPU · Unity · Unreal Engine · Blender · Plotly · Dash · React**
 
-Applications include:
+```mermaid
+flowchart LR
+    ASSET[Asset] --> STATE[Live State] --> 3D[3D View] --> TELEMETRY[Telemetry] --> SIM[Simulation] --> WHATIF[What-If Analysis] --> OPERATOR[Operator Interface]
+```
 
-* 3D digital twins
-* Substation visualization
-* Asset visualization
-* Network topology
-* Live telemetry
-* Simulation playback
-* Operator dashboards
-* Spatial interfaces
-* Engineering visualization
-* Interactive what-if analysis
+Applications:
+
+3D digital twins · Substation visualization · Asset visualization · Network topology · Live telemetry · Simulation playback · Operator dashboards · Spatial interfaces · Engineering visualization · Interactive what-if analysis
 
 ---
 
 # 🧩 SEMANTIC INFRASTRUCTURE
 
-One of the largest problems in infrastructure is not the absence of data.
+One of the largest infrastructure problems is not missing data.
 
-It is the absence of shared meaning.
+It is missing shared meaning.
 
-The architecture therefore connects:
-
-```text
-Physical Asset
-      ↓
-Telemetry
-      ↓
-Protocol
-      ↓
-Semantic Model
-      ↓
-Digital Twin
-      ↓
-Simulation
-      ↓
-AI / Optimization
-      ↓
-Decision
+```mermaid
+flowchart LR
+    ASSET[Physical Asset] --> TELEMETRY[Telemetry] --> PROTOCOL[Protocol] --> MODEL[Semantic Model] --> TWIN[Digital Twin] --> SIM[Simulation] --> AI[AI / Optimization] --> DECISION[Decision]
 ```
 
-Relevant technologies include:
+Relevant technologies:
 
 **CIM · IEC 61968 · IEC 61970 · IEC 61850 · knowledge graphs · ontologies · RDF · graph databases · semantic APIs**
 
-This creates a digital thread capable of surviving changes in vendors, protocols and software generations.
+The target is a digital thread capable of surviving vendors, protocols and software generations.
 
 ---
 
 # 🏛️ ARCHITECTURE PRINCIPLES
 
-## 01 — Physics over assumptions
-
-Where physical laws are known, they should constrain computational models.
-
-## 02 — Determinism where determinism matters
-
-Critical paths should not depend on probabilistic behaviour when bounded behaviour is required.
-
-## 03 — AI inside guardrails
-
-Machine intelligence should operate within explicit physical, operational and security boundaries.
-
-## 04 — Observable by design
-
-If a system cannot explain what it is doing, diagnosing and governing it becomes unnecessarily difficult.
-
-## 05 — Secure by architecture
-
-Security should be structural rather than a final-stage feature.
-
-## 06 — Open standards
-
-Infrastructure should not become permanently dependent on a single vendor or proprietary abstraction.
-
-## 07 — Human accountability
-
-Automation should increase human capability rather than eliminate operational responsibility.
-
-## 08 — Build for the physical world
-
-Software architecture must ultimately respect:
-
-**voltage · current · thermal limits · latency · mechanical constraints · electromagnetic environments · safety distances · failure modes**
-
----
-
-# 🌐 THE INTEROPERABILITY LAYER
-
-The projects here are designed to exist within a broader engineering landscape.
-
-```mermaid
-flowchart TB
-
-    subgraph FOUNDATION["PHYSICAL + ELECTRICAL FOUNDATION"]
-        E[Electrical Engineering]
-        G[Grid Infrastructure]
-        T[Traction Power]
-        I[Industrial Assets]
-    end
-
-    subgraph ECOSYSTEM["OPEN ENGINEERING ECOSYSTEM"]
-        CIM[CIM / IEC Models]
-        IEC61850[IEC 61850]
-        LF[LF Energy]
-        GAPPS[GridAPPS-D]
-        EMS[OpenEMS]
-        PYPSA[PyPSA]
-        PP[pandapower]
-        ODSS[OpenDSS]
-        HELICS[HELICS]
-    end
-
-    subgraph GRIMALDI["GRIMALDI ENGINEERING SURFACE"]
-        PHY[physics-informed]
-        NB[NeuralBridge]
-        GO[GridOS]
-        DER[DERIM]
-        ROB[robot-lidar-fusion]
-    end
-
-    subgraph INTELLIGENCE["INTELLIGENCE + ASSURANCE"]
-        TWIN[Digital Twins]
-        AI[Physics-Informed AI]
-        AG[Agentic Systems]
-        SEC[Cybersecurity]
-        OBS[Observability]
-    end
-
-    FOUNDATION --> ECOSYSTEM
-    ECOSYSTEM --> GRIMALDI
-    GRIMALDI --> INTELLIGENCE
-    INTELLIGENCE --> FOUNDATION
-```
-
-This is the important distinction:
-
-**integration rather than reinvention.**
+| #  | Principle                        | Meaning                                                                                |
+| -- | -------------------------------- | -------------------------------------------------------------------------------------- |
+| 01 | **Physics over assumptions**     | Known physical laws should constrain computational models                              |
+| 02 | **Determinism where it matters** | Critical paths should have bounded behaviour where required                            |
+| 03 | **AI inside guardrails**         | Intelligence operates inside explicit boundaries                                       |
+| 04 | **Observable by design**         | Systems should expose enough state to diagnose and govern them                         |
+| 05 | **Secure by architecture**       | Security is structural, not an afterthought                                            |
+| 06 | **Open standards**               | Infrastructure should remain interoperable                                             |
+| 07 | **Human accountability**         | Automation should increase capability without removing responsibility                  |
+| 08 | **Build for the physical world** | Software must respect electrical, mechanical, thermal, temporal and safety constraints |
 
 ---
 
 # 🚀 SELECTED ENGINEERING SYSTEMS
 
-## ⚡ physics-informed
+<details>
+<summary><strong>⚡ physics-informed</strong></summary>
 
 Physics-informed cyber-physical simulation and scientific-AI research environment.
 
-Key areas:
+**Key areas**
 
-* Physics-Informed Neural Networks
-* Neural operators
-* Cyber-physical simulation
-* CIM integration
-* Power-system modelling
-* Reinforcement learning
-* Adversarial scenarios
-* IEEE benchmark systems
-* Physics-constrained inference
+Physics-Informed Neural Networks · Neural operators · Cyber-physical simulation · CIM integration · Power-system modelling · Reinforcement learning · Adversarial scenarios · IEEE benchmark systems · Physics-constrained inference
 
-Repository:
+**Repository**
 
 https://github.com/iceccarelli/physics-informed
 
-Live environment:
+**Live environment**
 
 https://physics-informed.vercel.app/
 
----
+</details>
 
-## 🧠 NeuralBridge
+<details>
+<summary><strong>🧠 NeuralBridge</strong></summary>
 
 A research and engineering direction focused on deterministic middleware between intelligent software and cyber-physical environments.
 
-```text
-Human
-  │
-  ▼
-AI / LLM / Agent
-  │
-  ▼
-Policy Layer
-  │
-  ▼
-Validation
-  │
-  ▼
-Runtime Assurance
-  │
-  ▼
-Physical System
+```mermaid
+flowchart LR
+    HUMAN[Human] --> AGENT[AI / LLM / Agent] --> POLICY[Policy Layer] --> VALIDATE[Validation] --> ASSURE[Runtime Assurance] --> PHYSICAL[Physical System]
 ```
 
-Repository:
+**Repository**
 
 https://github.com/iceccarelli/neuralbridge
 
----
+</details>
 
-## ⚡ GridOS
+<details>
+<summary><strong>⚡ GridOS</strong></summary>
 
 A next-generation digital operating environment for intelligent electrical infrastructure.
 
-Focus areas include:
+High-voltage telemetry · Digital twins · Grid observability · DER coordination · Real-time simulation · Physics-informed intelligence · Operator interfaces · Autonomous decision support · Cyber-physical resilience
 
-* High-voltage telemetry
-* Digital twins
-* Grid observability
-* DER coordination
-* Real-time simulation
-* Physics-informed intelligence
-* Operator interfaces
-* Autonomous decision support
-* Cyber-physical resilience
-
-Repository:
+**Repository**
 
 https://github.com/iceccarelli/GridOS
 
----
+</details>
 
-## 🔋 DERIM
+<details>
+<summary><strong>🔋 DERIM</strong></summary>
 
 Distributed Energy Resource Intelligence Middleware.
 
-Focus areas:
+DER orchestration · Industrial protocols · Grid flexibility · Distributed optimization · Multi-agent coordination · Physics-aware control · Grid services
 
-* DER orchestration
-* Industrial protocols
-* Grid flexibility
-* Distributed optimization
-* Multi-agent coordination
-* Physics-aware control
-* Grid services
-
-Repository:
+**Repository**
 
 https://github.com/iceccarelli/derim-middleware
 
----
+</details>
 
-## 🦾 robot-lidar-fusion
+<details>
+<summary><strong>🦾 robot-lidar-fusion</strong></summary>
 
 Research and engineering around LiDAR-based perception and sensor fusion for autonomous inspection.
 
-Focus areas:
+LiDAR · Sensor fusion · Point-cloud processing · Computer vision · Uncertainty · Autonomous inspection · Robotics · Safety-aware action planning
 
-* LiDAR
-* Sensor fusion
-* Point-cloud processing
-* Computer vision
-* Uncertainty
-* Autonomous inspection
-* Robotics
-* Safety-aware action planning
-
-Repository:
+**Repository**
 
 https://github.com/iceccarelli/robot-lidar-fusion
+
+</details>
 
 ---
 
@@ -1130,9 +852,7 @@ https://github.com/iceccarelli/robot-lidar-fusion
        width="820" />
   <br>
   <sub>
-    <em>
-      GridOS — digital-twin and intelligent infrastructure engineering environment
-    </em>
+    <em>GridOS — digital-twin and intelligent infrastructure engineering environment</em>
   </sub>
 </p>
 
@@ -1140,147 +860,139 @@ https://github.com/iceccarelli/robot-lidar-fusion
 
 # 🧠 THE PORTFOLIO GRAPH
 
-The repositories are not intended to exist as isolated software projects.
+The repositories are not intended to be isolated software projects.
 
-They form a research and engineering graph.
+They form a connected research and engineering surface.
 
 ```mermaid
-graph TD
+flowchart LR
 
-    ELEC[Electrical Engineering]
+    EE[Electrical Engineering]
 
-    ELEC --> PHY[physics-informed]
-    ELEC --> GRID[GridOS]
-    ELEC --> DER[DERIM]
+    EE --> PHY[physics-informed]
+    EE --> GRID[GridOS]
+    EE --> DER[DERIM]
+    EE --> ROB[robot-lidar-fusion]
 
     PHY --> TWIN[Digital Twin]
     GRID --> TWIN
     DER --> TWIN
+    ROB --> TWIN
 
-    TWIN --> NB[NeuralBridge]
+    TWIN --> SIM[Simulation]
+    TWIN --> AI[Physics-Informed AI]
+
+    SIM --> AI
+    AI --> NB[NeuralBridge]
 
     NB --> AGENTS[Agentic Systems]
+    AGENTS --> ASSURE[Runtime Assurance]
+    ASSURE --> CONTROL[Controlled Action]
 
-    ELEC --> ROB[robot-lidar-fusion]
-    ROB --> VISION[Machine Perception]
-
-    VISION --> TWIN
-
-    TWIN --> AI[Physics-Informed AI]
-    AI --> ASSURANCE[Runtime Assurance]
-
-    ASSURANCE --> CONTROL[Controlled Action]
-
-    CONTROL --> ELEC
+    CONTROL --> EE
 ```
 
-This creates a portfolio-level development loop:
+### PORTFOLIO LOOP
 
-```text
-PHYSICAL DOMAIN
-      ↓
-MODEL
-      ↓
-SIMULATE
-      ↓
-INTELLIGENCE
-      ↓
-ASSURE
-      ↓
-ACT
-      ↓
-MEASURE
-      ↓
-LEARN
-      ↺
+```mermaid
+flowchart LR
+    PHYSICAL[Physical Domain] --> MODEL[Model] --> SIMULATE[Simulate] --> INTELLIGENCE[Intelligence] --> ASSURE[Assure] --> ACT[Act] --> MEASURE[Measure] --> LEARN[Learn] --> PHYSICAL
 ```
 
 ---
 
-# 🔬 RESEARCH DIRECTION
+# 🌐 INTEROPERABILITY LAYER
 
-The long-term engineering direction is the convergence of:
+The portfolio is deliberately designed to connect to established technical foundations.
 
-```text
-                    PHYSICS
-                       │
-                       ▼
-                 DIGITAL TWINS
-                       │
-              ┌────────┴────────┐
-              ▼                 ▼
-           AI / ML          SIMULATION
-              │                 │
-              └────────┬────────┘
-                       ▼
-                AGENTIC SYSTEMS
-                       │
-                       ▼
-                RUNTIME ASSURANCE
-                       │
-                       ▼
-                 CYBERSECURITY
-                       │
-                       ▼
-             PHYSICAL INFRASTRUCTURE
+```mermaid
+flowchart LR
+
+    subgraph OPEN["OPEN ENGINEERING ECOSYSTEM"]
+        CIM[CIM]
+        IEC[IEC 61850]
+        LF[LF Energy]
+        GRIDAPPS[GridAPPS-D]
+        OPENEMS[OpenEMS]
+        PYPSA[PyPSA]
+        PP[pandapower]
+        ODSS[OpenDSS]
+        HELICS[HELICS]
+    end
+
+    subgraph GRIMALDI["ENGINEERING SURFACE"]
+        PHY[physics-informed]
+        GO[GridOS]
+        DER[DERIM]
+        NB[NeuralBridge]
+        ROB[robot-lidar-fusion]
+    end
+
+    subgraph SYSTEM["SYSTEM LEVEL"]
+        TWIN[Digital Twin]
+        AI[Physics-Informed AI]
+        AGENTS[Agentic Systems]
+        SEC[Cybersecurity]
+        OBS[Observability]
+    end
+
+    CIM --> PHY
+    IEC --> GO
+    LF --> DER
+    GRIDAPPS --> GO
+    OPENEMS --> DER
+    PYPSA --> PHY
+    PP --> PHY
+    ODSS --> PHY
+    HELICS --> PHY
+
+    PHY --> TWIN
+    GO --> TWIN
+    DER --> TWIN
+    NB --> AGENTS
+    ROB --> TWIN
+
+    TWIN --> AI
+    AI --> AGENTS
+    AGENTS --> SEC
+    SEC --> OBS
 ```
 
-This creates a different class of software:
+**Integration rather than reinvention.**
 
-> **software that understands the physical systems it operates around.**
+That distinction matters in infrastructure.
 
 ---
 
 # 🛡️ STANDARDS & ENGINEERING FRAMEWORKS
 
-## Energy & Industrial
+<details>
+<summary><strong>Energy & Industrial</strong></summary>
 
-* IEC 61850
-* IEC 61968
-* IEC 61970
-* IEC 62351
-* IEC 62443
-* DNP3
-* Modbus
-* OPC UA
-* MQTT
-* Sparkplug B
-* CIM
+IEC 61850 · IEC 61968 · IEC 61970 · IEC 62351 · IEC 62443 · DNP3 · Modbus · OPC UA · MQTT · Sparkplug B · CIM
 
-## Safety & Systems Engineering
+</details>
 
-* EN 50126
-* EN 50128
-* EN 50129
-* RAMS
-* Functional safety concepts
-* Hardware-in-the-loop
-* Software-in-the-loop
-* Model-based engineering
-* Formal methods
-* Runtime assurance
+<details>
+<summary><strong>Safety & Systems Engineering</strong></summary>
 
-## Cybersecurity & Regulation
+EN 50126 · EN 50128 · EN 50129 · RAMS · Functional safety concepts · Hardware-in-the-loop · Software-in-the-loop · Model-based engineering · Formal methods · Runtime assurance
 
-* NERC CIP
-* NIS2
-* EU Cyber Resilience Act
-* MITRE ATT&CK for ICS
-* Zero-trust architecture
-* Secure software supply chains
-* SBOM
-* Policy-as-code
+</details>
 
-## Distributed & Simulation Systems
+<details>
+<summary><strong>Cybersecurity & Regulation</strong></summary>
 
-* Kubernetes
-* Docker
-* Terraform
-* Kafka
-* NATS
-* RabbitMQ
-* HELICS
-* OMNeT++
+NERC CIP · NIS2 · EU Cyber Resilience Act · MITRE ATT&CK for ICS · Zero-trust architecture · Secure software supply chains · SBOM · Policy-as-code
+
+</details>
+
+<details>
+<summary><strong>Distributed & Simulation Systems</strong></summary>
+
+Kubernetes · Docker · Terraform · Kafka · NATS · RabbitMQ · HELICS · OMNeT++
+
+</details>
 
 ---
 
@@ -1291,45 +1003,23 @@ This creates a different class of software:
        alt="Vincenzo Grimaldi engineering technology stack" />
 </p>
 
-### Programming
-
-Python · C · C++ · Rust · Go · Java · C# · TypeScript · JavaScript
-
-### Scientific & AI
-
-PyTorch · TensorFlow · JAX · ONNX · NumPy · SciPy · Pandas · scikit-learn · OpenCV
-
-### Web & APIs
-
-React · Next.js · Node.js · FastAPI · Flask · Django · WebSockets · REST
-
-### Data
-
-PostgreSQL · TimescaleDB · InfluxDB · MongoDB · Redis · Neo4j · Kafka · NATS · RabbitMQ
-
-### Infrastructure
-
-Linux · Docker · Kubernetes · Terraform · Ansible · AWS · Azure · GCP
-
-### Observability
-
-Prometheus · Grafana · OpenTelemetry · Elasticsearch
-
-### Engineering & Simulation
-
-HELICS · OMNeT++ · RTDS · OPAL-RT · MATLAB / Simulink · ROS 2
-
-### Visualization
-
-Three.js · WebGPU · WebGL · Unity · Unreal Engine · Blender · Plotly · Dash
+| Layer                        | Technologies                                                                            |
+| ---------------------------- | --------------------------------------------------------------------------------------- |
+| **Programming**              | Python · C · C++ · Rust · Go · Java · C# · TypeScript · JavaScript                      |
+| **Scientific / AI**          | PyTorch · TensorFlow · JAX · ONNX · NumPy · SciPy · Pandas · scikit-learn · OpenCV      |
+| **Web / APIs**               | React · Next.js · Node.js · FastAPI · Flask · Django · WebSockets · REST                |
+| **Data**                     | PostgreSQL · TimescaleDB · InfluxDB · MongoDB · Redis · Neo4j · Kafka · NATS · RabbitMQ |
+| **Infrastructure**           | Linux · Docker · Kubernetes · Terraform · Ansible · AWS · Azure · GCP                   |
+| **Observability**            | Prometheus · Grafana · OpenTelemetry · Elasticsearch                                    |
+| **Engineering / Simulation** | HELICS · OMNeT++ · RTDS · OPAL-RT · MATLAB/Simulink · ROS 2                             |
+| **Visualization**            | Three.js · WebGPU · WebGL · Unity · Unreal Engine · Blender · Plotly · Dash             |
 
 ---
 
 # 🧬 THE FULL STACK
 
 ```mermaid
-flowchart BT
-
+flowchart LR
     A[Physical Infrastructure]
     B[Electrical Engineering]
     C[Industrial Protocols]
@@ -1345,18 +1035,10 @@ flowchart BT
     M[Human / Operator Interface]
     N[Automation / Robotics]
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
+    A --> B --> C --> D --> E --> F
     F --> G
     F --> H
-    G --> H
-    H --> I
-    I --> J
-    J --> K
-    K --> L
+    G --> H --> I --> J --> K --> L
     L --> M
     L --> N
     M --> A
@@ -1365,225 +1047,161 @@ flowchart BT
 
 ---
 
-# 📈 ENGINEERING SURFACE
-
-```text
-                  ┌─────────────────────┐
-                  │     GRIMALDI.CA     │
-                  │ Strategic / Visual  │
-                  └──────────┬──────────┘
-                             │
-                             ▼
-                  ┌─────────────────────┐
-                  │      GITHUB         │
-                  │ Engineering Surface │
-                  └──────────┬──────────┘
-                             │
-              ┌──────────────┼──────────────┐
-              ▼              ▼              ▼
-          Research        Software       Systems
-              │              │              │
-              └──────────────┼──────────────┘
-                             ▼
-                    Cyber-Physical Systems
-                             │
-             ┌───────────────┼───────────────┐
-             ▼               ▼               ▼
-           Energy            AI            Robotics
-             │               │               │
-             └───────────────┼───────────────┘
-                             ▼
-                   Intelligent Infrastructure
-```
-
----
-
 # 🌍 EXTERNAL ECOSYSTEM CONNECTIONS
 
-The engineering surface naturally intersects with multiple established communities and technical foundations.
+### POWER SYSTEMS & GRID SIMULATION
 
-### Power Systems & Grid Simulation
+PyPSA · pandapower · OpenDSS · GridAPPS-D · HELICS · Grid2Op · Dynawo · Power Grid Model · PowSyBl
 
-* PyPSA
-* pandapower
-* OpenDSS
-* GridAPPS-D
-* HELICS
-* Grid2Op
-* Dynawo
-* Power Grid Model
-* PowSyBl
+### OPEN ENERGY INFRASTRUCTURE
 
-### Open Energy Infrastructure
+LF Energy · SOGNO · OpenEMS · OpenFMB-related architectures · CIM · IEC 61850 ecosystems
 
-* LF Energy
-* SOGNO
-* OpenEMS
-* OpenFMB-related architectures
-* CIM
-* IEC 61850 ecosystems
+### AI & GRID INTELLIGENCE
 
-### AI & Grid Intelligence
+Grid foundation models · Physics-informed ML · Scientific ML · Graph-based grid intelligence · Reinforcement-learning environments · Agentic decision support
 
-* Grid foundation-model research
-* Physics-informed machine learning
-* Scientific machine learning
-* Graph-based grid intelligence
-* Reinforcement-learning environments
-* Agentic decision support
+### CYBER-PHYSICAL ENGINEERING
 
-### Cyber-Physical Engineering
-
-* Digital twins
-* Runtime assurance
-* OT cybersecurity
-* Functional safety
-* Hardware-in-the-loop
-* Software-in-the-loop
-* Edge computing
-
-The objective is a portfolio that can communicate with the engineering world around it.
+Digital twins · Runtime assurance · OT cybersecurity · Functional safety · HIL · SIL · Edge computing
 
 ---
 
 # 🧭 FROM ASSET TO INTELLIGENCE
 
-A physical asset should progressively become richer in digital representation.
-
-```text
-┌─────────────────────────────┐
-│        PHYSICAL ASSET       │
-└──────────────┬──────────────┘
-               ↓
-┌─────────────────────────────┐
-│       ENGINEERING MODEL     │
-└──────────────┬──────────────┘
-               ↓
-┌─────────────────────────────┐
-│      TELEMETRY / DATA       │
-└──────────────┬──────────────┘
-               ↓
-┌─────────────────────────────┐
-│      SEMANTIC MODEL         │
-└──────────────┬──────────────┘
-               ↓
-┌─────────────────────────────┐
-│        DIGITAL TWIN         │
-└──────────────┬──────────────┘
-               ↓
-┌─────────────────────────────┐
-│   SIMULATION / PREDICTION   │
-└──────────────┬──────────────┘
-               ↓
-┌─────────────────────────────┐
-│      AI / OPTIMIZATION      │
-└──────────────┬──────────────┘
-               ↓
-┌─────────────────────────────┐
-│     ASSURANCE / POLICY      │
-└──────────────┬──────────────┘
-               ↓
-┌─────────────────────────────┐
-│       CONTROL / ACTION      │
-└─────────────────────────────┘
+```mermaid
+flowchart LR
+    ASSET[Physical Asset] --> ENG[Engineering Model] --> DATA[Telemetry / Data] --> SEM[Semantic Model] --> TWIN[Digital Twin] --> PRED[Simulation / Prediction] --> AI[AI / Optimization] --> ASSURE[Assurance / Policy] --> ACTION[Control / Action]
 ```
+
+A physical asset progressively becomes richer in digital representation.
+
+That is the digital thread.
 
 ---
 
 # ⚙️ WHAT IS BEING BUILT
 
-Not simply:
+Not simply another:
 
-* another AI application
-* another dashboard
-* another digital-twin visualization
-* another grid simulator
-* another automation framework
-* another robotics repository
+**AI application · dashboard · digital-twin visualization · grid simulator · automation framework · robotics repository**
 
-The larger engineering direction is the integration of all of them.
+The larger direction is the integration of all of them.
 
-```text
-              PHYSICS
-                 │
-                 ▼
-          ELECTRICAL SYSTEM
-                 │
-                 ▼
-        DIGITAL REPRESENTATION
-                 │
-                 ▼
-          DIGITAL TWIN
-                 │
-          ┌──────┴──────┐
-          ▼             ▼
-       SIMULATION       DATA
-          │             │
-          └──────┬──────┘
-                 ▼
-           AI / ML / RL
-                 │
-                 ▼
-         POLICY + ASSURANCE
-                 │
-                 ▼
-          CONTROLLED ACTION
-                 │
-                 ▼
-        PHYSICAL INFRASTRUCTURE
+```mermaid
+flowchart LR
+    PHYSICS[Physics] --> ELEC[Electrical System] --> DIGITAL[Digital Representation] --> TWIN[Digital Twin]
+    TWIN --> SIM[Simulation]
+    TWIN --> DATA[Data]
+    SIM --> AI[AI / ML / RL]
+    DATA --> AI
+    AI --> POLICY[Policy + Assurance] --> ACTION[Controlled Action] --> INFRA[Physical Infrastructure] --> PHYSICS
 ```
 
 ---
 
-# 🧠 THE BIGGER PICTURE
-
-The future of infrastructure will not be defined by AI alone.
-
-It will be defined by the integration of:
-
-**Physics + Electrical Engineering + Software + Data + AI + Cybersecurity + Automation + Human Engineering**
-
-The systems worth building are those that can operate across these domains without losing the properties that make physical infrastructure trustworthy:
-
-**determinism · safety · resilience · observability · interoperability · explainability · accountability**
-
-That is the engineering problem this portfolio is designed to explore.
-
----
-
-# 🔭 THE NORTH STAR
+# 🔭 NORTH STAR
 
 ```mermaid
 flowchart LR
-
-    PHYSICS[PHYSICS]
-    ELEC[ELECTRICAL ENGINEERING]
-    DATA[DATA]
-    SOFTWARE[SOFTWARE]
-    AI[AI]
-    SECURITY[CYBERSECURITY]
-    AUTOMATION[AUTOMATION]
-    HUMAN[HUMAN ENGINEERING]
-
-    PHYSICS --> CORE
-    ELEC --> CORE
-    DATA --> CORE
-    SOFTWARE --> CORE
-    AI --> CORE
-    SECURITY --> CORE
-    AUTOMATION --> CORE
-    HUMAN --> CORE
+    PHYSICS[PHYSICS] --> CORE
+    ELEC[ELECTRICAL ENGINEERING] --> CORE
+    DATA[DATA] --> CORE
+    SOFTWARE[SOFTWARE] --> CORE
+    AI[AI] --> CORE
+    SECURITY[CYBERSECURITY] --> CORE
+    AUTOMATION[AUTOMATION] --> CORE
+    HUMAN[HUMAN ENGINEERING] --> CORE
 
     CORE["INTELLIGENT<br/>CYBER-PHYSICAL<br/>INFRASTRUCTURE"]
 ```
 
 The objective is not to remove the engineering discipline beneath the software.
 
-It is to make that discipline computable.
+**It is to make that discipline computable.**
 
 ---
 
-# 🔗 CONNECT
+# 🔬 RESEARCH DIRECTION
+
+```mermaid
+flowchart LR
+    PHYSICS[Physics] --> TWIN[Digital Twins] --> AI[AI / ML]
+    TWIN --> SIM[Simulation]
+    AI --> AGENTS[Agentic Systems]
+    SIM --> AGENTS
+    AGENTS --> ASSURE[Runtime Assurance]
+    ASSURE --> SEC[Cybersecurity]
+    SEC --> INFRA[Physical Infrastructure]
+    INFRA --> PHYSICS
+```
+
+The resulting class of systems is different:
+
+> **Software that understands the physical systems it operates around.**
+
+---
+
+# 📡 FRONTIER WATCH
+
+This portfolio tracks the evolution from:
+
+```mermaid
+flowchart LR
+    RULES[Rules] --> MODELS[Physics Models] --> ML[Machine Learning] --> FM[Foundation Models] --> AGENTS[Agentic Systems] --> ASSURED[Assured Cyber-Physical Intelligence]
+```
+
+Current industry and research signals include:
+
+**Grid foundation models**
+DOE's GridFM 2.0 initiative is targeting dramatically higher planning and scenario-analysis throughput using AI.
+
+**Dynamic grid foundation models**
+GE Vernova's active DynaGridFM project combines generative AI, time-series modelling and graph neural networks for proactive grid decision support.
+
+**Agentic AI for power/OT**
+DOE and LLNL's Stormbreaker testbed is explicitly focused on evaluating LLMs and agentic AI in power-system and OT environments.
+
+**Open-source AI operations**
+LF Energy's AINETUS integrates AI decision support with Grid2Op, OperatorFabric and SOGNO; OpenGridFM is progressing through LF Energy's project lifecycle.
+
+**Digital-substation evolution**
+IEC's 2026 IEC 61850 series release demonstrates that the interoperability layer itself continues to evolve.
+
+**Critical-infrastructure AI governance**
+NIST is developing a dedicated Trustworthy AI in Critical Infrastructure profile covering AI/IT/OT/ICS intersections and operational properties such as determinism, explainability and graceful degradation.
+
+---
+
+# 🏛️ ENGINEERING SURFACE
+
+```mermaid
+flowchart LR
+    WEB[GRIMALDI.CA<br/>Strategic / Visual]
+    GITHUB[GITHUB<br/>Engineering]
+    RESEARCH[Research]
+    SOFTWARE[Software]
+    SYSTEMS[Systems]
+    ENERGY[Energy]
+    INTELLIGENCE[AI]
+    ROBOTICS[Robotics]
+    INFRA[Intelligent Infrastructure]
+
+    WEB --> GITHUB
+    GITHUB --> RESEARCH
+    GITHUB --> SOFTWARE
+    GITHUB --> SYSTEMS
+    RESEARCH --> ENERGY
+    SOFTWARE --> INTELLIGENCE
+    SYSTEMS --> ROBOTICS
+    ENERGY --> INFRA
+    INTELLIGENCE --> INFRA
+    ROBOTICS --> INFRA
+```
+
+---
+
+# 🌐 CONNECT
 
 <p align="center">
 
@@ -1609,19 +1227,53 @@ English · German · Spanish · Mandarin
 
 ---
 
+# THE BIGGER PICTURE
+
+The future of infrastructure will not be defined by AI alone.
+
+It will be defined by the integration of:
+
+**Physics + Electrical Engineering + Software + Data + AI + Cybersecurity + Automation + Human Engineering**
+
+The systems worth building are those that can operate across these domains without losing the properties that make physical infrastructure trustworthy:
+
+**determinism · safety · resilience · observability · interoperability · explainability · accountability**
+
+---
+
 <p align="center">
-
-<strong>Vincenzo Grimaldi</strong>
-
-<br>
-
-<sub>
-Cyber-Physical Systems · Electrical Engineering · Critical Infrastructure · Digital Twins · Physics-Informed AI · Intelligent Engineering
-</sub>
-
-<br><br>
-
-<a href="https://grimaldi.ca">grimaldi.ca</a>
-· <a href="mailto:Vincenzo.grimaldi.engineering@gmail.com">[Vincenzo.grimaldi.engineering@gmail.com](mailto:Vincenzo.grimaldi.engineering@gmail.com)</a>
-
+  <strong>VINCENZO GRIMALDI</strong>
+  <br>
+  <sub>
+    Electrical Engineering · Cyber-Physical Systems · Critical Infrastructure · Digital Twins · Physics-Informed AI · Intelligent Engineering
+  </sub>
+  <br><br>
+  <a href="https://grimaldi.ca">grimaldi.ca</a>
+  ·
+  <a href="mailto:Vincenzo.grimaldi.engineering@gmail.com">Vincenzo.grimaldi.engineering@gmail.com</a>
 </p>
+
+<!--
+CURRENT FRONTIER REFERENCES
+
+IEC 61850:
+https://webstore.iec.ch/en/publication/6028
+
+DOE GridFM 2.0:
+https://www.energy.gov/oe/articles/does-office-electricity-announces-115m-genesis-mission-project-meet-growing-electricity
+
+DOE Stormbreaker:
+https://www.energy.gov/ceser/articles/ceser-releases-new-testbed-advance-llm-and-agentic-ai-evaluation-critical
+
+GE Vernova DynaGridFM:
+https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/dynamic-grid-foundation-model-based-rapid-decision-support-fully-dynamic-grid
+
+LF Energy AINETUS:
+https://lfenergy.org/projects/ainetus/
+
+LF Energy:
+https://lfenergy.org/
+
+NIST Trustworthy AI in Critical Infrastructure:
+https://www.nist.gov/programs-projects/concept-note-ai-rmf-profile-trustworthy-ai-critical-infrastructure
+-->

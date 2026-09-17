@@ -3,153 +3,340 @@
        alt="Vincenzo Grimaldi — Cyber-Physical Systems Engineer, Digital Infrastructure Architect &amp; Physics-Informed AI Engineer"
        width="100%" />
 </p>
+
 <p align="center">
-  <a href="https://grimaldi.ca">
-    <img src="https://img.shields.io/badge/Website-Grimaldi.ca-0A1629?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Grimaldi.ca">
-  </a>
-  <a href="https://www.linkedin.com/in/vincenzo-ceccarelli-grimaldi-2912b42a0">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://www.instagram.com/grimaldiengineering/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
-  </a>
-  <a href="https://x.com/Vince87Grimaldi">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X">
-  </a>
-  <a href="mailto:Vincenzo.grimaldi.engineering@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
+
+<a href="https://grimaldi.ca">
+  <img src="https://img.shields.io/badge/Website-Grimaldi.ca-0A1629?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Grimaldi.ca">
+</a>
+
+<a href="https://www.linkedin.com/in/vincenzo-ceccarelli-grimaldi-2912b42a0">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+
+<a href="https://www.instagram.com/grimaldiengineering/">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+</a>
+
+<a href="https://x.com/Vince87Grimaldi">
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X">
+</a>
+
+<a href="mailto:Vincenzo.grimaldi.engineering@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
+
 </p>
+
 <p align="center">
-  <strong>Engineering intelligent cyber-physical infrastructure where software, physics, real-time computation, industrial networks, and autonomous systems converge.</strong>
+  <strong>
+    PHYSICAL INFRASTRUCTURE → DATA → MODELS → INTELLIGENCE → ASSURANCE → ACTION
+  </strong>
 </p>
+
 <p align="center">
   <sub>
-    Critical Infrastructure • High-Voltage Systems • Digital Twins • Industrial AI • Real-Time Systems • OT Cybersecurity • Robotics • Grid Intelligence
+    Electrical Engineering • Critical Infrastructure • Digital Twins • Physics-Informed AI • Industrial Systems • Robotics • OT Security
   </sub>
 </p>
 
-⸻
+<p align="center">
+  <sub>
+    Building software-defined engineering systems for the physical world.
+  </sub>
+</p>
 
-Vincenzo Grimaldi
+---
 
-Cyber-Physical Systems Engineer · Digital Infrastructure Architect · Physics-Informed AI Engineer
+# VINCENZO GRIMALDI
+
+### Cyber-Physical Systems Engineer · Digital Infrastructure Architect · Physics-Informed AI Engineer
 
 I design and build software-defined infrastructure for complex physical systems.
 
-My work sits at the intersection of:
+The physical layer is the starting point.
 
-* ⚡ High-voltage energy and traction-power infrastructure
-* 🧠 Physics-informed machine learning and scientific AI
-* 🤖 Agentic and autonomous cyber-physical systems
-* 🌐 Industrial OT/IT convergence
-* 🛰️ Edge computing and real-time telemetry
-* 🔐 OT cybersecurity, resilience and zero-trust architecture
-* 🧩 Digital twins and multi-domain simulation
-* 🦾 Robotics, perception and autonomous inspection
-* 📡 Industrial communication protocols and semantic data models
-* 🏗️ Distributed systems and event-driven architectures
-* 📊 Time-series, graph and operational data platforms
-* 🖥️ Immersive 3D visualization and engineering interfaces
+Electrical infrastructure, power systems, traction systems, industrial assets, machines and networks become the foundation on which software, telemetry, semantic models, simulation, artificial intelligence, cybersecurity and autonomous systems are built.
 
-The objective is straightforward:
+The objective is not to create another disconnected software application.
 
-Turn complex physical infrastructure into observable, modelable, secure, intelligent and increasingly autonomous systems — without losing determinism, engineering constraints or human accountability.
+It is to connect the layers.
 
-⸻
+```text
+PHYSICAL INFRASTRUCTURE
+        ↓
+ELECTRICAL / INDUSTRIAL SYSTEMS
+        ↓
+SENSING + TELEMETRY
+        ↓
+PROTOCOLS + DATA
+        ↓
+SEMANTIC MODELS
+        ↓
+DIGITAL TWINS
+        ↓
+SIMULATION
+        ↓
+AI / ML / OPTIMIZATION
+        ↓
+POLICY + ASSURANCE
+        ↓
+AUTOMATION / ROBOTICS
+        ↓
+PHYSICAL ACTION
+```
 
-🌐 The Digital Home
+This repository is the engineering surface for that direction.
 
-<p align="center">
-  <a href="https://grimaldi.ca">
-    <img src="https://img.shields.io/badge/GRIMALDI.CA-ENGINEERING%20%7C%20SYSTEMS%20%7C%20INTELLIGENCE-0A1629?style=for-the-badge" alt="Grimaldi.ca">
-  </a>
-</p>
+---
 
-Grimaldi.ca is the primary digital home for my engineering work, projects, technical direction and broader systems architecture.
+# THE SYSTEM
 
-GitHub is the engineering surface.
+Modern infrastructure is no longer divided cleanly into hardware and software.
 
-The website is the strategic and visual surface.
+An electrical asset can simultaneously be:
 
-Together they represent the same engineering philosophy:
+* a physical machine
+* a power-system component
+* a real-time control system
+* an industrial network endpoint
+* a cybersecurity boundary
+* a telemetry source
+* a digital-twin object
+* a machine-learning dataset
+* an autonomous-agent environment
+* an operational decision surface
 
-physical systems → data → models → intelligence → decisions → controlled action
-
-⸻
-
-🧭 Engineering Philosophy
-
-Modern infrastructure is no longer divided cleanly into “hardware” and “software”.
-
-A modern electrical asset can simultaneously be:
-
-* a physical machine,
-* a real-time control system,
-* an industrial network endpoint,
-* a cybersecurity boundary,
-* a telemetry source,
-* a digital-twin object,
-* a machine-learning dataset,
-* an autonomous-agent environment,
-* and an operational decision surface.
-
-I therefore approach infrastructure as an integrated cyber-physical system rather than as isolated components.
-
-The engineering loop
-
-┌──────────────────────────────────────────────────────────────┐
-│                     PHYSICAL SYSTEM                          │
-│   Grid • Substation • Traction Power • Robot • Asset         │
-└──────────────────────────────┬───────────────────────────────┘
-                               │
-                               ▼
-┌──────────────────────────────────────────────────────────────┐
-│                    SENSING & TELEMETRY                        │
-│ IEC 61850 • DNP3 • OPC UA • MQTT • Modbus • Sensors           │
-└──────────────────────────────┬───────────────────────────────┘
-                               │
-                               ▼
-┌──────────────────────────────────────────────────────────────┐
-│                  DATA & SEMANTIC LAYER                       │
-│ CIM • Time Series • Graphs • Event Streams • Metadata        │
-└──────────────────────────────┬───────────────────────────────┘
-                               │
-                               ▼
-┌──────────────────────────────────────────────────────────────┐
-│                    DIGITAL TWIN                               │
-│ Physics • Simulation • State Estimation • What-If Analysis   │
-└──────────────────────────────┬───────────────────────────────┘
-                               │
-                               ▼
-┌──────────────────────────────────────────────────────────────┐
-│                 INTELLIGENCE LAYER                            │
-│ ML • PINNs • Neural Operators • Optimization • RL • Agents    │
-└──────────────────────────────┬───────────────────────────────┘
-                               │
-                               ▼
-┌──────────────────────────────────────────────────────────────┐
-│              ASSURANCE & DECISION LAYER                       │
-│ Constraints • Verification • Security • Runtime Assurance    │
-└──────────────────────────────┬───────────────────────────────┘
-                               │
-                               ▼
-┌──────────────────────────────────────────────────────────────┐
-│                 CONTROL & ACTION                              │
-│ Edge • Automation • Operators • Robots • Actuators             │
-└──────────────────────────────────────────────────────────────┘
-
-The important part is not any individual technology.
+The engineering problem is therefore not any single technology.
 
 It is the integration between them.
 
-⸻
+---
 
-⚡ Core Domains
+# THE ENGINEERING THESIS
 
-High-Voltage & Energy Systems
+```mermaid
+flowchart TD
+    A[PHYSICAL WORLD] --> B[ELECTRICAL & INDUSTRIAL SYSTEMS]
+    B --> C[SENSING & TELEMETRY]
+    C --> D[PROTOCOLS & DATA]
+    D --> E[SEMANTIC INFRASTRUCTURE]
+    E --> F[DIGITAL TWIN]
+    F --> G[SIMULATION]
+    G --> H[AI / ML / OPTIMIZATION]
+    H --> I[POLICY & ASSURANCE]
+    I --> J[AUTOMATION & ROBOTICS]
+    J --> K[CONTROLLED PHYSICAL ACTION]
+    K --> A
+```
 
-Engineering around the realities of electrical infrastructure:
+The loop is intentionally closed.
+
+A useful engineering platform should not stop at visualization.
+
+It should be capable of understanding state, modelling behaviour, testing scenarios, reasoning under constraints, producing decisions and connecting validated decisions back to operational systems.
+
+---
+
+# THE GRIMALDI ARCHITECTURE
+
+```mermaid
+flowchart LR
+    P[Physical Assets]
+
+    P --> E[Electrical Engineering]
+    P --> S[Sensing / Telemetry]
+    P --> R[Industrial Networks]
+
+    E --> M[Semantic Model]
+    S --> M
+    R --> M
+
+    M --> T[Digital Twin]
+
+    T --> SIM[Simulation]
+    T --> AI[Physics-Informed AI]
+    T --> OPT[Optimization]
+    T --> AG[Agents]
+
+    SIM --> A[Assurance]
+    AI --> A
+    OPT --> A
+    AG --> A
+
+    A --> C[Control / Action]
+
+    C --> P
+```
+
+### The architecture in one sentence
+
+**Electrical and physical reality provide the constraints; software provides the representation; data provides observability; AI provides intelligence; assurance governs action.**
+
+---
+
+# 🌐 THE DIGITAL HOME
+
+<p align="center">
+
+<a href="https://grimaldi.ca">
+  <img src="https://img.shields.io/badge/GRIMALDI.CA-ENGINEERING%20%7C%20SYSTEMS%20%7C%20INTELLIGENCE-0A1629?style=for-the-badge" alt="Grimaldi.ca">
+</a>
+
+</p>
+
+**Grimaldi.ca** is the strategic and visual surface.
+
+**GitHub** is the engineering surface.
+
+Together they represent one engineering architecture:
+
+```text
+                         GRIMALDI.CA
+                    Strategic / Visual Layer
+                              │
+                              ▼
+                           GITHUB
+                    Engineering Surface
+                              │
+          ┌───────────────────┼───────────────────┐
+          ▼                   ▼                   ▼
+       RESEARCH           SOFTWARE             SYSTEMS
+          │                   │                   │
+          └───────────────────┼───────────────────┘
+                              ▼
+                    CYBER-PHYSICAL SYSTEMS
+                              │
+             ┌────────────────┼────────────────┐
+             ▼                ▼                ▼
+          ENERGY             AI             ROBOTICS
+             │                │                │
+             └────────────────┼────────────────┘
+                              ▼
+                  INTELLIGENT INFRASTRUCTURE
+```
+
+---
+
+# 🧭 THE ENGINEERING MAP
+
+The portfolio is deliberately organized around a single stack rather than isolated specialties.
+
+```mermaid
+flowchart TB
+    subgraph PHYSICAL["PHYSICAL DOMAIN"]
+        HV[High Voltage]
+        MV[Medium Voltage]
+        TP[Traction Power]
+        GRID[Power Networks]
+        ROB[Robotics]
+        IND[Industrial Assets]
+    end
+
+    subgraph DIGITAL["DIGITAL DOMAIN"]
+        TEL[Telemetry]
+        PROT[Protocols]
+        DATA[Data Platforms]
+        SEM[Semantic Models]
+        TWIN[Digital Twins]
+        SIM[Simulation]
+    end
+
+    subgraph INTEL["INTELLIGENCE DOMAIN"]
+        ML[Machine Learning]
+        PINN[Physics-Informed AI]
+        OPT[Optimization]
+        RL[Reinforcement Learning]
+        AG[AI Agents]
+    end
+
+    subgraph ASSURE["ASSURANCE DOMAIN"]
+        SEC[Cybersecurity]
+        VER[Verification]
+        OBS[Observability]
+        POL[Policy]
+        RUNTIME[Runtime Assurance]
+    end
+
+    subgraph ACTION["ACTION DOMAIN"]
+        EDGE[Edge Computing]
+        AUTO[Automation]
+        CTRL[Control]
+        OP[Operator Systems]
+    end
+
+    PHYSICAL --> DIGITAL
+    DIGITAL --> INTEL
+    INTEL --> ASSURE
+    ASSURE --> ACTION
+    ACTION --> PHYSICAL
+```
+
+---
+
+# 🌐 THE AUTHORITY MESH
+
+The engineering surface is designed to connect into the broader open engineering ecosystem rather than existing as an isolated island.
+
+### Energy Systems
+
+* [LF Energy](https://lfenergy.org/) — open-source software, standards and data for energy infrastructure
+* [GridAPPS-D](https://gridapps-d.org/) — open architecture for distribution-grid application development
+* [OpenEMS](https://openems.io/) — modular open-source energy management
+* [PyPSA](https://pypsa.org/) — power-system simulation and optimization
+* [pandapower](https://pandapower.readthedocs.io/) — automated power-system analysis and optimization
+* [OpenDSS](https://sourceforge.net/projects/electricdss/) — distribution-system simulation
+* [HELICS](https://helics.org/) — co-simulation for interconnected energy systems
+
+### Grid Intelligence
+
+Selected adjacent ecosystems include:
+
+* Grid2Op
+* OpenGridFM
+* SOGNO
+* Power Grid Model
+* PowSyBl
+* Dynawo
+* OperatorFabric
+* DER interoperability tooling
+* CIM-based data models
+* IEC 61850 ecosystems
+
+### Why the integration matters
+
+The goal is not to recreate established infrastructure ecosystems.
+
+The goal is to build engineering layers that can understand, connect, extend and operationalize them.
+
+```text
+OPEN STANDARDS
+       │
+       ▼
+OPEN MODELS
+       │
+       ▼
+OPEN SIMULATION
+       │
+       ▼
+OPEN DATA
+       │
+       ▼
+OPEN SOFTWARE
+       │
+       ▼
+INTELLIGENT ENGINEERING SYSTEMS
+```
+
+The portfolio therefore remains compatible with the broader direction of open, modular and standards-based energy engineering.
+
+---
+
+# ⚡ CORE DOMAIN I — ELECTRICAL ENGINEERING
+
+Electrical infrastructure forms the physical foundation of the system.
+
+Areas of focus include:
 
 * High-voltage substations
 * Medium-voltage systems
@@ -159,7 +346,7 @@ Engineering around the realities of electrical infrastructure:
 * Condition monitoring
 * Predictive maintenance
 * Asset health
-* DER integration
+* Distributed Energy Resources
 * Grid flexibility
 * Renewable integration
 * Grid constraints
@@ -167,11 +354,25 @@ Engineering around the realities of electrical infrastructure:
 * Digital substations
 * Operational telemetry
 
-⸻
+The important transition is:
 
-🧠 Physics-Informed AI
+```text
+Electrical Asset
+      ↓
+Electrical Model
+      ↓
+Digital Representation
+      ↓
+Observable System
+      ↓
+Intelligent System
+```
 
-Machine learning becomes considerably more useful for physical systems when models understand the systems they are modelling.
+---
+
+# 🧠 CORE DOMAIN II — PHYSICS-INFORMED AI
+
+Machine learning becomes considerably more useful for physical systems when the models understand the systems they are modelling.
 
 Areas of interest include:
 
@@ -179,7 +380,7 @@ Areas of interest include:
 * Neural Operators
 * Fourier Neural Operators
 * Scientific machine learning
-* Hybrid physics/ML models
+* Hybrid physics / ML models
 * State estimation
 * Surrogate modelling
 * Uncertainty quantification
@@ -193,22 +394,23 @@ Areas of interest include:
 * Runtime monitoring
 * Safety constraints
 
-A central principle is:
+### The principle
 
-AI should not replace engineering constraints.
-AI should operate inside them.
+> AI should not replace engineering constraints.
 
-⸻
+> AI should operate inside them.
 
-🤖 Agentic Cyber-Physical Systems
+---
+
+# 🤖 CORE DOMAIN III — AGENTIC CYBER-PHYSICAL SYSTEMS
 
 The next generation of infrastructure will increasingly combine conventional automation with intelligent software agents.
 
-The engineering challenge is not simply making an agent capable of reasoning.
+The challenge is not merely making an agent capable of reasoning.
 
 The challenge is making an agent capable of operating responsibly around physical systems.
 
-That means designing systems around:
+That requires:
 
 * Explicit capabilities
 * Tool boundaries
@@ -221,63 +423,59 @@ That means designing systems around:
 * Policy enforcement
 * Human-in-the-loop escalation
 * Physical constraints
-* Fail-safe behavior
+* Fail-safe behaviour
 * Reproducibility
 * Cryptographic provenance
 
-Conceptually:
+```mermaid
+flowchart TD
+    H[Human / Operator] --> L[AI / LLM / Agent]
+    L --> P[Policy & Capability Boundary]
+    P --> V[Validated Tool Interface]
+    V --> C[Physics / Safety Constraints]
+    C --> R[Runtime Assurance]
+    R --> X[Industrial / Physical Action]
+    X --> O[Observability]
+    O --> H
+```
 
-LLM / AI Planner
-       │
-       ▼
-Policy & Capability Boundary
-       │
-       ▼
-Validated Tool Interface
-       │
-       ▼
-Physics / Safety Constraints
-       │
-       ▼
-Runtime Assurance
-       │
-       ▼
-Industrial / Physical Action
+The target architecture is **controlled intelligence**, not uncontrolled autonomy.
 
-The goal is controlled intelligence, not uncontrolled autonomy.
+---
 
-⸻
+# 🛰️ CORE DOMAIN IV — DIGITAL TWINS
 
-🛰️ Digital Twins
+A digital twin should move beyond static visualization.
 
-I am particularly interested in digital twins that move beyond static visualization.
+A useful digital twin can combine:
 
-A useful digital twin should be able to combine:
+```text
+LIVE STATE
+    ↓
+TELEMETRY
+    ↓
+TOPOLOGY
+    ↓
+SEMANTIC MODELS
+    ↓
+PHYSICAL EQUATIONS
+    ↓
+SIMULATION
+    ↓
+PREDICTION
+    ↓
+OPTIMIZATION
+    ↓
+SCENARIO GENERATION
+    ↓
+OPERATOR INTERACTION
+    ↓
+CONTROLLED ACTION
+```
 
-Live state
+This creates a progression:
 
-→ telemetry
-
-→ topology
-
-→ semantic models
-
-→ physical equations
-
-→ simulation
-
-→ prediction
-
-→ optimization
-
-→ scenario generation
-
-→ operator interaction
-
-→ controlled action.
-
-This creates a transition from:
-
+```text
 Digital Model
       ↓
 Digital Twin
@@ -287,14 +485,13 @@ Operational Digital Twin
 Intelligent Digital Twin
       ↓
 Agentic Cyber-Physical System
+```
 
-⸻
+---
 
-🏗️ Technology Architecture
+# 🏗️ THE TECHNOLOGY STACK
 
-My technology interests span the complete stack.
-
-Systems & Languages
+## Systems & Languages
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,c,cpp,rust,go,java,cs,bash,powershell&theme=dark"
@@ -313,12 +510,12 @@ Used across:
 * Automation
 * Data engineering
 * Simulation
-* AI/ML
+* AI / ML
 * Infrastructure tooling
 
-⸻
+---
 
-🌐 Application & Platform Engineering
+# 🌐 APPLICATION & PLATFORM ENGINEERING
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=typescript,javascript,react,nextjs,nodejs,fastapi,flask,django,html,css,tailwind&theme=dark"
@@ -340,16 +537,14 @@ Architecture patterns include:
 * Operational dashboards
 * Engineering control surfaces
 
-⸻
+---
 
-🧠 AI / ML / Scientific Computing
+# 🧠 AI / ML / SCIENTIFIC COMPUTING
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&theme=dark"
        alt="AI and machine learning technologies" />
 </p>
-
-Core ecosystem:
 
 PyTorch · TensorFlow · JAX · ONNX · NumPy · SciPy · Pandas · scikit-learn · OpenCV · Matplotlib · Plotly · Jupyter
 
@@ -370,9 +565,9 @@ Research and engineering interests:
 * Uncertainty quantification
 * Digital-twin surrogate models
 
-⸻
+---
 
-⚙️ Real-Time & Embedded Systems
+# ⚙️ REAL-TIME & EMBEDDED SYSTEMS
 
 Real-world infrastructure imposes requirements that ordinary web software does not.
 
@@ -380,7 +575,7 @@ Relevant engineering areas include:
 
 * RTOS
 * Embedded Linux
-* C/C++
+* C / C++
 * Rust
 * Real-time scheduling
 * Deterministic execution
@@ -397,60 +592,73 @@ Relevant engineering areas include:
 * Functional safety concepts
 * Runtime monitoring
 
-The key distinction:
+The distinction matters:
 
-Fast ≠ Deterministic
-Low latency ≠ Guaranteed latency
-AI accuracy ≠ Operational safety
+```text
+Fast            ≠ Deterministic
+Low Latency     ≠ Guaranteed Latency
+AI Accuracy     ≠ Operational Safety
+```
 
-Engineering systems require all three dimensions to be considered together.
+Engineering systems have to consider all three dimensions together.
 
-⸻
+---
 
-⚡ Industrial Protocols & OT
+# ⚡ INDUSTRIAL PROTOCOLS & OT
 
 Industrial interoperability is a foundational part of modern infrastructure.
 
-Areas of interest and implementation include:
-
-Technology	Domain
-IEC 61850	Digital substations & protection
-MMS	IEC 61850 client/server communication
-GOOSE	Fast substation event communication
-Sampled Values	Digital measurement streams
-IEC 61850-90-x	Extended grid communication models
-DNP3	Utility telemetry and control
-Modbus	Industrial equipment
-OPC UA	Industrial interoperability
-MQTT	Lightweight telemetry
-Sparkplug B	Industrial MQTT information model
-NATS	High-performance messaging
-Kafka	Distributed event streaming
-AMQP / RabbitMQ	Message-oriented systems
-CIM / IEC 61968 / IEC 61970	Utility semantic modelling
-HELICS	Energy-system co-simulation
+| Technology                  | Domain                                |
+| --------------------------- | ------------------------------------- |
+| IEC 61850                   | Digital substations & protection      |
+| MMS                         | IEC 61850 client/server communication |
+| GOOSE                       | Fast substation event communication   |
+| Sampled Values              | Digital measurement streams           |
+| IEC 61850-90-x              | Extended grid communication models    |
+| DNP3                        | Utility telemetry and control         |
+| Modbus                      | Industrial equipment                  |
+| OPC UA                      | Industrial interoperability           |
+| MQTT                        | Lightweight telemetry                 |
+| Sparkplug B                 | Industrial MQTT information model     |
+| NATS                        | High-performance messaging            |
+| Kafka                       | Distributed event streaming           |
+| AMQP / RabbitMQ             | Message-oriented systems              |
+| CIM / IEC 61968 / IEC 61970 | Utility semantic modelling            |
+| HELICS                      | Energy-system co-simulation           |
 
 The objective is not protocol collection.
 
-It is building interoperable operational systems across heterogeneous infrastructure.
+It is interoperability across heterogeneous infrastructure.
 
-⸻
+```mermaid
+flowchart LR
+    A[Asset] --> B[Protocol]
+    B --> C[Semantic Model]
+    C --> D[Digital Twin]
+    D --> E[Simulation]
+    E --> F[AI / Optimization]
+    F --> G[Decision]
+```
 
-🔐 Cybersecurity & Resilience
+---
 
-Cybersecurity for physical infrastructure has different consequences from cybersecurity for ordinary software.
+# 🔐 CYBERSECURITY & RESILIENCE
 
-An intrusion can affect:
+Cybersecurity for physical infrastructure has consequences beyond ordinary software environments.
 
+A compromise can affect:
+
+```text
 Confidentiality
-       +
+      +
 Integrity
-       +
+      +
 Availability
-       +
+      +
 Physical Safety
-       +
+      +
 System Stability
+```
 
 Areas of focus include:
 
@@ -474,14 +682,15 @@ Areas of focus include:
 
 Relevant frameworks and standards include:
 
-IEC 62351 · IEC 62443 · NERC CIP · NIS2 · EU Cyber Resilience Act · MITRE ATT&CK for ICS
+**IEC 62351 · IEC 62443 · NERC CIP · NIS2 · EU Cyber Resilience Act · MITRE ATT&CK for ICS**
 
-⸻
+---
 
-☁️ Edge → Cloud Infrastructure
+# ☁️ EDGE → CLOUD INFRASTRUCTURE
 
 Modern infrastructure requires computing everywhere.
 
+```text
 ┌───────────────┐
 │   PHYSICAL    │
 │    ASSETS     │
@@ -489,7 +698,8 @@ Modern infrastructure requires computing everywhere.
         ↓
 ┌───────────────┐
 │     EDGE      │
-│ RT / AI / OT  │
+│   RT / AI /   │
+│      OT       │
 └───────┬───────┘
         ↓
 ┌───────────────┐
@@ -499,15 +709,15 @@ Modern infrastructure requires computing everywhere.
         ↓
 ┌───────────────┐
 │     CLOUD     │
-│ Data / ML / AI│
+│   DATA / ML   │
+│      / AI     │
 └───────┬───────┘
         ↓
 ┌───────────────┐
 │   OPERATORS   │
 │ & ENGINEERING │
 └───────────────┘
-
-Technology ecosystem:
+```
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,ansible,aws,azure,gcp,linux,nginx&theme=dark"
@@ -529,13 +739,11 @@ With emphasis on:
 * Secure software supply chains
 * Reproducible deployments
 
-⸻
+---
 
-📡 Data Infrastructure
+# 📡 DATA INFRASTRUCTURE
 
 Physical systems generate enormous amounts of structured and unstructured data.
-
-Relevant technologies include:
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,kafka,rabbitmq&theme=dark"
@@ -557,12 +765,13 @@ Data patterns:
 * Asset knowledge graphs
 * Real-time feature pipelines
 
-⸻
+---
 
-📊 Observability
+# 📊 OBSERVABILITY
 
 Intelligent infrastructure needs to be observable at every layer.
 
+```text
 Infrastructure
       │
       ├── Logs
@@ -570,22 +779,23 @@ Infrastructure
       ├── Traces
       ├── Events
       ├── Telemetry
-      ├── Model predictions
-      ├── Agent actions
-      └── Operator decisions
+      ├── Model Predictions
+      ├── Agent Actions
+      └── Operator Decisions
                │
                ▼
-        Unified Observability
+      UNIFIED OBSERVABILITY
+```
 
 Technology ecosystem:
 
 Prometheus · Grafana · OpenTelemetry · Elasticsearch · Loki · distributed tracing · structured logging
 
-The objective is to make system behavior explainable after the fact and during operation.
+The objective is to make system behaviour explainable during operation and after the fact.
 
-⸻
+---
 
-🧪 Simulation & Co-Simulation
+# 🧪 SIMULATION & CO-SIMULATION
 
 Complex cyber-physical systems need environments where ideas can be tested before touching physical infrastructure.
 
@@ -605,13 +815,13 @@ Areas include:
 
 Technology interests include:
 
-HELICS · OMNeT++ · RTDS · OPAL-RT · MATLAB/Simulink · Python scientific computing
+**HELICS · OMNeT++ · RTDS · OPAL-RT · MATLAB / Simulink · Python scientific computing**
 
-⸻
+---
 
-🦾 Robotics & Perception
+# 🦾 ROBOTICS & PERCEPTION
 
-Physical infrastructure inspection creates another important convergence point between AI and engineering.
+Physical infrastructure inspection creates another convergence point between AI and engineering.
 
 Relevant areas include:
 
@@ -637,17 +847,17 @@ Relevant areas include:
 
 The broader objective:
 
-Enable machines to understand complex infrastructure well enough to inspect, monitor and assist with maintaining it.
+**Enable machines to understand complex infrastructure well enough to inspect, monitor and assist with maintaining it.**
 
-⸻
+---
 
-🌍 3D / Visualization / Human Interfaces
+# 🌍 3D / VISUALIZATION / HUMAN INTERFACES
 
 Engineering systems are ultimately operated by humans.
 
-A technically powerful system is significantly less useful if its state is difficult to understand.
+A technically powerful system becomes considerably more useful when its state can be understood immediately.
 
-Technology interests include:
+Technology interests:
 
 Three.js · WebGL · WebGPU · Unity · Unreal Engine · Blender · Plotly · Dash · React
 
@@ -664,16 +874,17 @@ Applications include:
 * Engineering visualization
 * Interactive what-if analysis
 
-⸻
+---
 
-🧩 Semantic Infrastructure
+# 🧩 SEMANTIC INFRASTRUCTURE
 
-One of the most important problems in large infrastructure systems is not lack of data.
+One of the largest problems in infrastructure is not the absence of data.
 
-It is lack of shared meaning.
+It is the absence of shared meaning.
 
-I am interested in architectures that connect:
+The architecture therefore connects:
 
+```text
 Physical Asset
       ↓
 Telemetry
@@ -689,56 +900,111 @@ Simulation
 AI / Optimization
       ↓
 Decision
+```
 
 Relevant technologies include:
 
-CIM · IEC 61968 · IEC 61970 · IEC 61850 · knowledge graphs · ontologies · RDF · graph databases · semantic APIs
+**CIM · IEC 61968 · IEC 61970 · IEC 61850 · knowledge graphs · ontologies · RDF · graph databases · semantic APIs**
 
 This creates a digital thread capable of surviving changes in vendors, protocols and software generations.
 
-⸻
+---
 
-🏛️ Architecture Principles
+# 🏛️ ARCHITECTURE PRINCIPLES
 
-My engineering decisions are generally guided by several principles.
-
-01 — Physics over assumptions
+## 01 — Physics over assumptions
 
 Where physical laws are known, they should constrain computational models.
 
-02 — Determinism where determinism matters
+## 02 — Determinism where determinism matters
 
-Critical paths should not depend on probabilistic behavior when bounded behavior is required.
+Critical paths should not depend on probabilistic behaviour when bounded behaviour is required.
 
-03 — AI inside guardrails
+## 03 — AI inside guardrails
 
 Machine intelligence should operate within explicit physical, operational and security boundaries.
 
-04 — Observable by design
+## 04 — Observable by design
 
 If a system cannot explain what it is doing, diagnosing and governing it becomes unnecessarily difficult.
 
-05 — Secure by architecture
+## 05 — Secure by architecture
 
 Security should be structural rather than a final-stage feature.
 
-06 — Open standards
+## 06 — Open standards
 
 Infrastructure should not become permanently dependent on a single vendor or proprietary abstraction.
 
-07 — Human accountability
+## 07 — Human accountability
 
 Automation should increase human capability rather than eliminate operational responsibility.
 
-08 — Build for the physical world
+## 08 — Build for the physical world
 
-Software architecture must ultimately respect voltage, current, thermal limits, latency, mechanical constraints, electromagnetic environments, safety distances and failure modes.
+Software architecture must ultimately respect:
 
-⸻
+**voltage · current · thermal limits · latency · mechanical constraints · electromagnetic environments · safety distances · failure modes**
 
-🚀 Selected Engineering Projects
+---
 
-⚡ physics-informed
+# 🌐 THE INTEROPERABILITY LAYER
+
+The projects here are designed to exist within a broader engineering landscape.
+
+```mermaid
+flowchart TB
+
+    subgraph FOUNDATION["PHYSICAL + ELECTRICAL FOUNDATION"]
+        E[Electrical Engineering]
+        G[Grid Infrastructure]
+        T[Traction Power]
+        I[Industrial Assets]
+    end
+
+    subgraph ECOSYSTEM["OPEN ENGINEERING ECOSYSTEM"]
+        CIM[CIM / IEC Models]
+        IEC61850[IEC 61850]
+        LF[LF Energy]
+        GAPPS[GridAPPS-D]
+        EMS[OpenEMS]
+        PYPSA[PyPSA]
+        PP[pandapower]
+        ODSS[OpenDSS]
+        HELICS[HELICS]
+    end
+
+    subgraph GRIMALDI["GRIMALDI ENGINEERING SURFACE"]
+        PHY[physics-informed]
+        NB[NeuralBridge]
+        GO[GridOS]
+        DER[DERIM]
+        ROB[robot-lidar-fusion]
+    end
+
+    subgraph INTELLIGENCE["INTELLIGENCE + ASSURANCE"]
+        TWIN[Digital Twins]
+        AI[Physics-Informed AI]
+        AG[Agentic Systems]
+        SEC[Cybersecurity]
+        OBS[Observability]
+    end
+
+    FOUNDATION --> ECOSYSTEM
+    ECOSYSTEM --> GRIMALDI
+    GRIMALDI --> INTELLIGENCE
+    INTELLIGENCE --> FOUNDATION
+```
+
+This is the important distinction:
+
+**integration rather than reinvention.**
+
+---
+
+# 🚀 SELECTED ENGINEERING SYSTEMS
+
+## ⚡ physics-informed
 
 Physics-informed cyber-physical simulation and scientific-AI research environment.
 
@@ -762,14 +1028,13 @@ Live environment:
 
 https://physics-informed.vercel.app/
 
-⸻
+---
 
-🧠 NeuralBridge
+## 🧠 NeuralBridge
 
 A research and engineering direction focused on deterministic middleware between intelligent software and cyber-physical environments.
 
-Conceptually:
-
+```text
 Human
   │
   ▼
@@ -786,14 +1051,15 @@ Runtime Assurance
   │
   ▼
 Physical System
+```
 
 Repository:
 
 https://github.com/iceccarelli/neuralbridge
 
-⸻
+---
 
-⚡ GridOS
+## ⚡ GridOS
 
 A next-generation digital operating environment for intelligent electrical infrastructure.
 
@@ -813,9 +1079,9 @@ Repository:
 
 https://github.com/iceccarelli/GridOS
 
-⸻
+---
 
-🔋 DERIM
+## 🔋 DERIM
 
 Distributed Energy Resource Intelligence Middleware.
 
@@ -833,9 +1099,9 @@ Repository:
 
 https://github.com/iceccarelli/derim-middleware
 
-⸻
+---
 
-🦾 robot-lidar-fusion
+## 🦾 robot-lidar-fusion
 
 Research and engineering around LiDAR-based perception and sensor fusion for autonomous inspection.
 
@@ -854,9 +1120,9 @@ Repository:
 
 https://github.com/iceccarelli/robot-lidar-fusion
 
-⸻
+---
 
-🖥️ GridOS — Engineering Demonstration
+# 🖥️ GridOS — ENGINEERING DEMONSTRATION
 
 <p align="center">
   <img src="gridos-professional-demo.gif"
@@ -870,45 +1136,104 @@ https://github.com/iceccarelli/robot-lidar-fusion
   </sub>
 </p>
 
-⸻
+---
 
-🔬 Research Direction
+# 🧠 THE PORTFOLIO GRAPH
+
+The repositories are not intended to exist as isolated software projects.
+
+They form a research and engineering graph.
+
+```mermaid
+graph TD
+
+    ELEC[Electrical Engineering]
+
+    ELEC --> PHY[physics-informed]
+    ELEC --> GRID[GridOS]
+    ELEC --> DER[DERIM]
+
+    PHY --> TWIN[Digital Twin]
+    GRID --> TWIN
+    DER --> TWIN
+
+    TWIN --> NB[NeuralBridge]
+
+    NB --> AGENTS[Agentic Systems]
+
+    ELEC --> ROB[robot-lidar-fusion]
+    ROB --> VISION[Machine Perception]
+
+    VISION --> TWIN
+
+    TWIN --> AI[Physics-Informed AI]
+    AI --> ASSURANCE[Runtime Assurance]
+
+    ASSURANCE --> CONTROL[Controlled Action]
+
+    CONTROL --> ELEC
+```
+
+This creates a portfolio-level development loop:
+
+```text
+PHYSICAL DOMAIN
+      ↓
+MODEL
+      ↓
+SIMULATE
+      ↓
+INTELLIGENCE
+      ↓
+ASSURE
+      ↓
+ACT
+      ↓
+MEASURE
+      ↓
+LEARN
+      ↺
+```
+
+---
+
+# 🔬 RESEARCH DIRECTION
 
 The long-term engineering direction is the convergence of:
 
-                  PHYSICS
-                     │
-                     ▼
-              DIGITAL TWINS
-                     │
-          ┌──────────┴──────────┐
-          ▼                     ▼
-       AI / ML              SIMULATION
-          │                     │
-          └──────────┬──────────┘
-                     ▼
-              AGENTIC SYSTEMS
-                     │
-                     ▼
-             RUNTIME ASSURANCE
-                     │
-                     ▼
-              CYBERSECURITY
-                     │
-                     ▼
-            PHYSICAL INFRASTRUCTURE
+```text
+                    PHYSICS
+                       │
+                       ▼
+                 DIGITAL TWINS
+                       │
+              ┌────────┴────────┐
+              ▼                 ▼
+           AI / ML          SIMULATION
+              │                 │
+              └────────┬────────┘
+                       ▼
+                AGENTIC SYSTEMS
+                       │
+                       ▼
+                RUNTIME ASSURANCE
+                       │
+                       ▼
+                 CYBERSECURITY
+                       │
+                       ▼
+             PHYSICAL INFRASTRUCTURE
+```
 
 This creates a different class of software:
 
-software that understands the physical systems it operates around.
+> **software that understands the physical systems it operates around.**
 
-⸻
+---
 
-🛡️ Standards & Engineering Frameworks
+# 🛡️ STANDARDS & ENGINEERING FRAMEWORKS
 
-Areas of experience, study and engineering interest include:
-
-Energy & Industrial
+## Energy & Industrial
 
 * IEC 61850
 * IEC 61968
@@ -922,7 +1247,7 @@ Energy & Industrial
 * Sparkplug B
 * CIM
 
-Safety & Systems Engineering
+## Safety & Systems Engineering
 
 * EN 50126
 * EN 50128
@@ -935,7 +1260,7 @@ Safety & Systems Engineering
 * Formal methods
 * Runtime assurance
 
-Cybersecurity & Regulation
+## Cybersecurity & Regulation
 
 * NERC CIP
 * NIS2
@@ -946,7 +1271,7 @@ Cybersecurity & Regulation
 * SBOM
 * Policy-as-code
 
-Distributed & Simulation Systems
+## Distributed & Simulation Systems
 
 * Kubernetes
 * Docker
@@ -957,125 +1282,346 @@ Distributed & Simulation Systems
 * HELICS
 * OMNeT++
 
-⸻
+---
 
-🧰 Engineering Toolbox
+# 🧰 ENGINEERING TOOLBOX
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,c,cpp,rust,go,java,cs,r,typescript,javascript,react,nextjs,nodejs,fastapi,pytorch,tensorflow,opencv,docker,kubernetes,terraform,ansible,linux,bash,powershell,aws,azure,gcp,postgres,mongodb,redis,kafka,rabbitmq,git,github,grafana,prometheus,nginx&theme=dark"
        alt="Vincenzo Grimaldi engineering technology stack" />
 </p>
 
-Programming
+### Programming
 
 Python · C · C++ · Rust · Go · Java · C# · TypeScript · JavaScript
 
-Scientific & AI
+### Scientific & AI
 
 PyTorch · TensorFlow · JAX · ONNX · NumPy · SciPy · Pandas · scikit-learn · OpenCV
 
-Web & APIs
+### Web & APIs
 
 React · Next.js · Node.js · FastAPI · Flask · Django · WebSockets · REST
 
-Data
+### Data
 
 PostgreSQL · TimescaleDB · InfluxDB · MongoDB · Redis · Neo4j · Kafka · NATS · RabbitMQ
 
-Infrastructure
+### Infrastructure
 
 Linux · Docker · Kubernetes · Terraform · Ansible · AWS · Azure · GCP
 
-Observability
+### Observability
 
 Prometheus · Grafana · OpenTelemetry · Elasticsearch
 
-Engineering & Simulation
+### Engineering & Simulation
 
-HELICS · OMNeT++ · RTDS · OPAL-RT · MATLAB/Simulink · ROS 2
+HELICS · OMNeT++ · RTDS · OPAL-RT · MATLAB / Simulink · ROS 2
 
-Visualization
+### Visualization
 
 Three.js · WebGPU · WebGL · Unity · Unreal Engine · Blender · Plotly · Dash
 
-⸻
+---
 
-📈 Engineering Surface
+# 🧬 THE FULL STACK
 
-                 ┌─────────────────────┐
-                 │     GRIMALDI.CA     │
-                 │ Strategic / Visual  │
-                 └──────────┬──────────┘
-                            │
-                            ▼
-                 ┌─────────────────────┐
-                 │      GITHUB         │
-                 │ Engineering Surface │
-                 └──────────┬──────────┘
-                            │
-              ┌─────────────┼─────────────┐
-              ▼             ▼             ▼
-          Research       Software      Systems
-              │             │             │
-              └─────────────┼─────────────┘
-                            ▼
-                  Cyber-Physical Systems
-                            │
-          ┌─────────────────┼─────────────────┐
-          ▼                 ▼                 ▼
-        Energy             AI              Robotics
-          │                 │                 │
-          └─────────────────┼─────────────────┘
-                            ▼
-                 Intelligent Infrastructure
+```mermaid
+flowchart BT
 
-⸻
+    A[Physical Infrastructure]
+    B[Electrical Engineering]
+    C[Industrial Protocols]
+    D[Telemetry]
+    E[Semantic Infrastructure]
+    F[Digital Twin]
+    G[Simulation]
+    H[Scientific AI]
+    I[Optimization]
+    J[Agentic Systems]
+    K[Cybersecurity]
+    L[Runtime Assurance]
+    M[Human / Operator Interface]
+    N[Automation / Robotics]
 
-🌐 Connect
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    F --> H
+    G --> H
+    H --> I
+    I --> J
+    J --> K
+    K --> L
+    L --> M
+    L --> N
+    M --> A
+    N --> A
+```
 
-<p align="center">
-  <a href="https://grimaldi.ca">
-    <img src="https://img.shields.io/badge/Website-Grimaldi.ca-0A1629?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website">
-  </a>
-  <a href="https://www.linkedin.com/in/vincenzo-ceccarelli-grimaldi-2912b42a0">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="mailto:Vincenzo.grimaldi.engineering@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Vincenzo.grimaldi.engineering%40gmail.com-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</p>
+---
 
-⸻
+# 📈 ENGINEERING SURFACE
 
-🇬🇧 🇩🇪 🇪🇸 🇨🇳 Languages
+```text
+                  ┌─────────────────────┐
+                  │     GRIMALDI.CA     │
+                  │ Strategic / Visual  │
+                  └──────────┬──────────┘
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │      GITHUB         │
+                  │ Engineering Surface │
+                  └──────────┬──────────┘
+                             │
+              ┌──────────────┼──────────────┐
+              ▼              ▼              ▼
+          Research        Software       Systems
+              │              │              │
+              └──────────────┼──────────────┘
+                             ▼
+                    Cyber-Physical Systems
+                             │
+             ┌───────────────┼───────────────┐
+             ▼               ▼               ▼
+           Energy            AI            Robotics
+             │               │               │
+             └───────────────┼───────────────┘
+                             ▼
+                   Intelligent Infrastructure
+```
 
-English · German · Spanish · Mandarin
+---
 
-⸻
+# 🌍 EXTERNAL ECOSYSTEM CONNECTIONS
 
-🧠 The Bigger Picture
+The engineering surface naturally intersects with multiple established communities and technical foundations.
+
+### Power Systems & Grid Simulation
+
+* PyPSA
+* pandapower
+* OpenDSS
+* GridAPPS-D
+* HELICS
+* Grid2Op
+* Dynawo
+* Power Grid Model
+* PowSyBl
+
+### Open Energy Infrastructure
+
+* LF Energy
+* SOGNO
+* OpenEMS
+* OpenFMB-related architectures
+* CIM
+* IEC 61850 ecosystems
+
+### AI & Grid Intelligence
+
+* Grid foundation-model research
+* Physics-informed machine learning
+* Scientific machine learning
+* Graph-based grid intelligence
+* Reinforcement-learning environments
+* Agentic decision support
+
+### Cyber-Physical Engineering
+
+* Digital twins
+* Runtime assurance
+* OT cybersecurity
+* Functional safety
+* Hardware-in-the-loop
+* Software-in-the-loop
+* Edge computing
+
+The objective is a portfolio that can communicate with the engineering world around it.
+
+---
+
+# 🧭 FROM ASSET TO INTELLIGENCE
+
+A physical asset should progressively become richer in digital representation.
+
+```text
+┌─────────────────────────────┐
+│        PHYSICAL ASSET       │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│       ENGINEERING MODEL     │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│      TELEMETRY / DATA       │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│      SEMANTIC MODEL         │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│        DIGITAL TWIN         │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│   SIMULATION / PREDICTION   │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│      AI / OPTIMIZATION      │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│     ASSURANCE / POLICY      │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│       CONTROL / ACTION      │
+└─────────────────────────────┘
+```
+
+---
+
+# ⚙️ WHAT IS BEING BUILT
+
+Not simply:
+
+* another AI application
+* another dashboard
+* another digital-twin visualization
+* another grid simulator
+* another automation framework
+* another robotics repository
+
+The larger engineering direction is the integration of all of them.
+
+```text
+              PHYSICS
+                 │
+                 ▼
+          ELECTRICAL SYSTEM
+                 │
+                 ▼
+        DIGITAL REPRESENTATION
+                 │
+                 ▼
+          DIGITAL TWIN
+                 │
+          ┌──────┴──────┐
+          ▼             ▼
+       SIMULATION       DATA
+          │             │
+          └──────┬──────┘
+                 ▼
+           AI / ML / RL
+                 │
+                 ▼
+         POLICY + ASSURANCE
+                 │
+                 ▼
+          CONTROLLED ACTION
+                 │
+                 ▼
+        PHYSICAL INFRASTRUCTURE
+```
+
+---
+
+# 🧠 THE BIGGER PICTURE
 
 The future of infrastructure will not be defined by AI alone.
 
 It will be defined by the integration of:
 
-Physics + Software + Data + AI + Cybersecurity + Automation + Human Engineering
+**Physics + Electrical Engineering + Software + Data + AI + Cybersecurity + Automation + Human Engineering**
 
-The systems worth building are those that can operate across all of these domains without losing the properties that make physical infrastructure trustworthy:
+The systems worth building are those that can operate across these domains without losing the properties that make physical infrastructure trustworthy:
 
-determinism · safety · resilience · observability · interoperability · explainability · accountability
+**determinism · safety · resilience · observability · interoperability · explainability · accountability**
 
-That is the engineering problem I am interested in solving.
+That is the engineering problem this portfolio is designed to explore.
 
-⸻
+---
+
+# 🔭 THE NORTH STAR
+
+```mermaid
+flowchart LR
+
+    PHYSICS[PHYSICS]
+    ELEC[ELECTRICAL ENGINEERING]
+    DATA[DATA]
+    SOFTWARE[SOFTWARE]
+    AI[AI]
+    SECURITY[CYBERSECURITY]
+    AUTOMATION[AUTOMATION]
+    HUMAN[HUMAN ENGINEERING]
+
+    PHYSICS --> CORE
+    ELEC --> CORE
+    DATA --> CORE
+    SOFTWARE --> CORE
+    AI --> CORE
+    SECURITY --> CORE
+    AUTOMATION --> CORE
+    HUMAN --> CORE
+
+    CORE["INTELLIGENT<br/>CYBER-PHYSICAL<br/>INFRASTRUCTURE"]
+```
+
+The objective is not to remove the engineering discipline beneath the software.
+
+It is to make that discipline computable.
+
+---
+
+# 🔗 CONNECT
 
 <p align="center">
-  <strong>Vincenzo Grimaldi</strong>
-  <br>
-  <sub>Cyber-Physical Systems · Critical Infrastructure · Digital Twins · Physics-Informed AI · Intelligent Engineering</sub>
-  <br><br>
-  <a href="https://grimaldi.ca">grimaldi.ca</a>
-  ·
-  <a href="mailto:Vincenzo.grimaldi.engineering@gmail.com">Vincenzo.grimaldi.engineering@gmail.com</a>
+
+<a href="https://grimaldi.ca">
+  <img src="https://img.shields.io/badge/Website-Grimaldi.ca-0A1629?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website">
+</a>
+
+<a href="https://www.linkedin.com/in/vincenzo-ceccarelli-grimaldi-2912b42a0">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+
+<a href="mailto:Vincenzo.grimaldi.engineering@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Vincenzo.grimaldi.engineering%40gmail.com-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
+
 </p>
 
+---
+
+# 🇬🇧 🇩🇪 🇪🇸 🇨🇳 LANGUAGES
+
+English · German · Spanish · Mandarin
+
+---
+
+<p align="center">
+
+<strong>Vincenzo Grimaldi</strong>
+
+<br>
+
+<sub>
+Cyber-Physical Systems · Electrical Engineering · Critical Infrastructure · Digital Twins · Physics-Informed AI · Intelligent Engineering
+</sub>
+
+<br><br>
+
+<a href="https://grimaldi.ca">grimaldi.ca</a>
+· <a href="mailto:Vincenzo.grimaldi.engineering@gmail.com">[Vincenzo.grimaldi.engineering@gmail.com](mailto:Vincenzo.grimaldi.engineering@gmail.com)</a>
+
+</p>
